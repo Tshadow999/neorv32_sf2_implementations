@@ -1,6 +1,9 @@
+# Info
+I could not get to this page and thus not load it as a submodule.
+
 ### Cloning and inizialing repository
 1. Clone repository and initialize [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
-```git submodule init && git submoduel update```
+```git submodule init && git submodule update```
 
 2. Make the sh files exetubale by running this command: 
 ```chmod +x ./generate_bit_stream.sh; chmod +x ./program.sh```
