@@ -1,0 +1,16 @@
+Project Name: Neorv_minimal_with_eNVM_as_iMEM
+Location: /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2GL010-VF400
+Family         : IGLOO2
+Die            : M2GL010
+Package        : 400 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
