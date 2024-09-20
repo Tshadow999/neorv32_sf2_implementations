@@ -1,0 +1,42 @@
+Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+
+Date      :  Fri Sep 20 09:45:18 2024
+Project   :  /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir
+Component :  top_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/subsystem.bfm
+
+Configuration files to be used for Programming:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/ENVM.cfg
+

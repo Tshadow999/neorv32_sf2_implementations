@@ -1,0 +1,14 @@
+Software Version: 2022.1.0.10
+Opened '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top/top_fp/top.pro'
+PDB file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top/top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 69A1;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top/top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top/top.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: ff536e27d6829824b7362ccb5b78b444ef1df90088e7220aa3728140dc2f3d8b
+eNVM component bitstream digest: 8853836b62b6ca5b7c627bb99b921742a050fc1426477d7d109e8ba79e3bd989
+Entire bitstream digest: 4795ce65b81a76162e387b60c6a9f3fa17f87ca54bc5fa1c94e258b7e9cf3b7c
+Finished: Fri Sep 20 09:47:55 2024 (Elapsed time 00:00:07)
+
+Project saved.
+Project closed.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/top_premap.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>53</data>
+<report_link name="more">
+<data>/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/report/top_premap_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>34</data>
+<report_link name="more">
+<data>/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/report/top_premap_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/report/top_premap_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:00m:01s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:01s</data>
+</info>
+<info name="Peak Memory">
+<data>341MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1726818337</data>
+</info>
+</job_info>
+</job_run_status>

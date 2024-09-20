@@ -1,0 +1,38 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.1 2022.1.0.10
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL010 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Fri Sep 20 09:45:57 2024 
+
+
+#
+# IO banks setting
+#
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname U17
+
+#
+# Core cell constraints
+#
+

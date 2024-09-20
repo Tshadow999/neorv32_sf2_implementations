@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+-Pin Report - Date: Fri Sep 20 09:47:17 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2022.1
+-Version: 2022.1.0.10
+-Design Name: top
+-Family: IGLOO2
+-Die: M2GL010
+-Package: 400 VF
+-----------------------------------------------------------------
+
+Port     |Pin |Fixed |Function      |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+---------|----|------|--------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N  U17  Fixed  DEVRST_N       ---       
+led0      E18  Yes    MSIO22PB1/GB6  Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led1      R17  Yes    MSIO5PB2       Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led2      R18  Yes    MSIO5NB2       Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led3      T18  Yes    MSIO2PB2       Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led4      U18  Yes    MSIO1PB2       Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led5      R16  Yes    MSIO7PB2       Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led6      E1   Yes    MSIO70PB7      Bank7     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+led7      D2   Yes    MSIO68PB7      Bank7     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+UART_RX   L15  Yes    MSIO14PB2      Bank2     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+UART_TX   L16  Yes    MSIO14NB2      Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 

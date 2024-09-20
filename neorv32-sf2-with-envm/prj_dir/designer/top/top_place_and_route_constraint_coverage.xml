@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2022.1.0.10</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)
+Date: Fri Sep 20 09:46:06 2024 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>400 VF</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         2677</cell>
+ <cell>            1</cell>
+ <cell>         2678</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         1332</cell>
+ <cell>            2</cell>
+ <cell>         1334</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         4009</cell>
+ <cell>           12</cell>
+ <cell>         4021</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         2677</cell>
+ <cell>            1</cell>
+ <cell>         2678</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         1332</cell>
+ <cell>            2</cell>
+ <cell>         1334</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         4009</cell>
+ <cell>           12</cell>
+ <cell>         4021</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>top_sb_0/CCC_0/GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         2675</cell>
+ <cell>            1</cell>
+ <cell>         2676</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         1323</cell>
+ <cell>            2</cell>
+ <cell>         1325</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         3998</cell>
+ <cell>           12</cell>
+ <cell>         4010</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         2675</cell>
+ <cell>            1</cell>
+ <cell>         2676</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         1323</cell>
+ <cell>            2</cell>
+ <cell>         1325</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         3998</cell>
+ <cell>           12</cell>
+ <cell>         4010</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>UART_RX</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>UART_RX</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>UART_TX</item>
+ <item>led0</item>
+ <item>led1</item>
+ <item>led2</item>
+ <item>led3</item>
+ <item>led4</item>
+ <item>led5</item>
+ <item>led6</item>
+ <item>led7</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>UART_TX</item>
+ <item>led0</item>
+ <item>led1</item>
+ <item>led2</item>
+ <item>led3</item>
+ <item>led4</item>
+ <item>led5</item>
+ <item>led6</item>
+ <item>led7</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>neorv32_ProcessorTop_Minimal_0/neorv32_inst/io_system.neorv32_uart0_inst_true.neorv32_uart0_inst/rx_engine.sync[2]:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>top_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>top_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>neorv32_ProcessorTop_Minimal_0/neorv32_inst/io_system.neorv32_uart0_inst_true.neorv32_uart0_inst/rx_engine.sync[2]:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>top_sb_0/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>top_sb_0/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            2</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            9</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           11</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            2</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            9</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           11</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>
