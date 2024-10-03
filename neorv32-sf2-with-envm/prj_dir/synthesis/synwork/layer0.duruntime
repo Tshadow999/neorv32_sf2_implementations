@@ -1,0 +1,96 @@
+Runtime Summary:
+================
+
+	*Library: neorv32, Entity: neorv32_cpu_control, Architecture: neorv32_cpu_control_rtl
+		Optimization Phase          : 0h:00m:02s
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: neorv32, Entity: neorv32_fifo_2_17_false_false, Architecture: neorv32_fifo_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu_control, Architecture: neorv32_cpu_control_rtl
+			Hardware Generation Phase, Initial Cleanup Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu_regfile, Architecture: neorv32_cpu_regfile_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu_cp_shifter, Architecture: neorv32_cpu_cp_shifter_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu_alu, Architecture: neorv32_cpu_cpu_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu_lsu, Architecture: neorv32_cpu_lsu_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_cpu, Architecture: neorv32_cpu_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_bus_switch, Architecture: neorv32_bus_switch_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_bus_gateway, Architecture: neorv32_bus_gateway_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_dmem, Architecture: neorv32_dmem_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_wishbone, Architecture: neorv32_wishbone_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_bus_io_switch, Architecture: neorv32_bus_io_switch_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_gpio, Architecture: neorv32_gpio_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_mtime, Architecture: neorv32_mtime_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_fifo_1_8_true_true, Architecture: neorv32_fifo_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_uart, Architecture: neorv32_uart_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_sysinfo, Architecture: neorv32_sysinfo_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_top, Architecture: neorv32_top_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: neorv32_ProcessorTop_Minimal, Architecture: neorv32_processortop_minimal_rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: top_sb_CCC_0_FCCC, Architecture: def_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_ADDRDEC_1_1_65536_85, Architecture: coreahblite_addrdec_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_MASTERSTAGE_1_1_85_65536_0, Architecture: coreahblite_masterstage_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_ADDRDEC_1_1_0_85, Architecture: coreahblite_addrdec_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_DEFAULTSLAVESM, Architecture: coreahblite_defaultslavesm_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_MASTERSTAGE_1_1_85_0_0, Architecture: coreahblite_masterstage_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_SLAVEARBITER, Architecture: coreahblite_slavearbiter_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_SLAVESTAGE, Architecture: trans
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: COREAHBLITE_MATRIX4X16, Architecture: coreahblite_matrix4x16_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblite_lib, Entity: CoreAHBLite, Architecture: coreahblite_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: CoreResetP, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: top_sb_FABOSC_0_OSC, Architecture: def_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: top_sb_HPMS, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: top_sb, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: WB2AHBL, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: top, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: OR2, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: VCC, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: GND, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: CCC, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RCOSC_25_50MHZ_FAB, Architecture: def_arch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RCOSC_25_50MHZ, Architecture: def_arch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: CLKINT, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: SYSRESET, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: MSS_010, Architecture: def_arch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

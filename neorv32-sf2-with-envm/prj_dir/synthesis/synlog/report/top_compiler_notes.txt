@@ -1,254 +1,254 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N|stack limit increased to max
-@N:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":17:7:17:9|Top entity is set to top.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd'.
-@N: CD231 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":17:7:17:9|Synthesizing work.top.rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd":29:7:29:13|Synthesizing work.wb2ahbl.rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd":20:7:20:12|Synthesizing work.top_sb.rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd":17:7:17:17|Synthesizing work.top_sb_hpms.rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd":8:7:8:25|Synthesizing work.top_sb_fabosc_0_osc.def_arch.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd":27:7:27:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":25:7:25:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd":24:7:24:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":22:7:22:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":391:12:391:25|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":22:7:22:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":63:12:63:25|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd":8:7:8:23|Synthesizing work.top_sb_ccc_0_fccc.def_arch.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
-@N: CD630 :"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":207:10:207:12|Synthesizing smartfusion2.or2.syn_black_box.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd":41:7:41:34|Synthesizing work.neorv32_processortop_minimal.neorv32_processortop_minimal_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":47:7:47:17|Synthesizing neorv32.neorv32_top.neorv32_top_rtl.
-@N: CD231 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":317:20:317:21|Using onehot encoding for type io_devices_t. For example, enumeration iodev_ocd is mapped to "100000000000000000000".
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd":45:7:45:21|Synthesizing neorv32.neorv32_sysinfo.neorv32_sysinfo_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":60:7:60:18|Synthesizing neorv32.neorv32_uart.neorv32_uart_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":42:7:42:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd":45:7:45:19|Synthesizing neorv32.neorv32_mtime.neorv32_mtime_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd":42:7:42:18|Synthesizing neorv32.neorv32_gpio.neorv32_gpio_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":445:7:445:27|Synthesizing neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":49:7:49:22|Synthesizing neorv32.neorv32_wishbone.neorv32_wishbone_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd":42:7:42:18|Synthesizing neorv32.neorv32_dmem.neorv32_dmem_rtl.
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:45:53:54|Found RAM mem_ram_b3, depth=2048, width=8
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:33:53:42|Found RAM mem_ram_b2, depth=2048, width=8
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:21:53:30|Found RAM mem_ram_b1, depth=2048, width=8
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:9:53:18|Found RAM mem_ram_b0, depth=2048, width=8
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":235:7:235:25|Synthesizing neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":45:7:45:24|Synthesizing neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl.
-@N: CD233 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":65:23:65:24|Using sequential encoding for type arbiter_state_t.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":134:6:134:19|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":42:7:42:17|Synthesizing neorv32.neorv32_cpu.neorv32_cpu_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd":42:7:42:21|Synthesizing neorv32.neorv32_cpu_lsu.neorv32_cpu_lsu_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":44:7:44:21|Synthesizing neorv32.neorv32_cpu_alu.neorv32_cpu_cpu_rtl.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":149:6:149:26|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":45:7:45:28|Synthesizing neorv32.neorv32_cpu_cp_shifter.neorv32_cpu_cp_shifter_rtl.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":51:7:51:25|Synthesizing neorv32.neorv32_cpu_regfile.neorv32_cpu_regfile_rtl.
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":104:6:104:25|OTHERS clause is not synthesized.
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":83:9:83:16|Found RAM reg_file, depth=32, width=32
-@N: CL134 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":83:9:83:16|Found RAM reg_file, depth=32, width=32
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":53:7:53:25|Synthesizing neorv32.neorv32_cpu_control.neorv32_cpu_control_rtl.
-@N: CD233 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":135:28:135:29|Using sequential encoding for type fetch_engine_state_t.
-@N: CD231 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":189:30:189:31|Using onehot encoding for type execute_engine_state_t. For example, enumeration dispatch is mapped to "1000000000000".
-@N: CD604 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":407:8:407:21|OTHERS clause is not synthesized.
-@N: CD630 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":42:7:42:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
-@N: CL189 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":629:4:629:5|Register bit ctrl.alu_cp_trig(1) is always 0.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1389:4:1389:5|Trying to extract state machine for register trap_ctrl.irq_buf.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1389:4:1389:5|Trying to extract state machine for register trap_ctrl.irq_pnd.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":629:4:629:5|Trying to extract state machine for register execute_engine.state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":363:4:363:5|Trying to extract state machine for register fetch_engine.state.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":113:4:113:16|Input db_halt_req_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":61:4:61:9|Input rstn_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":62:4:62:11|Input csr_we_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":63:4:63:13|Input csr_addr_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":64:4:64:14|Input csr_wdata_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":69:4:69:8|Input rs3_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":70:4:70:8|Input rs4_i is unused.
-@N: Z100 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":143:2:143:7|"[NEORV32] CPU ISA: rv32i_zicsr_zicntr_zifencei"
-@N: Z100 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":164:2:164:7|"[NEORV32] CPU tuning options: "
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":85:4:85:5|Trying to extract state machine for register arbiter.state.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":270:4:270:13|Input imem_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":274:4:274:12|Input xip_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":276:4:276:13|Input boot_rsp_i is unused.
-@N: Z100 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":118:2:118:7|"[NEORV32] Ext. Bus Interface (WISHBONE) - CLASSIC/STANDARD Wishbone protocol, auto-timeout, LITTLE-endian byte order, registered RX, registered TX"
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":476:34:476:45|Input dev_00_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":478:34:478:45|Input dev_02_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":480:34:480:45|Input dev_04_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":481:34:481:45|Input dev_05_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":482:34:482:45|Input dev_06_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":483:34:483:45|Input dev_07_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":484:34:484:45|Input dev_08_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":485:34:485:45|Input dev_09_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":488:34:488:45|Input dev_12_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":489:34:489:45|Input dev_13_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":490:34:490:45|Input dev_14_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":491:34:491:45|Input dev_15_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":492:34:492:45|Input dev_16_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":493:34:493:45|Input dev_17_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":494:34:494:45|Input dev_18_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":495:34:495:45|Input dev_19_rsp_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":496:34:496:45|Input dev_20_rsp_i is unused.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":421:4:421:5|Trying to extract state machine for register rx_engine.state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":350:4:350:5|Trying to extract state machine for register tx_engine.state.
-@N: Z100 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":344:4:344:9|"The NEORV32 RISC-V Processor by Stephan Nolting, version 0x01090200, github.com/stnolting/neorv32"
-@N: Z100 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":350:4:350:9|"[NEORV32] Processor Configuration: DMEM WISHBONE GPIO MTIME UART0 SYSINFO "
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":159:4:159:14|Input jtag_trst_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":160:4:160:13|Input jtag_tck_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":163:4:163:13|Input jtag_tms_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":178:4:178:17|Input slink_rx_dat_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":179:4:179:17|Input slink_rx_val_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":183:4:183:17|Input slink_tx_rdy_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":192:4:192:12|Input xip_dat_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":207:4:207:14|Input uart1_rxd_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":209:4:209:14|Input uart1_cts_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":214:4:214:12|Input spi_dat_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":218:4:218:12|Input sdi_clk_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":220:4:220:12|Input sdi_dat_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":221:4:221:12|Input sdi_csn_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":224:4:224:12|Input twi_sda_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":226:4:226:12|Input twi_scl_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":230:4:230:12|Input onewire_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":237:4:237:11|Input cfs_in_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":244:4:244:9|Input xirq_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":247:4:247:14|Input mtime_irq_i is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":55:8:55:16|Input HRDATA_S0 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":56:8:56:19|Input HREADYOUT_S0 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:17|Input HRDATA_S10 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:20|Input HREADYOUT_S10 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S11 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S11 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:17|Input HRDATA_S12 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:20|Input HREADYOUT_S12 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S13 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S13 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S14 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S14 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S15 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S15 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":45:8:45:17|Input SDATAREADY is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":46:8:46:13|Input SHRESP is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":55:8:55:16|Input HRDATA_S0 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":56:8:56:19|Input HREADYOUT_S0 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
-@N: CL159 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":398:8:398:9|Trying to extract state machine for register arbRegSMCurrentState.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
-@N: CL201 :"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+@N:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":17:7:17:9|Top entity is set to top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd'.
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":17:7:17:9|Synthesizing work.top.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd":29:7:29:13|Synthesizing work.wb2ahbl.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd":20:7:20:12|Synthesizing work.top_sb.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd":17:7:17:17|Synthesizing work.top_sb_hpms.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd":8:7:8:25|Synthesizing work.top_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd":27:7:27:17|Synthesizing coreahblite_lib.coreahblite.coreahblite_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":25:7:25:28|Synthesizing coreahblite_lib.coreahblite_matrix4x16.coreahblite_matrix4x16_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd":24:7:24:28|Synthesizing coreahblite_lib.coreahblite_slavestage.trans.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":22:7:22:30|Synthesizing coreahblite_lib.coreahblite_slavearbiter.coreahblite_slavearbiter_arch.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":391:12:391:25|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":22:7:22:32|Synthesizing coreahblite_lib.coreahblite_defaultslavesm.coreahblite_defaultslavesm_arch.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":63:12:63:25|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":24:7:24:29|Synthesizing coreahblite_lib.coreahblite_masterstage.coreahblite_masterstage_arch.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":637:12:637:25|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":50:7:50:25|Synthesizing coreahblite_lib.coreahblite_addrdec.coreahblite_addrdec_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd":8:7:8:23|Synthesizing work.top_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":207:10:207:12|Synthesizing smartfusion2.or2.syn_black_box.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd":41:7:41:34|Synthesizing work.neorv32_processortop_minimal.neorv32_processortop_minimal_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":47:7:47:17|Synthesizing neorv32.neorv32_top.neorv32_top_rtl.
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":317:20:317:21|Using onehot encoding for type io_devices_t. For example, enumeration iodev_ocd is mapped to "100000000000000000000".
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd":45:7:45:21|Synthesizing neorv32.neorv32_sysinfo.neorv32_sysinfo_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":60:7:60:18|Synthesizing neorv32.neorv32_uart.neorv32_uart_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":42:7:42:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd":45:7:45:19|Synthesizing neorv32.neorv32_mtime.neorv32_mtime_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd":42:7:42:18|Synthesizing neorv32.neorv32_gpio.neorv32_gpio_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":445:7:445:27|Synthesizing neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":49:7:49:22|Synthesizing neorv32.neorv32_wishbone.neorv32_wishbone_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd":42:7:42:18|Synthesizing neorv32.neorv32_dmem.neorv32_dmem_rtl.
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:45:53:54|Found RAM mem_ram_b3, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:33:53:42|Found RAM mem_ram_b2, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:21:53:30|Found RAM mem_ram_b1, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":53:9:53:18|Found RAM mem_ram_b0, depth=2048, width=8
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":235:7:235:25|Synthesizing neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":45:7:45:24|Synthesizing neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl.
+@N: CD233 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":65:23:65:24|Using sequential encoding for type arbiter_state_t.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":134:6:134:19|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":42:7:42:17|Synthesizing neorv32.neorv32_cpu.neorv32_cpu_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd":42:7:42:21|Synthesizing neorv32.neorv32_cpu_lsu.neorv32_cpu_lsu_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":44:7:44:21|Synthesizing neorv32.neorv32_cpu_alu.neorv32_cpu_cpu_rtl.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":149:6:149:26|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":45:7:45:28|Synthesizing neorv32.neorv32_cpu_cp_shifter.neorv32_cpu_cp_shifter_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":51:7:51:25|Synthesizing neorv32.neorv32_cpu_regfile.neorv32_cpu_regfile_rtl.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":104:6:104:25|OTHERS clause is not synthesized.
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":83:9:83:16|Found RAM reg_file, depth=32, width=32
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":83:9:83:16|Found RAM reg_file, depth=32, width=32
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":53:7:53:25|Synthesizing neorv32.neorv32_cpu_control.neorv32_cpu_control_rtl.
+@N: CD233 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":135:28:135:29|Using sequential encoding for type fetch_engine_state_t.
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":189:30:189:31|Using onehot encoding for type execute_engine_state_t. For example, enumeration dispatch is mapped to "1000000000000".
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":407:8:407:21|OTHERS clause is not synthesized.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":42:7:42:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
+@N: CL189 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":629:4:629:5|Register bit ctrl.alu_cp_trig(1) is always 0.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1389:4:1389:5|Trying to extract state machine for register trap_ctrl.irq_buf.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1389:4:1389:5|Trying to extract state machine for register trap_ctrl.irq_pnd.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":629:4:629:5|Trying to extract state machine for register execute_engine.state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":363:4:363:5|Trying to extract state machine for register fetch_engine.state.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":113:4:113:16|Input db_halt_req_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":61:4:61:9|Input rstn_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":62:4:62:11|Input csr_we_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":63:4:63:13|Input csr_addr_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":64:4:64:14|Input csr_wdata_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":69:4:69:8|Input rs3_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":70:4:70:8|Input rs4_i is unused.
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":143:2:143:7|"[NEORV32] CPU ISA: rv32i_zicsr_zicntr_zifencei"
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":164:2:164:7|"[NEORV32] CPU tuning options: "
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":85:4:85:5|Trying to extract state machine for register arbiter.state.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":270:4:270:13|Input imem_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":274:4:274:12|Input xip_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":276:4:276:13|Input boot_rsp_i is unused.
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":118:2:118:7|"[NEORV32] Ext. Bus Interface (WISHBONE) - CLASSIC/STANDARD Wishbone protocol, auto-timeout, LITTLE-endian byte order, registered RX, registered TX"
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":476:34:476:45|Input dev_00_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":478:34:478:45|Input dev_02_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":480:34:480:45|Input dev_04_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":481:34:481:45|Input dev_05_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":482:34:482:45|Input dev_06_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":483:34:483:45|Input dev_07_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":484:34:484:45|Input dev_08_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":485:34:485:45|Input dev_09_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":488:34:488:45|Input dev_12_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":489:34:489:45|Input dev_13_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":490:34:490:45|Input dev_14_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":491:34:491:45|Input dev_15_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":492:34:492:45|Input dev_16_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":493:34:493:45|Input dev_17_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":494:34:494:45|Input dev_18_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":495:34:495:45|Input dev_19_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":496:34:496:45|Input dev_20_rsp_i is unused.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":421:4:421:5|Trying to extract state machine for register rx_engine.state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":350:4:350:5|Trying to extract state machine for register tx_engine.state.
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":344:4:344:9|"The NEORV32 RISC-V Processor by Stephan Nolting, version 0x01090200, github.com/stnolting/neorv32"
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":350:4:350:9|"[NEORV32] Processor Configuration: DMEM WISHBONE GPIO MTIME UART0 SYSINFO "
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":159:4:159:14|Input jtag_trst_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":160:4:160:13|Input jtag_tck_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":163:4:163:13|Input jtag_tms_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":178:4:178:17|Input slink_rx_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":179:4:179:17|Input slink_rx_val_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":183:4:183:17|Input slink_tx_rdy_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":192:4:192:12|Input xip_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":207:4:207:14|Input uart1_rxd_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":209:4:209:14|Input uart1_cts_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":214:4:214:12|Input spi_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":218:4:218:12|Input sdi_clk_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":220:4:220:12|Input sdi_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":221:4:221:12|Input sdi_csn_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":224:4:224:12|Input twi_sda_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":226:4:226:12|Input twi_scl_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":230:4:230:12|Input onewire_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":237:4:237:11|Input cfs_in_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":244:4:244:9|Input xirq_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":247:4:247:14|Input mtime_irq_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":55:8:55:16|Input HRDATA_S0 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":56:8:56:19|Input HREADYOUT_S0 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":75:8:75:17|Input HRDATA_S10 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":76:8:76:20|Input HREADYOUT_S10 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":77:8:77:17|Input HRDATA_S11 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":78:8:78:20|Input HREADYOUT_S11 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":79:8:79:17|Input HRDATA_S12 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":80:8:80:20|Input HREADYOUT_S12 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":81:8:81:17|Input HRDATA_S13 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":82:8:82:20|Input HREADYOUT_S13 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":83:8:83:17|Input HRDATA_S14 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":84:8:84:20|Input HREADYOUT_S14 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":85:8:85:17|Input HRDATA_S15 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":86:8:86:20|Input HREADYOUT_S15 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":45:8:45:17|Input SDATAREADY is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":46:8:46:13|Input SHRESP is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":55:8:55:16|Input HRDATA_S0 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":56:8:56:19|Input HREADYOUT_S0 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":57:8:57:16|Input HRDATA_S1 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":58:8:58:19|Input HREADYOUT_S1 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":59:8:59:16|Input HRDATA_S2 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":60:8:60:19|Input HREADYOUT_S2 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":61:8:61:16|Input HRDATA_S3 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":62:8:62:19|Input HREADYOUT_S3 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":63:8:63:16|Input HRDATA_S4 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":64:8:64:19|Input HREADYOUT_S4 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":65:8:65:16|Input HRDATA_S5 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":66:8:66:19|Input HREADYOUT_S5 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":67:8:67:16|Input HRDATA_S6 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":68:8:68:19|Input HREADYOUT_S6 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":69:8:69:16|Input HRDATA_S7 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":70:8:70:19|Input HREADYOUT_S7 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":71:8:71:16|Input HRDATA_S8 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":72:8:72:19|Input HREADYOUT_S8 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":73:8:73:16|Input HRDATA_S9 is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":74:8:74:19|Input HREADYOUT_S9 is unused.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":398:8:398:9|Trying to extract state machine for register arbRegSMCurrentState.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
 @N|Running in 64-bit mode
 

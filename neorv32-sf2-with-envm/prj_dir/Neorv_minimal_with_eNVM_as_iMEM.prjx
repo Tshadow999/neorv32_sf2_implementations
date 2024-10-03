@@ -1,5 +1,5 @@
-KEY LIBERO "2022.1"
-KEY CAPTURE "2022.1.0.10"
+KEY LIBERO "2023.1"
+KEY CAPTURE "2023.1.0.6"
 KEY DEFAULT_IMPORT_LOC ""
 KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
@@ -32,7 +32,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir"
+KEY ProjectLocation "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir"
 KEY ProjectDescription ""
 KEY UseRootLocationForLinkedFiles "FALSE"
 KEY RootLocationENVForLinkedFiles ""
@@ -47,7 +47,8 @@ KEY Vendor "Actel"
 KEY ActiveRoot "top::work"
 LIST REVISIONS
 VALUE="Impl1",NUM=1
-CURREV=1
+VALUE="Impl2",NUM=2
+CURREV=2
 ENDLIST
 LIST LIBRARIES
 neorv32
@@ -68,13 +69,13 @@ ENDLIST
 LIST FileManager
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="5025"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/coreparameters.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="4390"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -82,14 +83,14 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/mti/scripts/wave_user.do,do"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="912"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="8290"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -97,7 +98,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="2348"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -105,7 +106,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="22169"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -113,7 +114,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="82848"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -121,7 +122,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_package.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="45675"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -129,7 +130,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/misc.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="12780"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -137,7 +138,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/textio.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="23829"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -145,7 +146,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="18793"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -153,7 +154,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="62288"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -161,7 +162,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="11199"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -169,7 +170,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="2760"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -177,7 +178,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="30586"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -185,7 +186,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="426134"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -193,7 +194,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="425"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -201,7 +202,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="17249"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -209,7 +210,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="12256"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -217,7 +218,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="68292"
 LIBRARY="COREAHBLITE_LIB"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
@@ -227,39 +228,39 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="582"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="75054"
 PARENT="<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd,hdl"
 STATE="utd"
-TIME="1726818317"
+TIME="1727951196"
 SIZE="9297"
 PARENT="<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/FCCC/2.0.201/FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="241"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="682"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd,hdl"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="2164"
 PARENT="<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf"
 BEGIN_USE_CONSTRAINT
@@ -271,7 +272,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd,hdl"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="2108"
 PARENT="<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf"
 BEGIN_USE_CONSTRAINT
@@ -283,135 +284,135 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS/1.1.500/MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818315"
+TIME="1727951196"
 SIZE="526"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CCC/1.0.100/MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818311"
+TIME="1727951196"
 SIZE="253"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CFGM/1.1.100/MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818311"
+TIME="1727951196"
 SIZE="254"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_DDRB/1.0.200/MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818311"
+TIME="1727951196"
 SIZE="254"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_EDAC/1.0.101/MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="254"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_ENVM/1.0.101/MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="254"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_FIC32/1.0.100/MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="255"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_INTR/1.0.200/MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="254"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_RESET/1.0.100/MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="255"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_SECURITY/1.0.100/MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="258"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_SWITCH/1.0.101/MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818312"
+TIME="1727951196"
 SIZE="256"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/component/work/top/top.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818319"
+TIME="1727951196"
 SIZE="3311"
 ENDFILE
 VALUE "<project>/component/work/top/top.vhd,hdl"
 STATE="utd"
-TIME="1726818319"
+TIME="1727951196"
 SIZE="14255"
 PARENT="<project>/component/work/top/top.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="654"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd,hdl"
 STATE="utd"
-TIME="1726818316"
+TIME="1727951196"
 SIZE="5420"
 PARENT="<project>/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="438"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd,hdl"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="1504"
 PARENT="<project>/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb/top_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818319"
+TIME="1727951196"
 SIZE="9864"
 ENDFILE
 VALUE "<project>/component/work/top_sb/top_sb.vhd,hdl"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="51748"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1726818315"
+TIME="1727951196"
 SIZE="15535"
 ENDFILE
 VALUE "<project>/component/work/top_sb_HPMS/top_sb_HPMS.vhd,hdl"
 STATE="utd"
-TIME="1726818315"
+TIME="1727951196"
 SIZE="79883"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb_HPMS/top_sb_HPMS_pre.vhd,hdl"
 STATE="utd"
-TIME="1726818314"
+TIME="1727951196"
 SIZE="70641"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -423,7 +424,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd,hdl"
 STATE="utd"
-TIME="1726818314"
+TIME="1727951196"
 SIZE="70624"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 BEGIN_USE_CONSTRAINT
@@ -435,372 +436,372 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/SF2_SFM20000_io.pdc,io_pdc"
 STATE="utd"
-TIME="1726818305"
+TIME="1727951196"
 SIZE="2344"
 ENDFILE
 VALUE "<project>/constraint/top_derived_constraints.sdc,sdc"
 STATE="utd"
-TIME="1726818322"
+TIME="1727951196"
 SIZE="2527"
 ENDFILE
 VALUE "<project>/hdl/neorv32_bootloader_image.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="13498"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_boot_rom.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="5515"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cfs.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="15174"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="22807"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_alu.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="16560"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_control.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="139058"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_cp_bitmanip.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="30866"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_cp_cfu.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="23064"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_cp_fpu.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="98631"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_cp_muldiv.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="15967"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_cp_shifter.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="8766"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_decompressor.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="30080"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_lsu.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="11564"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_pmp.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="18600"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_cpu_regfile.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="10615"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_crc.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="8241"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_dcache.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="27581"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_debug_dm.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="37954"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_debug_dtm.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="17485"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_dma.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="18863"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_dmem.default.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="6127"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_dmem.entity.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="3837"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_fifo.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="9854"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_gpio.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="6221"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_gptmr.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="9114"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_icache.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="28505"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_imem.default.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="8247"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_imem.entity.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="3924"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_intercon.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="42399"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_mtime.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="8266"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_neoled.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="19424"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_onewire.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="17330"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_package.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="75519"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_ProcessorTop_Minimal.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="10726"
 ENDFILE
 VALUE "<project>/hdl/neorv32_pwm.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="9247"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_sdi.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="16282"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_slink.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="13912"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_spi.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="19164"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_sysinfo.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="13817"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_top.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="71178"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_trng.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="30318"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_twi.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="18946"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_uart.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="25745"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_wdt.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="11964"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_wishbone.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="11922"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_xip.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="31678"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_xirq.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="10364"
 LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/WB2AHBL.vhd,hdl"
 STATE="utd"
-TIME="1726818304"
+TIME="1727951196"
 SIZE="4904"
 ENDFILE
 VALUE "<project>/simulation/bfmtovec_compile.tcl,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="1462"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/coreahblite_usertb_ahb_master0.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="25928"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/coreahblite_usertb_ahb_master1.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="6200"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/coreahblite_usertb_ahb_master2.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="6200"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/coreahblite_usertb_ahb_master3.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="6200"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/coreahblite_usertb_include.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="12178"
 PARENT="<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/CoreAHBLite.cxf"
 ENDFILE
 VALUE "<project>/simulation/peripheral_init.bfm,sim"
 STATE="utd"
-TIME="1726818315"
+TIME="1727951196"
 SIZE="8450"
 PARENT="<project>/component/Actel/SmartFusion2MSS/MSS/1.1.500/MSS.cxf"
 ENDFILE
 VALUE "<project>/simulation/subsystem.bfm,sim"
 STATE="utd"
-TIME="1726818318"
+TIME="1727951196"
 SIZE="583"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
 VALUE "<project>/simulation/test.bfm,sim"
 STATE="utd"
-TIME="1726818315"
+TIME="1727951196"
 SIZE="520"
 PARENT="<project>/component/work/top_sb_HPMS/top_sb_HPMS.cxf"
 ENDFILE
 VALUE "<project>/synthesis/top.so,so"
 STATE="utd"
-TIME="1726818351"
+TIME="1727951196"
 SIZE="253"
 ENDFILE
 VALUE "<project>/synthesis/top.vm,syn_vm"
 STATE="utd"
-TIME="1726818350"
+TIME="1727951196"
 SIZE="967535"
 ENDFILE
 VALUE "<project>/synthesis/top_syn.prj,prj"
 STATE="utd"
-TIME="1726818352"
-SIZE="11864"
+TIME="1727957629"
+SIZE="10134"
 ENDFILE
 VALUE "<project>/synthesis/top_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1726818351"
+TIME="1727951196"
 SIZE="2529"
 ENDFILE
 ENDLIST
@@ -821,6 +822,16 @@ VALUE "<project>/constraint/top_derived_constraints.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+ideSYNTHESIS(<project>/synthesis/top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
 ideSYNTHESIS(<project>/synthesis/top.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -869,6 +880,16 @@ VALUE "<project>/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/test/us
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -993,16 +1014,16 @@ EndProfile
 NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
-LOCATION="/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/synplify_pro"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
 NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
-LOCATION="/remote/labware/packages/microsemi/libero/v2022.1/ModelSimPro/modeltech/linuxacoem/vsim"
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/ModelSimPro/modeltech/linuxacoem/vsim"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -1011,7 +1032,7 @@ EndProfile
 NAME="Identify Debugger"
 FUNCTION="IdentifyDebugger"
 TOOL="Identify Debugger"
-LOCATION="/remote/labware/packages/microsemi/libero/v2022.1/Identify/bin/identify_debugger"
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/Identify/bin/identify_debugger"
 PARAM=""
 BATCH=0
 LICENSE=""
@@ -1030,9 +1051,29 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>/synthesis/top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 LIST "top_sb::work"
 LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
@@ -1055,6 +1096,11 @@ ENDLIST
 LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:top_glb_net_report.xml
+SmartDesign;top;0
+ACTIVEVIEW;top
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd","FALSE","FALSE"

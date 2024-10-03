@@ -1,4 +1,4 @@
-INFO: Reading User SDC file /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/top_derived_constraints.sdc.
+INFO: Reading User SDC file /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/top_derived_constraints.sdc.
 INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
 
 No errors or warnings found.
@@ -12,7 +12,7 @@ Repair min-delay         : ON
 Incremental              : OFF
 Inter-clock optimization : ON
 
-INFO: Reading User PDC file /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/io/SF2_SFM20000_io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/io/SF2_SFM20000_io.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 10 fixed I/O macros, 0 unfixed I/O macros
@@ -20,8 +20,8 @@ Info:  I/O Bank and Globals Assigner identified 10 fixed I/O macros, 0 unfixed I
 I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
-Placer V5.0 - 2022.1.0
-Design: top                             Started: Fri Sep 20 09:46:11 2024
+Placer V5.0 - 2023.1.0
+Design: top                             Started: Thu Oct  3 15:53:15 2024
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -30,45 +30,45 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 0 seconds
-Placement                : 2 seconds
-Improvement              : 4 seconds
+Clustering (1 pass)      : 1 seconds
+Placement                : 3 seconds
+Improvement              : 6 seconds
 
 Placer completed successfully.
 
 Design: top
-Finished: Fri Sep 20 09:46:35 2024
-Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:24
-Total Memory Usage: 1012.1 Mbytes
+Finished: Thu Oct  3 15:53:48 2024
+Total CPU Time:     00:00:36            Total Elapsed Time: 00:00:33
+Total Memory Usage: 773.6 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: top                             Started: Fri Sep 20 09:46:40 2024
+Design: top                             Started: Thu Oct  3 15:53:52 2024
 
 
 Router completed successfully.
 
 Design: top
-Finished: Fri Sep 20 09:46:46 2024
-Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:06
-Total Memory Usage: 673.6 Mbytes
+Finished: Thu Oct  3 15:54:00 2024
+Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:08
+Total Memory Usage: 622.4 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
   Total violating paths eligible for improvement: 5
-  Worst minimum delay slack: -0.126 ns
+  Worst minimum delay slack: -0.125 ns
 Info: Iteration 2:
-  Total violating paths eligible for improvement: 0
-  Worst minimum delay slack:
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -0.059 ns
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 2822 | 12084 | 23.35      |
-| DFF           | 1633 | 12084 | 13.51      |
+| 4LUT          | 2669 | 12084 | 22.09      |
+| DFF           | 1629 | 12084 | 13.48      |
 | I/O Register  | 0    | 579   | 0.00       |
-| Logic Element | 2944 | 12084 | 24.36      |
+| Logic Element | 2819 | 12084 | 23.33      |
 +---------------+------+-------+------------+
 
 I/O Placement

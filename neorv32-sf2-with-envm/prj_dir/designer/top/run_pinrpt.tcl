@@ -1,6 +1,6 @@
 DESIGN=top
-DESDIR=/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top
-TARGET_DIR=/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top
+DESDIR=/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top
+TARGET_DIR=/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top
 FAM=IGLOO2
 DIE=PA4MGL1000_N
 PACKAGE=vf400

@@ -1,7 +1,7 @@
 [Library]
 others = $MODEL_TECH/../modelsim.ini
-smartfusion2 = /remote/labware/packages/microsemi/libero/v2022.1/Libero/lib/modelsimpro/precompiled/vlog/smartfusion2
-syncad_vhdl_lib = /remote/labware/packages/microsemi/libero/v2022.1/Libero/lib/actel/syncad_vhdl_lib
+smartfusion2 = /home/tycho/Applications/MicroChip/Libero/lib/modelsimpro/precompiled/vlog/smartfusion2
+syncad_vhdl_lib = /home/tycho/Applications/MicroChip/Libero/lib/actel/syncad_vhdl_lib
 
 [vcom]
 VHDL93 = 1

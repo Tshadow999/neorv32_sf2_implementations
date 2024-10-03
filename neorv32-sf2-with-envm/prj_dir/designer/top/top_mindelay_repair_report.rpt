@@ -12,93 +12,89 @@
 -------------------------
  Iteration 1  
  Total paths eligible for improvement: 5       
- Total paths improved: 5       
+ Total paths improved: 4       
 -------------------------
 
 Path 1
-------------------------
-From: top_sb_0/CORERESETP_0/release_sdif0_core:CLK
-  To: top_sb_0/CORERESETP_0/release_sdif0_core_q1:D
-Operating Conditions: WORST
-------------------------
-Path min-delay slack:      -126 ps
-------------------------
-  On sink pin: top_sb_0/CORERESETP_0/release_sdif0_core_q1:D
--------------------------------------
-  Pin max-delay slack:    19797 ps
-  Min-delay inserted:       494 ps ( Estimated )
-  ----------------------------
-  Delay buffers inserted before the sink:
-      mdr_top_sb_0/CORERESETP_0/release_sdif0_core_q1_CFG1C_TEST
-
-
-Path 2
-------------------------
-From: top_sb_0/CORERESETP_0/release_sdif1_core:CLK
-  To: top_sb_0/CORERESETP_0/release_sdif1_core_q1:D
-Operating Conditions: WORST
-------------------------
-Path min-delay slack:      -123 ps
-------------------------
-  On sink pin: top_sb_0/CORERESETP_0/release_sdif1_core_q1:D
--------------------------------------
-  Pin max-delay slack:    19794 ps
-  Min-delay inserted:       571 ps ( Estimated )
-  ----------------------------
-  Delay buffers inserted before the sink:
-      mdr_top_sb_0/CORERESETP_0/release_sdif1_core_q1_CFG1A_TEST
-
-
-Path 3
 ------------------------
 From: top_sb_0/CORERESETP_0/release_sdif2_core:CLK
   To: top_sb_0/CORERESETP_0/release_sdif2_core_q1:D
 Operating Conditions: WORST
 ------------------------
-Path min-delay slack:      -112 ps
+Path min-delay slack:      -125 ps
 ------------------------
   On sink pin: top_sb_0/CORERESETP_0/release_sdif2_core_q1:D
 -------------------------------------
-  Pin max-delay slack:    19783 ps
-  Min-delay inserted:       488 ps ( Estimated )
+  Pin max-delay slack:    19797 ps
+  Min-delay inserted:      1023 ps ( Estimated )
   ----------------------------
   Delay buffers inserted before the sink:
-      mdr_top_sb_0/CORERESETP_0/release_sdif2_core_q1_CFG1C_TEST
+      mdr_top_sb_0/CORERESETP_0/release_sdif2_core_q1_CFG1A_TEST
 
 
-Path 4
+Path 2
 ------------------------
 From: top_sb_0/CORERESETP_0/release_sdif3_core:CLK
   To: top_sb_0/CORERESETP_0/release_sdif3_core_q1:D
 Operating Conditions: WORST
 ------------------------
-Path min-delay slack:      -101 ps
+Path min-delay slack:      -111 ps
 ------------------------
   On sink pin: top_sb_0/CORERESETP_0/release_sdif3_core_q1:D
 -------------------------------------
-  Pin max-delay slack:    19772 ps
-  Min-delay inserted:       534 ps ( Estimated )
+  Pin max-delay slack:    19784 ps
+  Min-delay inserted:      1023 ps ( Estimated )
   ----------------------------
   Delay buffers inserted before the sink:
       mdr_top_sb_0/CORERESETP_0/release_sdif3_core_q1_CFG1A_TEST
 
 
-Path 5
+Path 3
 ------------------------
-From: top_sb_0/CORERESETP_0/ddr_settled:CLK
-  To: top_sb_0/CORERESETP_0/ddr_settled_q1:D
-Operating Conditions: TYPICAL
+From: top_sb_0/CORERESETP_0/release_sdif1_core:CLK
+  To: top_sb_0/CORERESETP_0/release_sdif1_core_q1:D
+Operating Conditions: WORST
 ------------------------
-Path min-delay slack:       -17 ps
+Path min-delay slack:      -109 ps
 ------------------------
-  On sink pin: top_sb_0/CORERESETP_0/ddr_settled_q1:D
+  On sink pin: top_sb_0/CORERESETP_0/release_sdif1_core_q1:D
 -------------------------------------
-  Pin max-delay slack:    19683 ps
-  Min-delay inserted:       424 ps ( Estimated )
+  Pin max-delay slack:    19781 ps
+  Min-delay inserted:       925 ps ( Estimated )
   ----------------------------
   Delay buffers inserted before the sink:
-      mdr_top_sb_0/CORERESETP_0/ddr_settled_q1_CFG1A_TEST
+      mdr_top_sb_0/CORERESETP_0/release_sdif1_core_q1_CFG1A_TEST
 
+
+Path 4
+------------------------
+From: top_sb_0/CORERESETP_0/release_sdif0_core:CLK
+  To: top_sb_0/CORERESETP_0/release_sdif0_core_q1:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:      -100 ps
+------------------------
+  On sink pin: top_sb_0/CORERESETP_0/release_sdif0_core_q1:D
+-------------------------------------
+  Pin max-delay slack:    19772 ps
+  Min-delay inserted:       811 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_top_sb_0/CORERESETP_0/release_sdif0_core_q1_CFG1A_TEST
+
+
+Path 5
+------------------------
+From: top_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0
+  To: top_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHMASTLOCK:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:       -59 ps
+------------------------
+... None of the following nets could be modified:
+      top_sb_0/CCC_0/GL0_net
+      top_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB10_rgbr_net_1
+      top_sb_0/CCC_0/GL0_INST/U0_YNn_GSouth
 
 
 
@@ -115,9 +111,22 @@ Path min-delay slack:       -17 ps
  Min-delay Repair Report 
 -------------------------
  Iteration 2  
- Total paths eligible for improvement: 0       
+ Total paths eligible for improvement: 1       
  Total paths improved: 0       
 -------------------------
+
+Path 1
+------------------------
+From: top_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0
+  To: top_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHMASTLOCK:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:       -59 ps
+------------------------
+... None of the following nets could be modified:
+      top_sb_0/CCC_0/GL0_INST/U0_YNn_GSouth
+      top_sb_0/CCC_0/GL0_net
+      top_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB10_rgbr_net_1
 
 
 Note:

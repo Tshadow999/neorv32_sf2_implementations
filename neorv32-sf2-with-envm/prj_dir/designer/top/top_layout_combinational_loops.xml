@@ -2,9 +2,9 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Combinational Loop Report</title>
-<text>SmartTime Version 2022.1.0.10</text>
-<text>Microsemi Corporation - Microsemi Libero Software Release v2022.1 (Version 2022.1.0.10)</text>
-<text>Date: Fri Sep 20 09:46:06 2024
+<text>SmartTime Version 2023.1.0.6</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)</text>
+<text>Date: Thu Oct  3 15:53:11 2024
 </text>
 <table>
 <header>

@@ -18,6 +18,7 @@ set_defvar -name {BLOCK_ROUTING_CONFLICTS} -value {LOCK}
 set_defvar -name {RTG4_MITIGATION_ON} -value {0}
 set_defvar -name {USE_CONSTRAINT_FLOW} -value True
 set_defvar -name {FHB_AUTO_INSTANTIATION} -value {0}
+set_defvar -name {SYSTEM_CONTROLLER_SUSPEND_MODE} -value {0}
 
 set_compile_info \
     -category {"Device Selection"} \
@@ -82,7 +83,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/top.vm"}
+    -value {"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/top.vm"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -96,7 +97,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top} \
+    -desdir {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/designer/top} \
     -design top \
     -fam IGLOO2 \
     -die PA4MGL1000_N \

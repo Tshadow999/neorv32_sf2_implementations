@@ -1,23 +1,23 @@
-@P:  Worst Slack : 0.260
+@P:  Worst Slack : 18.763
+@P:  top_sb_0/CCC_0/GL0 - Estimated Frequency : 78.5 MHz
+@P:  top_sb_0/CCC_0/GL0 - Requested Frequency : 10.0 MHz
+@P:  top_sb_0/CCC_0/GL0 - Estimated Period : 12.738
+@P:  top_sb_0/CCC_0/GL0 - Requested Period : 100.000
+@P:  top_sb_0/CCC_0/GL0 - Slack : 46.236
 @P:  top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 808.3 MHz
 @P:  top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
 @P:  top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 1.237
 @P:  top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
 @P:  top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 18.763
-@P:  top_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 102.7 MHz
-@P:  top_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  top_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 9.740
-@P:  top_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
-@P:  top_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 0.260
-@P:  System - Estimated Frequency : 233.1 MHz
+@P:  System - Estimated Frequency : NA
 @P:  System - Requested Frequency : 100.0 MHz
-@P:  System - Estimated Period : 4.291
+@P:  System - Estimated Period : NA
 @P:  System - Requested Period : 10.000
-@P:  System - Slack : 5.709
+@P:  System - Slack : 97.681
 @P: top Part : m2gl010vf400std
-@P: top Register bits  : 1417 
+@P: top Register bits  : 1413 
 @P: top DSP Blocks  : 0
 @P: top I/O primitives : 10
 @P: top RAM1K18 :  4
 @P: top RAM64x18 :  2
-@P:  CPU Time : 0h:00m:12s
+@P:  CPU Time : 0h:00m:11s

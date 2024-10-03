@@ -1,8 +1,8 @@
-/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/bin/syn_nfilter  -link  -top  work.top  -multisrs  /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs  -osyn  /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_mult.srs  -log  /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/top_multi_srs_gen.srr 
-relcom:/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/bin/syn_nfilter -link -top work.top -multisrs ../synwork/top_comp.srs -osyn ../synwork/top_mult.srs -log ../synlog/top_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:../synwork/top_comp.srs|io:i|time:1726818333|size:222424|exec:0|csum:C25F504605F05B508A2BB14CD579A1FC
-file:../synwork/top_mult.srs|io:o|time:1726818335|size:7491|exec:0|csum:
-file:../synlog/top_multi_srs_gen.srr|io:o|time:1726818335|size:1177|exec:0|csum:
-file:/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1646901464|size:12113536|exec:1|csum:7F60A6840907B3E902335C0D782ED165
-file:/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/bin/syn_nfilter|io:i|time:1646901452|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0
+/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter  -link  -top  work.top  -multisrs  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs  -osyn  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_mult.srs  -log  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synlog/top_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter -link -top work.top -multisrs ../synwork/top_comp.srs -osyn ../synwork/top_mult.srs -log ../synlog/top_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/top_comp.srs|io:i|time:1727963557|size:222591|exec:0|csum:80EE01679C21A324CBD328205B969365
+file:../synwork/top_mult.srs|io:o|time:1727963558|size:7473|exec:0|csum:
+file:../synlog/top_multi_srs_gen.srr|io:o|time:1727963558|size:1393|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1679050979|size:14188272|exec:1|csum:B9349194379E94BE6E7A79A377712EFA
+file:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter|io:i|time:1679050963|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

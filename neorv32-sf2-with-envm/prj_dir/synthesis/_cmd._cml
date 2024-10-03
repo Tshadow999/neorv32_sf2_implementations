@@ -1,1 +1,1 @@
--link -encrypt -top work.top -osyn /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/layer0.srs  -jobname linker  
+-link -encrypt -top work.top -osyn /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/layer0.srs  -jobname linker  

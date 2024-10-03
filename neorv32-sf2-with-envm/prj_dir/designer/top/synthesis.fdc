@@ -1,7 +1,7 @@
 # Microsemi Corp.
-# Date: 2024-Sep-20 09:45:25
+# Date: 2024-Oct-03 15:52:30
 # This file was generated based on the following SDC source files:
-#   /home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/top_derived_constraints.sdc
+#   /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/constraint/top_derived_constraints.sdc
 #
 
 create_clock -name {top_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT} -period 20 [ get_pins { top_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT } ]

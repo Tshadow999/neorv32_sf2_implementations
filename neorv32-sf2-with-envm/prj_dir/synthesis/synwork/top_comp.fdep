@@ -1,148 +1,148 @@
-#OPTIONS:"|-layerid|0|-orig_srs|/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs|-top|work.top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|work|-lib|work"
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/linux_a_64/c_vhdl":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/location.map":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/std.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/std1164.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/std_textio.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/numeric.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd/umr_capim.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/arith.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd2008/unsigned.vhd":1646901462
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/vhd/hyperents.vhd":1646901462
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd":1726818316
-#CUR:"/remote/labware/packages/microsemi/libero/v2022.1/SynplifyPro/lib/generic/smartfusion2.vhd":1646901461
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":1726818318
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd":1726818314
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd":1726818304
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1726818317
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd":1726818318
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd":1726818315
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd":1726818318
-#CUR:"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":1726818319
-0			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd" vhdl
-1			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd" vhdl
-2			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd" vhdl
-3			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd" vhdl
-4			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd" vhdl
-5			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd" vhdl
-6			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd" vhdl
-7			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd" vhdl
-8			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd" vhdl
-9			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd" vhdl
-10			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd" vhdl
-11			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd" vhdl
-12			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd" vhdl
-13			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd" vhdl
-14			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd" vhdl
-15			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd" vhdl
-16			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd" vhdl
-17			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd" vhdl
-18			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd" vhdl
-19			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd" vhdl
-20			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd" vhdl
-21			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd" vhdl
-22			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd" vhdl
-23			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd" vhdl
-24			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd" vhdl
-25			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd" vhdl
-26			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd" vhdl
-27			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd" vhdl
-28			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd" vhdl
-29			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd" vhdl
-30			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd" vhdl
-31			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd" vhdl
-32			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd" vhdl
-33			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd" vhdl
-34			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd" vhdl
-35			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd" vhdl
-36			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd" vhdl
-37			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd" vhdl
-38			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd" vhdl
-39			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd" vhdl
-40			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd" vhdl
-41			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd" vhdl
-42			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd" vhdl
-43			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd" vhdl
-44			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd" vhdl
-45			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd" vhdl
-46			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd" vhdl
-47			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd" vhdl
-48			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd" vhdl
-49			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd" vhdl
-50			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd" vhdl
-51			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd" vhdl
-52			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd" vhdl
-53			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd" vhdl
-54			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd" vhdl
-55			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd" vhdl
-56			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd" vhdl
-57			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd" vhdl
-58			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd" vhdl
-59			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" vhdl
-60			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd" vhdl
-61			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd" vhdl
-62			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd" vhdl
-63			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd" vhdl
-64			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd" vhdl
-65			"/home/s2556154/Libero/ThesisProject/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd" vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/synthesis/synwork/top_comp.srs|-top|work.top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|neorv32|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/linux_a_64/c_vhdl":1679050977
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/location.map":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std_textio.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/numeric.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/umr_capim.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/arith.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/unsigned.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/hyperents.vhd":1679050974
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd":1727951196
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":1679050973
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd":1727951196
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd":1727951196
+0			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/WB2AHBL.vhd" vhdl
+1			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_package.vhd" vhdl
+2			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_intercon.vhd" vhdl
+3			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd" vhdl
+4			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd" vhdl
+5			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd" vhdl
+6			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd" vhdl
+7			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd" vhdl
+8			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_alu.vhd" vhdl
+9			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_fifo.vhd" vhdl
+10			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_decompressor.vhd" vhdl
+11			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_control.vhd" vhdl
+12			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_lsu.vhd" vhdl
+13			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_regfile.vhd" vhdl
+14			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu_pmp.vhd" vhdl
+15			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cpu.vhd" vhdl
+16			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.entity.vhd" vhdl
+17			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dmem.default.vhd" vhdl
+18			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gpio.vhd" vhdl
+19			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sysinfo.vhd" vhdl
+20			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_uart.vhd" vhdl
+21			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wishbone.vhd" vhdl
+22			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_bootloader_image.vhd" vhdl
+23			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_boot_rom.vhd" vhdl
+24			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_cfs.vhd" vhdl
+25			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_crc.vhd" vhdl
+26			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dcache.vhd" vhdl
+27			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dm.vhd" vhdl
+28			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_debug_dtm.vhd" vhdl
+29			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_dma.vhd" vhdl
+30			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_gptmr.vhd" vhdl
+31			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_icache.vhd" vhdl
+32			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.entity.vhd" vhdl
+33			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_imem.default.vhd" vhdl
+34			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_mtime.vhd" vhdl
+35			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_neoled.vhd" vhdl
+36			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_onewire.vhd" vhdl
+37			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_pwm.vhd" vhdl
+38			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_sdi.vhd" vhdl
+39			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_slink.vhd" vhdl
+40			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_spi.vhd" vhdl
+41			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_trng.vhd" vhdl
+42			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_twi.vhd" vhdl
+43			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_wdt.vhd" vhdl
+44			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xip.vhd" vhdl
+45			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_xirq.vhd" vhdl
+46			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_top.vhd" vhdl
+47			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/hdl/neorv32_ProcessorTop_Minimal.vhd" vhdl
+48			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd" vhdl
+49			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd" vhdl
+50			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd" vhdl
+51			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd" vhdl
+52			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd" vhdl
+53			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd" vhdl
+54			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd" vhdl
+55			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd" vhdl
+56			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd" vhdl
+57			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd" vhdl
+58			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd" vhdl
+59			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" vhdl
+60			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd" vhdl
+61			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd" vhdl
+62			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb_HPMS/top_sb_HPMS.vhd" vhdl
+63			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd" vhdl
+64			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top_sb/top_sb.vhd" vhdl
+65			"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir/component/work/top/top.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 1 -1

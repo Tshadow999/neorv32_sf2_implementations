@@ -18,9 +18,9 @@ The file contains the information about resource utilization per module to be di
 </column_headers>
 <module>
 <data>top</data>
-<data>1417</data>
-<data>2058</data>
-<data>536</data>
+<data>1413</data>
+<data>1853</data>
+<data>588</data>
 <data>0</data>
 <data>0</data>
 <data>4</data>
@@ -30,7 +30,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>WB2AHBL</data>
 <data>1</data>
-<data>6</data>
+<data>7</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -41,9 +41,9 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>neorv32_ProcessorTop_Minimal</data>
-<data>1317</data>
-<data>1905</data>
-<data>536</data>
+<data>1313</data>
+<data>1705</data>
+<data>588</data>
 <data>0</data>
 <data>0</data>
 <data>4</data>
@@ -52,9 +52,9 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <module>
 <data>neorv32_top</data>
-<data>1317</data>
-<data>1905</data>
-<data>536</data>
+<data>1313</data>
+<data>1705</data>
+<data>588</data>
 <data>0</data>
 <data>0</data>
 <data>4</data>
@@ -64,7 +64,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_bus_gateway</data>
 <data>8</data>
-<data>45</data>
+<data>29</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -76,7 +76,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_bus_io_switch</data>
 <data>0</data>
-<data>10</data>
+<data>6</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -88,7 +88,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_bus_switch</data>
 <data>4</data>
-<data>176</data>
+<data>72</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -99,9 +99,9 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>neorv32_cpu</data>
-<data>828</data>
-<data>1329</data>
-<data>346</data>
+<data>824</data>
+<data>1360</data>
+<data>334</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -111,8 +111,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_cpu_alu</data>
 <data>39</data>
-<data>315</data>
-<data>107</data>
+<data>436</data>
+<data>85</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -122,8 +122,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_cpu_cp_shifter</data>
 <data>39</data>
-<data>120</data>
-<data>14</data>
+<data>75</data>
+<data>0</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -134,9 +134,9 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>neorv32_cpu_control</data>
-<data>685</data>
-<data>979</data>
-<data>201</data>
+<data>681</data>
+<data>881</data>
+<data>203</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -145,8 +145,8 @@ The file contains the information about resource utilization per module to be di
 <data>0</data>
 <module>
 <data>neorv32_fifo_2_17_false_false_0</data>
-<data>40</data>
-<data>27</data>
+<data>38</data>
+<data>25</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -157,8 +157,8 @@ The file contains the information about resource utilization per module to be di
 </module>
 <module>
 <data>neorv32_fifo_2_17_false_false_1</data>
-<data>38</data>
-<data>32</data>
+<data>36</data>
+<data>30</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -171,7 +171,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_cpu_lsu</data>
 <data>104</data>
-<data>28</data>
+<data>35</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -183,8 +183,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_cpu_regfile</data>
 <data>0</data>
-<data>7</data>
-<data>38</data>
+<data>8</data>
+<data>46</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -196,7 +196,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_dmem</data>
 <data>2</data>
-<data>9</data>
+<data>5</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -208,7 +208,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_gpio</data>
 <data>17</data>
-<data>14</data>
+<data>10</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -220,8 +220,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_mtime</data>
 <data>166</data>
-<data>143</data>
-<data>145</data>
+<data>72</data>
+<data>209</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -232,7 +232,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_sysinfo</data>
 <data>6</data>
-<data>9</data>
+<data>0</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -244,7 +244,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_uart</data>
 <data>149</data>
-<data>123</data>
+<data>110</data>
 <data>22</data>
 <data>0</data>
 <data>0</data>
@@ -255,7 +255,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_fifo_1_8_true_true</data>
 <data>20</data>
-<data>14</data>
+<data>6</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -267,7 +267,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_fifo_1_8_true_true_0</data>
 <data>20</data>
-<data>7</data>
+<data>6</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -280,7 +280,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>neorv32_wishbone</data>
 <data>113</data>
-<data>45</data>
+<data>39</data>
 <data>10</data>
 <data>0</data>
 <data>0</data>
@@ -294,7 +294,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>top_sb</data>
 <data>99</data>
-<data>147</data>
+<data>141</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -305,7 +305,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>CoreAHBLite</data>
 <data>58</data>
-<data>137</data>
+<data>131</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -316,7 +316,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREAHBLITE_MATRIX4X16</data>
 <data>58</data>
-<data>137</data>
+<data>131</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -327,7 +327,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREAHBLITE_MASTERSTAGE_1_1_85_65536_0</data>
 <data>52</data>
-<data>58</data>
+<data>44</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -351,7 +351,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREAHBLITE_SLAVESTAGE_0</data>
 <data>6</data>
-<data>79</data>
+<data>87</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -362,7 +362,7 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>COREAHBLITE_SLAVEARBITER_1</data>
 <data>5</data>
-<data>45</data>
+<data>52</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
