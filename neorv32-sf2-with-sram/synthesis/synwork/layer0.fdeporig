@@ -1,0 +1,71 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/synthesis/synwork/top_comp.srs|-autotop|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/linux_a_64/c_vhdl":1679050977
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/location.map":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/snps_haps_pkg.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std_textio.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/numeric.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/umr_capim.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/arith.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/unsigned.vhd":1679050974
+#CUR:"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/hyperents.vhd":1679050974
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd":1729514148
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0.vhd":1729514148
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":1729514161
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":1729514161
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0.vhd":1729514161
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd":1729514530
+#CUR:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/top/top.vhd":1729514595
+0 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd" vhdl
+1 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0.vhd" vhdl
+2 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" vhdl
+3 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd" vhdl
+4 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0.vhd" vhdl
+5 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd" vhdl
+6 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/top/top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 -1
+3 2 
+4 3 
+5 -1
+6 1 5 4 
+
+# Dependency Lists (Users Of)
+0 1 
+1 6 
+2 3 
+3 4 
+4 6 
+5 6 
+6 -1
+
+# Design Unit to File Association
+arch work fccc_c0_fccc_c0_0_fccc def_arch 0
+module work fccc_c0_fccc_c0_0_fccc 0
+arch work fccc_c0 rtl 1
+module work fccc_c0 1
+arch work xtlosc_fab def_arch 2
+module work xtlosc_fab 2
+arch work rcosc_25_50mhz_fab def_arch 2
+module work rcosc_25_50mhz_fab 2
+arch work rcosc_1mhz_fab def_arch 2
+module work rcosc_1mhz_fab 2
+arch work xtlosc def_arch 2
+module work xtlosc 2
+arch work rcosc_25_50mhz def_arch 2
+module work rcosc_25_50mhz 2
+arch work rcosc_1mhz def_arch 2
+module work rcosc_1mhz 2
+arch work osc_c0_osc_c0_0_osc def_arch 3
+module work osc_c0_osc_c0_0_osc 3
+arch work osc_c0 rtl 4
+module work osc_c0 4
+arch work neorv32_processortop_minimal neorv32_processortop_minimal_rtl 5
+module work neorv32_processortop_minimal 5
+arch work top rtl 6
+module work top 6

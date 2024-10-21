@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Mon Oct 21 14:43:15 2024
+Project   :  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram
+Component :  top
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/top/top.vhd
+

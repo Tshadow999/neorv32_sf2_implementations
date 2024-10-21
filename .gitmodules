@@ -1,3 +1,7 @@
 [submodule "neorv32-sf2-with-envm/neorv32"]
 	path = neorv32-sf2-with-envm/neorv32
+    url = https://github.com/stnolting/neorv32/
+
+[submodule "neorv32-sf2-with-sram/neorv32"]
+	path = neorv32-sf2-with-sram/neorv32
 	url = https://github.com/stnolting/neorv32/

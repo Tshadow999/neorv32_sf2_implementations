@@ -1,0 +1,35 @@
+#add_file options
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/FCCC_C0/FCCC_C0.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/OSC_C0/OSC_C0.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd"
+add_file -vhdl "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/top/top.vhd"
+add_file -fpga_constraint "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/designer/top/synthesis.fdc"
+
+set_option -vhdl2008 1
+
+#device options
+set_option -technology IGLOO2
+set_option -part M2GL010T
+set_option -speed_grade STD
+set_option -opcond COMTC
+set_option -write_verilog 0
+set_option -async_globalthreshold 12
+set_option -clock_globalthreshold 2
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -retiming 0
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+set_option -ident_constraint ""
+project -result_file "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/synthesis/top.vm"
+impl -active "synthesis"

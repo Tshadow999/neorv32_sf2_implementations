@@ -1,0 +1,7 @@
+
+: 0 work.XTLOSC_FAB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" 95 7 
+: 0 work.RCOSC_25_50MHZ_FAB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" 79 7 
+: 0 work.RCOSC_1MHZ_FAB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" 63 7 
+: 0 work.XTLOSC "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" 39 7 
+: 0 work.RCOSC_1MHZ "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd" 4 7 
+: 0 work.top "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/component/work/top/top.vhd" 17 7 work.SYSRESET work.OSC_C0 work.neorv32_ProcessorTop_Minimal work.FCCC_C0 work.AND2 
