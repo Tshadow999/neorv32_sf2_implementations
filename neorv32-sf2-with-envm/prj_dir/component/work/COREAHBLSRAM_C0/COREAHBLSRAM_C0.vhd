@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Thu Oct  3 17:39:04 2024
+-- Created by SmartDesign Tue Oct  8 09:06:56 2024
 -- Version: 2023.1 2023.1.0.6
 ----------------------------------------------------------------------
 
@@ -13,7 +13,7 @@
 --create_and_configure_core -core_vlnv {Actel:DirectCore:COREAHBLSRAM:2.2.104} -component_name {COREAHBLSRAM_C0} -params {\
 --"AHB_AWIDTH:32"  \
 --"AHB_DWIDTH:32"  \
---"LSRAM_NUM_LOCATIONS_DWIDTH32:65536"  \
+--"LSRAM_NUM_LOCATIONS_DWIDTH32:32768"  \
 --"SEL_SRAM_TYPE:0"  \
 --"USRAM_NUM_LOCATIONS_DWIDTH32:128"   }
 --# Exporting Component Description of COREAHBLSRAM_C0 to TCL done
@@ -64,7 +64,7 @@ component COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
         AHB_AWIDTH                   : integer := 32 ;
         AHB_DWIDTH                   : integer := 32 ;
         FAMILY                       : integer := 24 ;
-        LSRAM_NUM_LOCATIONS_DWIDTH32 : integer := 65536 ;
+        LSRAM_NUM_LOCATIONS_DWIDTH32 : integer := 32768 ;
         SEL_SRAM_TYPE                : integer := 0 ;
         USRAM_NUM_LOCATIONS_DWIDTH32 : integer := 128 
         );
@@ -116,7 +116,7 @@ COREAHBLSRAM_C0_0 : COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
         AHB_AWIDTH                   => ( 32 ),
         AHB_DWIDTH                   => ( 32 ),
         FAMILY                       => ( 24 ),
-        LSRAM_NUM_LOCATIONS_DWIDTH32 => ( 65536 ),
+        LSRAM_NUM_LOCATIONS_DWIDTH32 => ( 32768 ),
         SEL_SRAM_TYPE                => ( 0 ),
         USRAM_NUM_LOCATIONS_DWIDTH32 => ( 128 )
         )

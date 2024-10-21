@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Fri Sep 20 09:45:18 2024
--- Version: 2022.1 2022.1.0.10
+-- Created by SmartDesign Fri Oct 18 08:44:38 2024
+-- Version: 2023.1 2023.1.0.6
 ----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
@@ -251,8 +251,8 @@ signal HPMS_INT_M2F_net_0                                 : std_logic_vector(15 
 signal HPMS_READY_net_0                                   : std_logic;
 signal INIT_DONE_net_0                                    : std_logic;
 signal POWER_ON_RESET_N_net_0                             : std_logic;
-signal top_sb_HPMS_0_FIC_2_APB_M_PRESET_N                 : std_logic;
-signal top_sb_HPMS_0_MSS_RESET_N_M2F                      : std_logic;
+signal top_sb_HPMS_TMP_0_FIC_2_APB_M_PRESET_N             : std_logic;
+signal top_sb_HPMS_TMP_0_MSS_RESET_N_M2F                  : std_logic;
 signal POWER_ON_RESET_N_net_1                             : std_logic;
 signal INIT_DONE_net_1                                    : std_logic;
 signal FIC_0_CLK_net_1                                    : std_logic;
@@ -838,8 +838,8 @@ CORERESETP_0 : CoreResetP
         )
     port map( 
         -- Inputs
-        RESET_N_M2F                    => top_sb_HPMS_0_MSS_RESET_N_M2F,
-        FIC_2_APB_M_PRESET_N           => top_sb_HPMS_0_FIC_2_APB_M_PRESET_N,
+        RESET_N_M2F                    => top_sb_HPMS_TMP_0_MSS_RESET_N_M2F,
+        FIC_2_APB_M_PRESET_N           => top_sb_HPMS_TMP_0_FIC_2_APB_M_PRESET_N,
         POWER_ON_RESET_N               => POWER_ON_RESET_N_net_0,
         FAB_RESET_N                    => FAB_RESET_N,
         RCOSC_25_50MHZ                 => FABOSC_0_RCOSC_25_50MHZ_O2F,
@@ -934,31 +934,31 @@ top_sb_HPMS_0 : top_sb_HPMS
         MCCC_CLK_BASE_PLL_LOCK => FIC_0_LOCK_net_0,
         MSS_RESET_N_F2M        => CORERESETP_0_RESET_N_F2M,
         M3_RESET_N             => GND_net,
-        FIC_0_AHB_S_HADDR      => CoreAHBLite_0_AHBmslave16_HADDR,
         FIC_0_AHB_S_HREADY     => CoreAHBLite_0_AHBmslave16_HREADY,
-        FIC_0_AHB_S_HWDATA     => CoreAHBLite_0_AHBmslave16_HWDATA,
         FIC_0_AHB_S_HWRITE     => CoreAHBLite_0_AHBmslave16_HWRITE,
-        FIC_0_AHB_S_HSIZE      => CoreAHBLite_0_AHBmslave16_HSIZE_0,
-        FIC_0_AHB_S_HTRANS     => CoreAHBLite_0_AHBmslave16_HTRANS,
         FIC_0_AHB_S_HMASTLOCK  => CoreAHBLite_0_AHBmslave16_HMASTLOCK,
         FIC_0_AHB_S_HSEL       => CoreAHBLite_0_AHBmslave16_HSELx,
-        FIC_2_APB_M_PRDATA     => FIC_2_APB_M_PRDATA_const_net_0, -- tied to X"0" from definition
         FIC_2_APB_M_PREADY     => VCC_net, -- tied to '1' from definition
         FIC_2_APB_M_PSLVERR    => GND_net, -- tied to '0' from definition
+        FIC_0_AHB_S_HADDR      => CoreAHBLite_0_AHBmslave16_HADDR,
+        FIC_0_AHB_S_HWDATA     => CoreAHBLite_0_AHBmslave16_HWDATA,
+        FIC_0_AHB_S_HSIZE      => CoreAHBLite_0_AHBmslave16_HSIZE_0,
+        FIC_0_AHB_S_HTRANS     => CoreAHBLite_0_AHBmslave16_HTRANS,
+        FIC_2_APB_M_PRDATA     => FIC_2_APB_M_PRDATA_const_net_0, -- tied to X"0" from definition
         -- Outputs
-        MSS_RESET_N_M2F        => top_sb_HPMS_0_MSS_RESET_N_M2F,
-        FIC_0_AHB_S_HRDATA     => CoreAHBLite_0_AHBmslave16_HRDATA,
+        MSS_RESET_N_M2F        => top_sb_HPMS_TMP_0_MSS_RESET_N_M2F,
         FIC_0_AHB_S_HRESP      => CoreAHBLite_0_AHBmslave16_HRESP,
         FIC_0_AHB_S_HREADYOUT  => CoreAHBLite_0_AHBmslave16_HREADYOUT,
-        FIC_2_APB_M_PRESET_N   => top_sb_HPMS_0_FIC_2_APB_M_PRESET_N,
+        FIC_2_APB_M_PRESET_N   => top_sb_HPMS_TMP_0_FIC_2_APB_M_PRESET_N,
         FIC_2_APB_M_PCLK       => OPEN,
-        FIC_2_APB_M_PADDR      => OPEN,
-        FIC_2_APB_M_PWDATA     => OPEN,
         FIC_2_APB_M_PWRITE     => OPEN,
         FIC_2_APB_M_PENABLE    => OPEN,
         FIC_2_APB_M_PSEL       => OPEN,
         M3_NMI                 => OPEN,
         COMM_BLK_INT           => COMM_BLK_INT_net_0,
+        FIC_0_AHB_S_HRDATA     => CoreAHBLite_0_AHBmslave16_HRDATA,
+        FIC_2_APB_M_PADDR      => OPEN,
+        FIC_2_APB_M_PWDATA     => OPEN,
         MSS_INT_M2F            => HPMS_INT_M2F_net_0 
         );
 

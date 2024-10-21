@@ -1,0 +1,52 @@
+#------------------------------------------------------------------
+# Company: Microsemi SoC Products Group
+#
+# File: Fabric_Top.pdc
+# File history:
+#   Rev 1.0 July 25, 2016	Written for SF2_Fab_Probe design
+#   Rev 2.0 March 1, 2017   Added pinouts for Future Creative boards
+#   Rev 2.1 May 8, 2017		Added pinouts for Avnet Kickstart board
+#   Rev 2.2 Feb 22, 2018    Removed ES silicon
+#   Rev 2.3 Nov 29, 2018    Added pinout for SMF2000 board
+#
+# Description:
+# PDC constraint file which sets the I/O bank voltage settings and 
+# I/O pin assignments for the Microsemi SmartFusion2 Fabric / Probe tutorial
+#
+# Author: Jens Huettemann
+#-------------------------------------------------------------------
+# Pin assignments for SMF2000 with M2S010-VF400 device
+# Banks not listed use default setting of 3.3V
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank7 -vcci 3.30 -fixed yes
+#
+#set_io {USER_BTN} -pinname B19 -fixed yes -iostd LVCMOS33
+#set_io {USER_LED} -pinname G17 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led0} -pinname E18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led1} -pinname R17 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led2} -pinname R18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led3} -pinname T18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led4} -pinname U18 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led5} -pinname R16 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led6} -pinname E1 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+#set_io {led7} -pinname D2 -fixed yes -iostd LVCMOS33 -OUT_DRIVE 2
+
+#set_io {UART_RX} -pinname L15 -fixed yes -DIRECTION INPUT
+#set_io {UART_TX} -pinname L16 -fixed yes -DIRECTION OUTPUT
+#
+
+# UART
+set_io {UART_RX} -pinname L15 -fixed yes -DIRECTION INPUT
+set_io {UART_TX} -pinname L16 -fixed yes -DIRECTION OUTPUT
+
+# LEDs
+set_io {led0} -pinname E18 -fixed yes -DIRECTION OUTPUT
+set_io {led1} -pinname R17 -fixed yes -DIRECTION OUTPUT
+set_io {led2} -pinname R18 -fixed yes -DIRECTION OUTPUT
+set_io {led3} -pinname T18 -fixed yes -DIRECTION OUTPUT
+set_io {led4} -pinname U18 -fixed yes -DIRECTION OUTPUT
+set_io {led5} -pinname R16 -fixed yes -DIRECTION OUTPUT
+set_io {led6} -pinname E1 -fixed yes -DIRECTION OUTPUT
+set_io {led7} -pinname D2 -fixed yes -DIRECTION OUTPUT

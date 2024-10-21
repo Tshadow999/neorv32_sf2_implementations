@@ -1,4 +1,4 @@
--- Version: 2022.1 2022.1.0.10
+-- Version: 2023.1 2023.1.0.6
 
 library ieee;
 use ieee.std_logic_1164.all;

@@ -1,6 +1,6 @@
 Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
 
-Date      :  Thu Oct  3 17:39:04 2024
+Date      :  Tue Oct  8 09:06:56 2024
 Project   :  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-envm/prj_dir
 Component :  COREAHBLSRAM_C0
 Family    :  IGLOO2
