@@ -1,2 +1,0 @@
-@W: CD645 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd":15:8:15:14|Ignoring undefined library neorv32
-

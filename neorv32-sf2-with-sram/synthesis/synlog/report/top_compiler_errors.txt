@@ -1,4 +1,0 @@
-@E: CD591 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd":81:2:81:8|Object neorv32 is not a library
-@E: CD424 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/hdl/neorv32_ProcessorTop_Minimal.vhd":135:16:135:16|Expecting architecture identifier
-@E: Parse errors encountered - exiting
-
