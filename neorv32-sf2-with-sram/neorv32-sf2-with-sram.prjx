@@ -1,0 +1,451 @@
+KEY LIBERO "2023.1"
+KEY CAPTURE "2023.1.0.6"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "IGLOO2"
+KEY VendorTechnology_Die "PA4MGL1000"
+KEY VendorTechnology_Package "vf400"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4MGL1000"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>/component/work/top/top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1729513922"
+SIZE="619"
+ENDFILE
+VALUE "<project>/constraint/io/SF2_SFM20000_io.pdc,io_pdc"
+STATE="utd"
+TIME="1729513902"
+SIZE="2344"
+ENDFILE
+VALUE "<project>/hdl/neorv32_application_image.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="19496"
+ENDFILE
+VALUE "<project>/hdl/neorv32_bootloader_image.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="13498"
+ENDFILE
+VALUE "<project>/hdl/neorv32_boot_rom.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="5515"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cfs.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="15174"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="22807"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_alu.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="16560"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_control.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="139058"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_cp_bitmanip.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="30866"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_cp_cfu.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="23064"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_cp_fpu.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="98631"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_cp_muldiv.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="15967"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_cp_shifter.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="8766"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_decompressor.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="30080"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_lsu.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="11564"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_pmp.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="18600"
+ENDFILE
+VALUE "<project>/hdl/neorv32_cpu_regfile.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="10615"
+ENDFILE
+VALUE "<project>/hdl/neorv32_crc.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="8241"
+ENDFILE
+VALUE "<project>/hdl/neorv32_dcache.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="27581"
+ENDFILE
+VALUE "<project>/hdl/neorv32_debug_dm.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="37954"
+ENDFILE
+VALUE "<project>/hdl/neorv32_debug_dtm.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="17485"
+ENDFILE
+VALUE "<project>/hdl/neorv32_dma.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="18863"
+ENDFILE
+VALUE "<project>/hdl/neorv32_dmem.default.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="6127"
+ENDFILE
+VALUE "<project>/hdl/neorv32_dmem.entity.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="3837"
+ENDFILE
+VALUE "<project>/hdl/neorv32_dmem.legacy.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="6216"
+ENDFILE
+VALUE "<project>/hdl/neorv32_fifo.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="9854"
+ENDFILE
+VALUE "<project>/hdl/neorv32_gpio.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="6221"
+ENDFILE
+VALUE "<project>/hdl/neorv32_gptmr.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="9114"
+ENDFILE
+VALUE "<project>/hdl/neorv32_icache.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="28505"
+ENDFILE
+VALUE "<project>/hdl/neorv32_imem.default.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="8247"
+ENDFILE
+VALUE "<project>/hdl/neorv32_imem.entity.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="3924"
+ENDFILE
+VALUE "<project>/hdl/neorv32_imem.legacy.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="8339"
+ENDFILE
+VALUE "<project>/hdl/neorv32_intercon.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="42399"
+ENDFILE
+VALUE "<project>/hdl/neorv32_mtime.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="8266"
+ENDFILE
+VALUE "<project>/hdl/neorv32_neoled.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="19424"
+ENDFILE
+VALUE "<project>/hdl/neorv32_onewire.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="17330"
+ENDFILE
+VALUE "<project>/hdl/neorv32_package.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="72001"
+ENDFILE
+VALUE "<project>/hdl/neorv32_ProcessorTop_Minimal.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="10726"
+ENDFILE
+VALUE "<project>/hdl/neorv32_pwm.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="9247"
+ENDFILE
+VALUE "<project>/hdl/neorv32_sdi.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="16282"
+ENDFILE
+VALUE "<project>/hdl/neorv32_slink.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="13912"
+ENDFILE
+VALUE "<project>/hdl/neorv32_spi.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="19164"
+ENDFILE
+VALUE "<project>/hdl/neorv32_sysinfo.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="13817"
+ENDFILE
+VALUE "<project>/hdl/neorv32_top.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="71178"
+ENDFILE
+VALUE "<project>/hdl/neorv32_trng.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="30318"
+ENDFILE
+VALUE "<project>/hdl/neorv32_twi.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="18946"
+ENDFILE
+VALUE "<project>/hdl/neorv32_uart.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="25745"
+ENDFILE
+VALUE "<project>/hdl/neorv32_wdt.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="11964"
+ENDFILE
+VALUE "<project>/hdl/neorv32_wishbone.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="11922"
+ENDFILE
+VALUE "<project>/hdl/neorv32_xip.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="31678"
+ENDFILE
+VALUE "<project>/hdl/neorv32_xirq.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="10364"
+ENDFILE
+VALUE "<project>/hdl/WB2AHBL.vhd,hdl"
+STATE="utd"
+TIME="1729513902"
+SIZE="4904"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/synplify_pro"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/ModelSimPro/modeltech/linuxacoem/vsim"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/Identify/bin/identify_debugger"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+HDL;hdl/neorv32_ProcessorTop_Minimal.vhd;0
+SmartDesign;top;0
+ACTIVEVIEW;hdl/neorv32_ProcessorTop_Minimal.vhd
+ENDLIST
+LIST ModuleSubBlockList
+LIST "top::work","component/work/top/top.cxf","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint/io/SF2_SFM20000_io.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

@@ -1,0 +1,16 @@
+Project Name: neorv32-sf2-with-sram
+Location: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2GL010T-VF400
+Family         : IGLOO2
+Die            : M2GL010T
+Package        : 400 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

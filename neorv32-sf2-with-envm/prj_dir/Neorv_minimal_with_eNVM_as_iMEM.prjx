@@ -878,8 +878,8 @@ PARENT="<project>/component/Actel/SmartFusion2MSS/MSS/1.1.500/MSS.cxf"
 ENDFILE
 VALUE "<project>/simulation/subsystem.bfm,sim"
 STATE="utd"
-TIME="1728371444"
-SIZE="736"
+TIME="1729233878"
+SIZE="583"
 PARENT="<project>/component/work/top/top.cxf"
 PARENT="<project>/component/work/top_sb/top_sb.cxf"
 ENDFILE
@@ -1044,47 +1044,54 @@ LIST ModuleSubBlockList
 LIST "COREAHBLSRAM_C0::work","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd","TRUE","FALSE"
 SUBBLOCK "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd","FALSE","FALSE"
 ENDLIST
+LIST "coreresetp_pcie_hotreset::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreResetP::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "coreresetp_pcie_hotreset::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MSS_010::work","component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "neorv32_ProcessorTop_Minimal::work","","FALSE","FALSE"
+ENDLIST
 LIST "neorv32_ProcessorTop_Minimal::work","hdl/neorv32_ProcessorTop_Minimal.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_top::neorv32","hdl/neorv32_top.vhd","FALSE","FALSE"
 ENDLIST
+LIST "RCOSC_1MHZ::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
 LIST "top::work","component/work/top/top.cxf","TRUE","FALSE"
-SUBBLOCK "neorv32_ProcessorTop_Minimal::work","hdl/neorv32_ProcessorTop_Minimal.vhd","FALSE","FALSE"
-SUBBLOCK "WB2AHBL::work","hdl/WB2AHBL.vhd","FALSE","FALSE"
-SUBBLOCK "top_sb::work","component/work/top_sb/top_sb.cxf","TRUE","FALSE"
+SUBBLOCK "neorv32_ProcessorTop_Minimal::work","","FALSE","FALSE"
+SUBBLOCK "top_sb::work","component/work/top_sb/top_sb.vhd","TRUE","FALSE"
+SUBBLOCK "WB2AHBL::work","","FALSE","FALSE"
 ENDLIST
-LIST "top_sb::work","component/work/top_sb/top_sb.cxf","TRUE","FALSE"
-SUBBLOCK "CoreAHBLite::work","","FALSE","FALSE"
-SUBBLOCK "CoreResetP::work","","FALSE","FALSE"
-SUBBLOCK "FCCC::work","","FALSE","FALSE"
-SUBBLOCK "OSC::work","","FALSE","FALSE"
-SUBBLOCK "top_sb_HPMS::work","component/work/top_sb_HPMS/top_sb_HPMS.cxf","TRUE","FALSE"
+LIST "top_sb::work","component/work/top_sb/top_sb.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAHBLite::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd","FALSE","FALSE"
+SUBBLOCK "CoreResetP::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd","FALSE","FALSE"
+SUBBLOCK "top_sb_CCC_0_FCCC::work","component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+SUBBLOCK "top_sb_FABOSC_0_OSC::work","component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "top_sb_HPMS::work","component/work/top_sb_HPMS/top_sb_HPMS.vhd","TRUE","FALSE"
 ENDLIST
-LIST "top_sb_HPMS::work","component/work/top_sb_HPMS/top_sb_HPMS.cxf","TRUE","FALSE"
-SUBBLOCK "MSS_CAN::work","","FALSE","FALSE"
-SUBBLOCK "MSS_CCC::work","","FALSE","FALSE"
-SUBBLOCK "MSS_CC::work","","FALSE","FALSE"
-SUBBLOCK "MSS_CFGM::work","","FALSE","FALSE"
-SUBBLOCK "MSS_CM3::work","","FALSE","FALSE"
-SUBBLOCK "MSS_DDRB::work","","FALSE","FALSE"
-SUBBLOCK "MSS_DMA::work","","FALSE","FALSE"
-SUBBLOCK "MSS_EDAC::work","","FALSE","FALSE"
-SUBBLOCK "MSS_ENVM::work","","FALSE","FALSE"
-SUBBLOCK "MSS_FIC32::work","","FALSE","FALSE"
-SUBBLOCK "MSS_GPIO::work","","FALSE","FALSE"
-SUBBLOCK "MSS_I2C::work","","FALSE","FALSE"
-SUBBLOCK "MSS_INTR::work","","FALSE","FALSE"
-SUBBLOCK "MSS_MAC::work","","FALSE","FALSE"
-SUBBLOCK "MSS_MDDR::work","","FALSE","FALSE"
-SUBBLOCK "MSS_MMUART::work","","FALSE","FALSE"
-SUBBLOCK "MSS_RESET::work","","FALSE","FALSE"
-SUBBLOCK "MSS_RTC::work","","FALSE","FALSE"
-SUBBLOCK "MSS_SECURITY::work","","FALSE","FALSE"
-SUBBLOCK "MSS_SPI::work","","FALSE","FALSE"
-SUBBLOCK "MSS_SWITCH::work","","FALSE","FALSE"
-SUBBLOCK "MSS_USB::work","","FALSE","FALSE"
-SUBBLOCK "MSS_WATCHDOG::work","","FALSE","FALSE"
+LIST "top_sb_CCC_0_FCCC::work","component/work/top_sb/CCC_0/top_sb_CCC_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "top_sb_FABOSC_0_OSC::work","component/work/top_sb/FABOSC_0/top_sb_FABOSC_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "top_sb_HPMS::work","component/work/top_sb_HPMS/top_sb_HPMS.vhd","TRUE","FALSE"
+SUBBLOCK "MSS_010::work","component/work/top_sb_HPMS/top_sb_HPMS_syn.vhd","FALSE","FALSE"
+ENDLIST
+LIST "WB2AHBL::work","","FALSE","FALSE"
 ENDLIST
 LIST "WB2AHBL::work","hdl/WB2AHBL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
 ENDLIST
 LIST "coreparameters::work","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd","FALSE","TRUE"
 ENDLIST
@@ -1265,6 +1272,82 @@ LIST "neoTRNG::neorv32","hdl/neorv32_trng.vhd","FALSE","FALSE"
 SUBBLOCK "neoTRNG_cell::neorv32","hdl/neorv32_trng.vhd","FALSE","FALSE"
 ENDLIST
 LIST "neoTRNG_cell::neorv32","hdl/neorv32_trng.vhd","FALSE","FALSE"
+ENDLIST
+LIST "components::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_DEFAULTSLAVESM::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreahblite_pkg::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_pkg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_SLAVEARBITER::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_SLAVESTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_SLAVEARBITER::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavearbiter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreahblite_support::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAHBLite::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_MATRIX4X16::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_ADDRDEC::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_MASTERSTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_DEFAULTSLAVESM::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_ADDRDEC::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_MATRIX4X16::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_matrix4x16.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_SLAVESTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_slavestage.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_MASTERSTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_MASTERSTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_ADDRDEC::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAHBLITE_MASTERSTAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_masterstage.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_DEFAULTSLAVESM::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_defaultslavesm.vhd","FALSE","FALSE"
+SUBBLOCK "COREAHBLITE_ADDRDEC::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite_addrdec.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_ahbSLAve::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd","FALSE","TRUE"
+SUBBLOCK "bfM_AHbslaVEext::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_AHbslaVEext::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/test/user/testbench.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_ahbSLAve::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAHBLite::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/core/coreahblite.vhd","FALSE","FALSE"
+SUBBLOCK "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "bfm_AHbl::coreahblite_lib","component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vhdl/amba_bfm/bfm_ahbl.vhd","FALSE","TRUE"
 ENDLIST
 LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf::coreahblsram_lib","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd","FALSE","FALSE"
 ENDLIST
