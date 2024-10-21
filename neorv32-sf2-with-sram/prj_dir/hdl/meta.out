@@ -1,0 +1,80 @@
+library neorv32
+package neorv32_package
+record bus_req_t
+addr std_ulogic_vector [ 31 : 0 ]
+data std_ulogic_vector [ 31 : 0 ]
+ben std_ulogic_vector [ 3 : 0 ]
+stb std_ulogic
+rw std_ulogic
+src std_ulogic
+priv std_ulogic
+rvso std_ulogic
+fence std_ulogic
+end
+record bus_rsp_t
+data std_ulogic_vector [ 31 : 0 ]
+ack std_ulogic
+err std_ulogic
+end
+record dmi_req_t
+addr std_ulogic_vector [ 6 : 0 ]
+op std_ulogic_vector [ 1 : 0 ]
+data std_ulogic_vector [ 31 : 0 ]
+end
+record dmi_rsp_t
+data std_ulogic_vector [ 31 : 0 ]
+ack std_ulogic
+end
+record ctrl_bus_t
+rf_wb_en std_ulogic
+rf_rs1 std_ulogic_vector [ 4 : 0 ]
+rf_rs2 std_ulogic_vector [ 4 : 0 ]
+rf_rd std_ulogic_vector [ 4 : 0 ]
+rf_zero_we std_ulogic
+alu_op std_ulogic_vector [ 2 : 0 ]
+alu_sub std_ulogic
+alu_opa_mux std_ulogic
+alu_opb_mux std_ulogic
+alu_unsigned std_ulogic
+alu_cp_trig std_ulogic_vector [ 5 : 0 ]
+lsu_req std_ulogic
+lsu_rw std_ulogic
+lsu_mo_we std_ulogic
+lsu_fence std_ulogic
+lsu_priv std_ulogic
+ir_funct3 std_ulogic_vector [ 2 : 0 ]
+ir_funct12 std_ulogic_vector [ 11 : 0 ]
+ir_opcode std_ulogic_vector [ 6 : 0 ]
+cpu_priv std_ulogic
+cpu_sleep std_ulogic
+cpu_trap std_ulogic
+cpu_debug std_ulogic
+end
+end
+library neorv32
+entity neorv32_xbus
+clk_i std_ulogic
+rstn_i std_ulogic
+bus_req_i.addr bus_req_t
+bus_req_i.ben bus_req_t
+bus_req_i.data bus_req_t
+bus_req_i.fence bus_req_t
+bus_req_i.priv bus_req_t
+bus_req_i.rvso bus_req_t
+bus_req_i.rw bus_req_t
+bus_req_i.src bus_req_t
+bus_req_i.stb bus_req_t
+bus_rsp_o.ack bus_rsp_t
+bus_rsp_o.data bus_rsp_t
+bus_rsp_o.err bus_rsp_t
+xbus_adr_o std_ulogic_vector [ 31 : 0 ]
+xbus_dat_i std_ulogic_vector [ 31 : 0 ]
+xbus_dat_o std_ulogic_vector [ 31 : 0 ]
+xbus_tag_o std_ulogic_vector [ 2 : 0 ]
+xbus_we_o std_ulogic
+xbus_sel_o std_ulogic_vector [ 3 : 0 ]
+xbus_stb_o std_ulogic
+xbus_cyc_o std_ulogic
+xbus_ack_i std_ulogic
+xbus_err_i std_ulogic
+end

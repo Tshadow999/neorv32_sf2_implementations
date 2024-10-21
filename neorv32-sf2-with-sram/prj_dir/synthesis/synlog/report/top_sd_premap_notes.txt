@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing sequential instance ctrl\.alu_cp_trig[4:3] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":463:4:463:5|Removing sequential instance uart_rts_o (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":121:4:121:5|Removing sequential instance mtime_lo_q[31:0] (in view: neorv32.neorv32_mtime(neorv32_mtime_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing sequential instance ctrl\.lsu_fence (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist top_sd 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd.sap.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[4] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO225 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|There are no possible illegal states for state machine rx_engine\.state[0:3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)); safe FSM implementation is not required.

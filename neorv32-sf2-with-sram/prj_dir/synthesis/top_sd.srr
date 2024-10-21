@@ -1,0 +1,1589 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2, Build 096R, Mar  8 2023
+#install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+#OS: Linux 
+#Hostname: ideapad
+
+# Mon Oct 21 16:01:11 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:23:09, @4639882
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:23:09, @4639882
+
+@N|Running in 64-bit mode
+@N|stack limit increased to max
+@N:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":17:7:17:12|Top entity is set to top_sd.
+File /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_package.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_clockgate.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cond.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_decompressor.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_pmp.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cfs.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_crc.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dm.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_pwm.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sdi.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_slink.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_spi.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd changed - recompiling
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_package.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_clockgate.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cond.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_decompressor.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_pmp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cfs.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_crc.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_pwm.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sdi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_slink.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_spi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd'.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":17:7:17:12|Synthesizing work.top_sd.rtl.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
+Post processing for smartfusion2.sysreset.syn_black_box
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd":39:7:39:12|Synthesizing work.osc_c0.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+Post processing for work.osc_c0_osc_c0_0_osc.def_arch
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":12:10:12:27|Signal RCOSC_25_50MHZ_O2F is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+Post processing for work.osc_c0.rtl
+Running optimization stage 1 on OSC_C0 .......
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":17:7:17:38|Synthesizing work.neorv32_processortop_minimalboot.neorv32_processortop_minimalboot_rtl.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port mtime_time_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port neoled_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port cfs_out_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port pwm_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port onewire_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port twi_scl_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port twi_sda_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port sdi_dat_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port spi_csn_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port spi_dat_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port spi_clk_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port uart1_rts_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port uart1_txd_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port uart0_rts_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xip_dat_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xip_clk_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xip_csn_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port slink_tx_lst_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port slink_tx_val_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port slink_tx_dst_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port slink_tx_dat_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port slink_rx_rdy_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_cyc_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_stb_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_sel_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_we_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_tag_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_dat_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port xbus_adr_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":87:23:87:41|Port jtag_tdo_o of entity neorv32.neorv32_top is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":23:7:23:17|Synthesizing neorv32.neorv32_top.neorv32_top_rtl.
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":271:20:271:21|Using onehot encoding for type cg_en_enum_t. For example, enumeration cg_cfs is mapped to "10000000000".
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":315:19:315:20|Using onehot encoding for type firq_enum_t. For example, enumeration firq_trng is mapped to "1000000000000000".
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":304:25:304:26|Using onehot encoding for type io_devices_enum_t. For example, enumeration iodev_ocd is mapped to "100000000000000000000".
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":281:9:281:15|Signal dmi_req.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":281:9:281:15|Signal dmi_req.op is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":281:9:281:15|Signal dmi_req.addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":282:9:282:15|Signal dmi_rsp.ack is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":282:9:282:15|Signal dmi_rsp.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.fence is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.rvso is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.priv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.src is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.rw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.stb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.ben is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":297:30:297:36|Signal dma_rsp.err is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":297:30:297:36|Signal dma_rsp.ack is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":297:30:297:36|Signal dma_rsp.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.fence is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.rvso is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.priv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.src is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.rw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.stb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.ben is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.fence is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.rvso is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.priv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.src is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.rw is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.stb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.ben is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Signal xipcache_rsp.err is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Signal xipcache_rsp.ack is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Signal xipcache_rsp.data is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Signal xcache_rsp.err is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Signal xcache_rsp.ack is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Signal xcache_rsp.data is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd":18:7:18:21|Synthesizing neorv32.neorv32_sysinfo.neorv32_sysinfo_rtl.
+Post processing for neorv32.neorv32_sysinfo.neorv32_sysinfo_rtl
+Running optimization stage 1 on neorv32_sysinfo .......
+Finished optimization stage 1 on neorv32_sysinfo (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 159MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":24:7:24:18|Synthesizing neorv32.neorv32_uart.neorv32_uart_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":18:7:18:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Signal fifo_mem_0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":57:37:57:44|Signal r_pnt_ff is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":60:9:60:12|Signal diff is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for neorv32.neorv32_fifo.neorv32_fifo_rtl
+Running optimization stage 1 on neorv32_fifo .......
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 0 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 1 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 2 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 3 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 4 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 5 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 6 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Bit 7 of signal fifo_mem_0 is floating -- simulation mismatch possible.
+@W: CL177 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":242:6:242:7|Sharing sequential element avail_o and merging half_o. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on neorv32_fifo (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Post processing for neorv32.neorv32_uart.neorv32_uart_rtl
+Running optimization stage 1 on neorv32_uart .......
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Pruning unused register tx_engine.done_3. Make sure that there are no unused intermediate registers.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|All reachable assignments to bus_rsp_o.data(27) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|All reachable assignments to bus_rsp_o.data(28) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|All reachable assignments to bus_rsp_o.data(29) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|All reachable assignments to bus_rsp_o.err are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on neorv32_uart (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":18:7:18:19|Synthesizing neorv32.neorv32_mtime.neorv32_mtime_rtl.
+Post processing for neorv32.neorv32_mtime.neorv32_mtime_rtl
+Running optimization stage 1 on neorv32_mtime .......
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":53:4:53:5|All reachable assignments to bus_rsp_o.err are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on neorv32_mtime (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":18:7:18:18|Synthesizing neorv32.neorv32_gpio.neorv32_gpio_rtl.
+Post processing for neorv32.neorv32_gpio.neorv32_gpio_rtl
+Running optimization stage 1 on neorv32_gpio .......
+@W: CL271 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":90:4:90:5|Pruning unused bits 63 to 8 of din_3(63 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|All reachable assignments to bus_rsp_o.err are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(9) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(24) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(25) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(26) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(27) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Optimizing register bit bus_rsp_o.data(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Pruning register bits 31 to 8 of bus_rsp_o.data(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":42:4:42:5|Pruning register bits 63 to 8 of dout(63 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on neorv32_gpio (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":382:7:382:27|Synthesizing neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl.
+Post processing for neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl
+Running optimization stage 1 on neorv32_bus_io_switch .......
+Finished optimization stage 1 on neorv32_bus_io_switch (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd":18:7:18:18|Synthesizing neorv32.neorv32_dmem.neorv32_dmem_rtl.
+Post processing for neorv32.neorv32_dmem.neorv32_dmem_rtl
+Running optimization stage 1 on neorv32_dmem .......
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|Found RAM mem_ram_b3, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|Found RAM mem_ram_b2, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|Found RAM mem_ram_b1, depth=2048, width=8
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|Found RAM mem_ram_b0, depth=2048, width=8
+Finished optimization stage 1 on neorv32_dmem (CPU Time 0h:00m:00s, Memory Used current: 165MB peak: 165MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd":18:7:18:18|Synthesizing neorv32.neorv32_imem.neorv32_imem_rtl.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":39:9:39:18|Signal mem_ram_b0 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":39:21:39:30|Signal mem_ram_b1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":39:33:39:42|Signal mem_ram_b2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":39:45:39:54|Signal mem_ram_b3 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for neorv32.neorv32_imem.neorv32_imem_rtl
+Running optimization stage 1 on neorv32_imem .......
+@W: CL177 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":104:4:104:5|Sharing sequential element bus_rsp_o.ack and merging rden. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on neorv32_imem (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":173:7:173:25|Synthesizing neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl.
+Post processing for neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl
+Running optimization stage 1 on neorv32_bus_gateway .......
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":332:4:332:5|All reachable assignments to keeper.halt are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on neorv32_bus_gateway (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":20:7:20:24|Synthesizing neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl.
+Post processing for neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl
+Running optimization stage 1 on neorv32_bus_switch .......
+Finished optimization stage 1 on neorv32_bus_switch (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":23:7:23:17|Synthesizing neorv32.neorv32_cpu.neorv32_cpu_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":18:7:18:21|Synthesizing neorv32.neorv32_cpu_lsu.neorv32_cpu_lsu_rtl.
+Post processing for neorv32.neorv32_cpu_lsu.neorv32_cpu_lsu_rtl
+Running optimization stage 1 on neorv32_cpu_lsu .......
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":80:4:80:5|Optimizing register bit bus_req_o.rvso to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":80:4:80:5|Pruning unused register bus_req_o.rvso. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on neorv32_cpu_lsu (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":18:7:18:21|Synthesizing neorv32.neorv32_cpu_alu.neorv32_cpu_cpu_rtl.
+@N: CD604 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":136:6:136:26|OTHERS clause is not synthesized.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":80:9:80:18|Signal fpu_csr_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":80:21:80:30|Signal cfu_csr_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":81:9:81:18|Signal fpu_csr_we is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":81:21:81:30|Signal cfu_csr_we is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":82:9:82:18|Signal fpu_csr_rd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":82:21:82:30|Signal cfu_csr_rd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":85:9:85:15|Signal cfu_run is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":86:9:86:16|Signal cfu_done is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":87:9:87:16|Signal cfu_wait is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":88:9:88:15|Signal cfu_res is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":21:7:21:28|Synthesizing neorv32.neorv32_cpu_cp_shifter.neorv32_cpu_cp_shifter_rtl.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":55:9:55:16|Signal bs_level is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":56:9:56:15|Signal bs_sign is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":57:9:57:16|Signal bs_start is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":58:9:58:17|Signal bs_result is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for neorv32.neorv32_cpu_cp_shifter.neorv32_cpu_cp_shifter_rtl
+Running optimization stage 1 on neorv32_cpu_cp_shifter .......
+Finished optimization stage 1 on neorv32_cpu_cp_shifter (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+Post processing for neorv32.neorv32_cpu_alu.neorv32_cpu_cpu_rtl
+Running optimization stage 1 on neorv32_cpu_alu .......
+Finished optimization stage 1 on neorv32_cpu_alu (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":28:7:28:25|Synthesizing neorv32.neorv32_cpu_regfile.neorv32_cpu_regfile_rtl.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":62:9:62:16|Signal rs3_addr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":63:9:63:16|Signal rs4_addr is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for neorv32.neorv32_cpu_regfile.neorv32_cpu_regfile_rtl
+Running optimization stage 1 on neorv32_cpu_regfile .......
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|Found RAM reg_file, depth=32, width=32
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|Found RAM reg_file, depth=32, width=32
+Finished optimization stage 1 on neorv32_cpu_regfile (CPU Time 0h:00m:00s, Memory Used current: 173MB peak: 173MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":29:7:29:25|Synthesizing neorv32.neorv32_cpu_control.neorv32_cpu_control_rtl.
+@N: CD233 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":110:28:110:29|Using sequential encoding for type fetch_engine_state_t.
+@N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":157:30:157:31|Using onehot encoding for type execute_engine_state_t. For example, enumeration dispatch is mapped to "1000000000000".
+@W: CD434 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":737:74:737:89|Signal hw_trigger_match in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.ci_i32 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.ci_i16 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align_clr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align_set is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":266:9:266:19|Signal hpmevent_we is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":18:7:18:18|Synthesizing neorv32.neorv32_fifo.neorv32_fifo_rtl.
+@W: CD638 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":51:9:51:16|Signal fifo_reg is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for neorv32.neorv32_fifo.neorv32_fifo_rtl
+Running optimization stage 1 on neorv32_fifo .......
+@W: CL265 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":202:8:202:9|Removing unused bit 1 of r_pnt_ff_1(1 downto 0). Either assign all bits or reduce the width of the signal.
+@N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|Found RAM fifo_mem, depth=2, width=17
+Finished optimization stage 1 on neorv32_fifo (CPU Time 0h:00m:00s, Memory Used current: 176MB peak: 176MB)
+Post processing for neorv32.neorv32_cpu_control.neorv32_cpu_control_rtl
+Running optimization stage 1 on neorv32_cpu_control .......
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 0 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 1 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 2 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 3 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 4 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 5 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 6 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 7 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 8 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 9 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 10 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 11 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 12 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 13 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 14 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 15 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 16 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 17 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 18 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 19 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 20 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 21 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 22 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 23 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 24 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 25 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 26 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 27 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 28 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 29 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 30 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 31 of signal issue_engine.ci_i32 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 0 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 1 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 2 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 3 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 4 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 5 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 6 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 7 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 8 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 9 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 10 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 11 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 12 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 13 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 14 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Bit 15 of signal issue_engine.ci_i16 is floating -- simulation mismatch possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align_clr is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align_set is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":141:9:141:20|Signal issue_engine.align is floating; a simulation mismatch is possible.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_15_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_14_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_13_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_12_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_11_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_10_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_9_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_8_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_7_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_6_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_5_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_4_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_3_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2200:4:2200:5|Pruning unused register cnt.inc_1_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Pruning unused register cnt.hi_1_3(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Pruning unused register cnt.ovf_1_2(0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Pruning unused register cnt.lo_1_3(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.tdata2_4(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.tdata1_dmode_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.tdata1_execute_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dscratch0_4(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dpc_4(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dcsr_cause_4(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dcsr_prv_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dcsr_ebreaku_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.dcsr_ebreakm_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning unused register csr.mcounteren_4. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.cpu_debug_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.cpu_trap_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.cpu_sleep_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.cpu_priv_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.ir_opcode_3(6 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.ir_funct12_3(11 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.ir_funct3_2(2 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.lsu_priv_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.lsu_mo_we_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.rf_rd_2(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.rf_rs2_2(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning unused register ctrl.rf_rs1_3(4 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL265 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1387:4:1387:5|Removing unused bit 5 of trap_ctrl.cause_34(6 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL271 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Pruning unused bits 20 to 19 of trap_ctrl.irq_pnd_9(20 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing unused bit 0 of execute_engine.link_pc_2(31 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing unused bit 0 of execute_engine.next_pc_10(31 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(13) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(14) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mcountinhibit(15) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.privilege are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mstatus_tw are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mstatus_mprv are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.mstatus_mpp are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|All reachable assignments to csr.dcsr_step are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Optimizing register bit fetch_engine.priv to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Optimizing register bit execute_engine.pc(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1292:4:1292:5|Optimizing register bit trap_ctrl.exc_buf(9) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1292:4:1292:5|Optimizing register bit trap_ctrl.exc_buf(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Optimizing register bit csr.mepc(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Optimizing register bit csr.mtvec(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1292:4:1292:5|Pruning register bits 10 to 9 of trap_ctrl.exc_buf(10 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning register bit 0 of execute_engine.pc(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning register bit 1 of csr.mtvec(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1552:4:1552:5|Pruning register bit 0 of csr.mepc(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Pruning unused register fetch_engine.priv. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on neorv32_cpu_control (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Post processing for neorv32.neorv32_cpu.neorv32_cpu_rtl
+Running optimization stage 1 on neorv32_cpu .......
+Finished optimization stage 1 on neorv32_cpu (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Post processing for neorv32.neorv32_top.neorv32_top_rtl
+Running optimization stage 1 on neorv32_top .......
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Signal xcache_rsp.err is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Signal xcache_rsp.ack is floating; a simulation mismatch is possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 0 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 1 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 2 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 3 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 4 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 5 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 6 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 7 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 8 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 9 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 10 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 11 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 12 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 13 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 14 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 15 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 16 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 17 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 18 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 19 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 20 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 21 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 22 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 23 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 24 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 25 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 26 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 27 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 28 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 29 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 30 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:70:301:79|Bit 31 of signal xcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Signal xipcache_rsp.err is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Signal xipcache_rsp.ack is floating; a simulation mismatch is possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 0 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 1 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 2 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 3 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 4 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 5 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 6 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 7 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 8 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 9 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 10 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+@W: CL252 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":301:29:301:40|Bit 11 of signal xipcache_rsp.data is floating -- simulation mismatch possible.
+
+Only the first 100 messages of id 'CL252' are reported. To see all messages use 'report_messages -log /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synlog/top_sd_compiler.srr -id CL252' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL252} -count unlimited' in the Tcl shell.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.fence is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.rvso is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.priv is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.src is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.rw is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:70:300:79|Signal xcache_req.stb is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.fence is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.rvso is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.priv is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.src is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.rw is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":300:29:300:40|Signal xipcache_req.stb is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":297:30:297:36|Signal dma_rsp.err is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":297:30:297:36|Signal dma_rsp.ack is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.fence is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.rvso is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.priv is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.src is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.rw is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":296:30:296:36|Signal dma_req.stb is floating; a simulation mismatch is possible.
+@W: CL240 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":282:9:282:15|Signal dmi_rsp.ack is floating; a simulation mismatch is possible.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":422:6:422:7|Pruning unused register rst_cause_5(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":398:6:398:7|Pruning unused register rstn_ext_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":398:6:398:7|Pruning unused register rstn_ext_sreg_3(3 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL271 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Pruning unused bits 8 to 7 of clk_div_ff_2(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Pruning unused bits 4 to 3 of clk_div_ff_2(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on neorv32_top (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Post processing for work.neorv32_processortop_minimalboot.neorv32_processortop_minimalboot_rtl
+Running optimization stage 1 on neorv32_ProcessorTop_MinimalBoot .......
+Finished optimization stage 1 on neorv32_ProcessorTop_MinimalBoot (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd":145:7:145:13|Synthesizing work.fccc_c0.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd":8:7:8:28|Synthesizing work.fccc_c0_fccc_c0_0_fccc.def_arch.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.fccc_c0_fccc_c0_0_fccc.def_arch
+Running optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC .......
+Finished optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Post processing for work.fccc_c0.rtl
+Running optimization stage 1 on FCCC_C0 .......
+Finished optimization stage 1 on FCCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":191:10:191:13|Synthesizing smartfusion2.and2.syn_black_box.
+Post processing for smartfusion2.and2.syn_black_box
+Post processing for work.top_sd.rtl
+Running optimization stage 1 on top_sd .......
+Finished optimization stage 1 on top_sd (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Running optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC .......
+Finished optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Running optimization stage 2 on FCCC_C0 .......
+Finished optimization stage 2 on FCCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Running optimization stage 2 on neorv32_fifo_2_17_false_false_false .......
+Finished optimization stage 2 on neorv32_fifo_2_17_false_false_false (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 189MB)
+Running optimization stage 2 on neorv32_cpu_control .......
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Optimizing register bit fetch_engine.pc(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Pruning register bit 0 of fetch_engine.pc(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning register bit 5 of ctrl.alu_cp_trig(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning register bit 2 of ctrl.alu_cp_trig(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Register bit ctrl.alu_cp_trig(1) is always 0.
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Pruning register bit 1 of ctrl.alu_cp_trig(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Trying to extract state machine for register trap_ctrl.irq_buf.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Trying to extract state machine for register execute_engine.state.
+Extracted state machine for register execute_engine.state
+State machine has 13 reachable states with original encodings of:
+   0000000000001
+   0000000000010
+   0000000000100
+   0000000001000
+   0000000010000
+   0000000100000
+   0000001000000
+   0000010000000
+   0000100000000
+   0001000000000
+   0010000000000
+   0100000000000
+   1000000000000
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Trying to extract state machine for register fetch_engine.state.
+Extracted state machine for register fetch_engine.state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Optimizing register bit trap_ctrl.irq_buf(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Optimizing register bit trap_ctrl.irq_buf(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Pruning register bits 20 to 19 of trap_ctrl.irq_buf(20 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1438:4:1438:5|Pruning unused register trap_ctrl.env_entered. Make sure that there are no unused intermediate registers.
+@W: CL247 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":74:4:74:12|Input port bit 0 of alu_add_i(31 downto 0) is unused 
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":87:4:87:16|Input db_halt_req_i is unused.
+Finished optimization stage 2 on neorv32_cpu_control (CPU Time 0h:00m:01s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_cpu_regfile .......
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":39:4:39:9|Input port bits 60 to 17 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":38:4:38:9|Input rstn_i is unused.
+Finished optimization stage 2 on neorv32_cpu_regfile (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_cpu_cp_shifter .......
+@W: CL247 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":29:4:29:9|Input port bit 60 of ctrl_i(60 downto 0) is unused 
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":29:4:29:9|Input port bits 58 to 49 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":29:4:29:9|Input port bits 47 to 38 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":29:4:29:9|Input port bits 36 to 0 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_cpu_cp_shifter (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_cpu_alu .......
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":37:4:37:11|Input csr_we_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":38:4:38:13|Input csr_addr_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":39:4:39:14|Input csr_wdata_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":44:4:44:8|Input rs3_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":45:4:45:8|Input rs4_i is unused.
+Finished optimization stage 2 on neorv32_cpu_alu (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_cpu_lsu .......
+@W: CL247 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":26:4:26:9|Input port bit 60 of ctrl_i(60 downto 0) is unused 
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":26:4:26:9|Input port bits 58 to 38 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd":26:4:26:9|Input port bits 29 to 0 of ctrl_i(60 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_cpu_lsu (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_cpu .......
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":125:2:125:7|"[NEORV32] CPU ISA: rv32ix_zicsr_zicntr_zifencei"
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":147:2:147:7|"[NEORV32] CPU tuning options: "
+Finished optimization stage 2 on neorv32_cpu (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_bus_switch .......
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":59:4:59:5|Trying to extract state machine for register arbiter.state.
+Extracted state machine for register arbiter.state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":31:4:31:10|Input port bits 67 to 32 of b_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_bus_switch (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_bus_gateway .......
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":224:4:224:10|Input c_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":226:4:226:10|Input d_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":230:4:230:10|Input x_rsp_i is unused.
+Finished optimization stage 2 on neorv32_bus_gateway (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_imem .......
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":45:2:45:7|"[NEORV32] Implementing DEFAULT processor-internal IMEM as pre-initialized ROM."
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd":26:4:26:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd":26:4:26:12|Input port bits 67 to 13 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd":26:4:26:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_imem (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_dmem .......
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd":25:4:25:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd":25:4:25:12|Input port bits 31 to 13 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd":25:4:25:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_dmem (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_bus_io_switch .......
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":424:34:424:45|Input dev_00_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":426:34:426:45|Input dev_02_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":428:34:428:45|Input dev_04_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":429:34:429:45|Input dev_05_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":430:34:430:45|Input dev_06_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":431:34:431:45|Input dev_07_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":432:34:432:45|Input dev_08_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":433:34:433:45|Input dev_09_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":436:34:436:45|Input dev_12_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":437:34:437:45|Input dev_13_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":438:34:438:45|Input dev_14_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":439:34:439:45|Input dev_15_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":440:34:440:45|Input dev_16_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":441:34:441:45|Input dev_17_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":442:34:442:45|Input dev_18_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":443:34:443:45|Input dev_19_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":444:34:444:45|Input dev_20_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":445:34:445:45|Input dev_21_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":446:34:446:45|Input dev_22_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":447:34:447:45|Input dev_23_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":448:34:448:45|Input dev_24_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":449:34:449:45|Input dev_25_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":450:34:450:45|Input dev_26_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":451:34:451:45|Input dev_27_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":452:34:452:45|Input dev_28_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":453:34:453:45|Input dev_29_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":454:34:454:45|Input dev_30_rsp_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":455:34:455:45|Input dev_31_rsp_i is unused.
+Finished optimization stage 2 on neorv32_bus_io_switch (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_gpio .......
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":25:4:25:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":25:4:25:12|Input port bits 67 to 40 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":25:4:25:12|Input port bits 31 to 4 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":25:4:25:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":28:4:28:9|Input port bits 63 to 8 of gpio_i(63 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_gpio (CPU Time 0h:00m:00s, Memory Used current: 211MB peak: 211MB)
+Running optimization stage 2 on neorv32_mtime .......
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":22:4:22:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":22:4:22:12|Input port bits 67 to 64 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":22:4:22:12|Input port bits 31 to 4 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":22:4:22:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_mtime (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on neorv32_fifo_1_8_true_true_false .......
+Finished optimization stage 2 on neorv32_fifo_1_8_true_true_false (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on neorv32_uart .......
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|Trying to extract state machine for register rx_engine.state.
+Extracted state machine for register rx_engine.state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Trying to extract state machine for register tx_engine.state.
+Extracted state machine for register tx_engine.state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   011
+   100
+   101
+   111
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bits 67 to 62 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bit 59 of bus_req_i(73 downto 0) is unused 
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bits 53 to 48 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bits 31 to 3 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":33:4:33:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_uart (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on neorv32_sysinfo .......
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd":64:4:64:12|Input port bits 73 to 70 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd":64:4:64:12|Input port bits 67 to 64 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd":64:4:64:12|Input port bits 31 to 4 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd":64:4:64:12|Input port bits 1 to 0 of bus_req_i(73 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on neorv32_sysinfo (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on neorv32_top .......
+@W: CL260 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Pruning register bit 0 of clk_div_ff(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":333:4:333:9|"[NEORV32] The NEORV32 RISC-V Processor (v1.10.2.0), github.com/stnolting/neorv32"
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":339:4:339:9|"[NEORV32] Processor Configuration: IMEM DMEM GPIO MTIME UART0 SYSINFO "
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":140:4:140:13|Input jtag_tck_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":143:4:143:13|Input jtag_tms_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":153:4:153:13|Input xbus_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":154:4:154:13|Input xbus_ack_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":155:4:155:13|Input xbus_err_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":158:4:158:17|Input slink_rx_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":159:4:159:17|Input slink_rx_src_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":160:4:160:17|Input slink_rx_val_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":161:4:161:17|Input slink_rx_lst_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":167:4:167:17|Input slink_tx_rdy_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":172:4:172:12|Input xip_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":187:4:187:14|Input uart1_rxd_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":189:4:189:14|Input uart1_cts_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":194:4:194:12|Input spi_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":198:4:198:12|Input sdi_clk_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":200:4:200:12|Input sdi_dat_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":201:4:201:12|Input sdi_csn_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":204:4:204:12|Input twi_sda_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":206:4:206:12|Input twi_scl_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":210:4:210:12|Input onewire_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":217:4:217:11|Input cfs_in_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":227:4:227:9|Input xirq_i is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":230:4:230:14|Input mtime_irq_i is unused.
+Finished optimization stage 2 on neorv32_top (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on neorv32_ProcessorTop_MinimalBoot .......
+Finished optimization stage 2 on neorv32_ProcessorTop_MinimalBoot (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on OSC_C0 .......
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+Running optimization stage 2 on top_sd .......
+Finished optimization stage 2 on top_sd (CPU Time 0h:00m:00s, Memory Used current: 215MB peak: 215MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 21 16:01:12 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:23:09, @4639882
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 21 16:01:12 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 44MB peak: 44MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 21 16:01:12 2024
+
+###########################################################]
+
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synlog/top_sd_multi_srs_gen.srr"
+Premap Report
+
+# Mon Oct 21 16:01:12 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 067R, Built Mar  9 2023 03:59:21, @4641499
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 230MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 242MB peak: 242MB)
+
+Reading constraint file: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/designer/top_sd/synthesis.fdc
+@L: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd_scck.rpt 
+See clock summary report "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing sequential instance ctrl\.alu_cp_trig[4:3] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":463:4:463:5|Removing sequential instance uart_rts_o (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":121:4:121:5|Removing sequential instance mtime_lo_q[31:0] (in view: neorv32.neorv32_mtime(neorv32_mtime_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Removing sequential instance ctrl\.lsu_fence (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist top_sd 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+@W: MT688 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/designer/top_sd/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FCCC_C0_0/FCCC_C0_0/GL0 due to black box FCCC_C0_0.FCCC_C0_0.CCC_INST 
+
+
+Clock Summary
+******************
+
+          Start                                         Requested     Requested     Clock                                                          Clock                Clock
+Level     Clock                                         Frequency     Period        Type                                                           Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup     0    
+1 .         FCCC_C0_0/FCCC_C0_0/GL0                     10.0 MHz      100.000       generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     1448 
+                                                                                                                                                                             
+0 -       System                                        100.0 MHz     10.000        system                                                         system_clkgroup      0    
+=============================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                              Clock     Source                                                        Clock Pin                                                           Non-clock Pin     Non-clock Pin                                                      
+Clock                                         Load      Pin                                                           Seq Example                                                         Seq Example       Comb Example                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     0         OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     -                                                                   -                 -                                                                  
+FCCC_C0_0/FCCC_C0_0/GL0                       1448      FCCC_C0_0.FCCC_C0_0.CCC_INST.GL0(CCC)                         neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_gen_en_ff.C     -                 neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.un1_clk_i.I[0](inv)
+                                                                                                                                                                                                                                                                               
+System                                        0         -                                                             -                                                                   -                 -                                                                  
+===============================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+Encoding state machine execute_engine\.state[0:12] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl))
+original code -> new code
+   0000000000001 -> 0000000000001
+   0000000000010 -> 0000000000010
+   0000000000100 -> 0000000000100
+   0000000001000 -> 0000000001000
+   0000000010000 -> 0000000010000
+   0000000100000 -> 0000000100000
+   0000001000000 -> 0000001000000
+   0000010000000 -> 0000010000000
+   0000100000000 -> 0000100000000
+   0001000000000 -> 0001000000000
+   0010000000000 -> 0010000000000
+   0100000000000 -> 0100000000000
+   1000000000000 -> 1000000000000
+Encoding state machine fetch_engine\.state[0:2] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine arbiter\.state[0:2] (in view: neorv32.neorv32_bus_switch(neorv32_bus_switch_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine tx_engine\.state[0:5] (in view: neorv32.neorv32_uart(neorv32_uart_rtl))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   011 -> 000100
+   100 -> 001000
+   101 -> 010000
+   111 -> 100000
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[4] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine rx_engine\.state[0:3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|There are no possible illegal states for state machine rx_engine\.state[0:3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 289MB peak: 289MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 21 16:01:14 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Oct 21 16:01:14 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 067R, Built Mar  9 2023 03:59:21, @4641499
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 230MB peak: 230MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 242MB peak: 242MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 242MB peak: 242MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 242MB peak: 242MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 242MB peak: 242MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 279MB peak: 279MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BZ173 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":61:17:61:53|ROM imem_rom\.mem_access\.rdata_1[31:0] (in view: neorv32.neorv32_imem(neorv32_imem_rtl)) mapped in logic.
+@N: MO106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":61:17:61:53|Found ROM imem_rom\.mem_access\.rdata_1[31:0] (in view: neorv32.neorv32_imem(neorv32_imem_rtl)) with 2048 words by 32 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 324MB peak: 324MB)
+
+@N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|Using block RAM for single-port RAM
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b3[31:24] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|Using block RAM for single-port RAM
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b2[23:16] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|Using block RAM for single-port RAM
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b1[15:8] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|Using block RAM for single-port RAM
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b0[7:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|Property "block_ram" or "no_rw_check" found for RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file[31:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Found counter in view:work.top_sd(rtl) instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_div[11:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":332:4:332:5|Found counter in view:work.top_sd(rtl) instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.neorv32_bus_gateway_inst.keeper\.cnt[4:0] 
+Encoding state machine execute_engine\.state[0:12] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl))
+original code -> new code
+   0000000000001 -> 0000000000001
+   0000000000010 -> 0000000000010
+   0000000000100 -> 0000000000100
+   0000000001000 -> 0000000001000
+   0000000010000 -> 0000000010000
+   0000000100000 -> 0000000100000
+   0000001000000 -> 0000001000000
+   0000010000000 -> 0000010000000
+   0000100000000 -> 0000100000000
+   0001000000000 -> 0001000000000
+   0010000000000 -> 0010000000000
+   0100000000000 -> 0100000000000
+   1000000000000 -> 1000000000000
+Encoding state machine fetch_engine\.state[0:2] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Found counter in view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl) instance cnt\.lo_2[31:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Found counter in view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl) instance cnt\.lo_0[31:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Found counter in view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl) instance cnt\.hi_2[31:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2093:6:2093:7|Found counter in view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl) instance cnt\.hi_0[31:0] 
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|RAM prefetch_buffer\.1\.prefetch_buffer_inst.fifo_mem[15:0] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd":50:9:50:16|RAM prefetch_buffer\.0\.prefetch_buffer_inst.fifo_mem[16:0] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[18] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[17] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[16] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[15] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[14] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[13] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[12] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[11] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[10] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[9] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[8] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[7] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[4] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[3] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[2] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Register bit trap_ctrl\.irq_buf[0] (in view view:neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd":100:32:100:44|Found 32 by 32 bit equality operator ('==') un1_cmp (in view: neorv32.neorv32_cpu_alu(neorv32_cpu_cpu_rtl))
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd":69:6:69:7|Found counter in view:neorv32.neorv32_cpu_cp_shifter(neorv32_cpu_cp_shifter_rtl) instance shifter\.cnt[4:0] 
+Encoding state machine arbiter\.state[0:2] (in view: neorv32.neorv32_bus_switch(neorv32_bus_switch_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":60:6:60:7|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst.rdata[1] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst.rdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":90:4:90:5|Found counter in view:neorv32.neorv32_mtime(neorv32_mtime_rtl) instance mtime_lo[31:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":90:4:90:5|Found counter in view:neorv32.neorv32_mtime(neorv32_mtime_rtl) instance mtime_hi[31:0] 
+@N: MF179 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":146:25:146:53|Found 32 by 32 bit equality operator ('==') un2_cmp_lo_eq (in view: neorv32.neorv32_mtime(neorv32_mtime_rtl))
+@N: MF179 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":148:25:148:53|Found 32 by 32 bit equality operator ('==') un2_cmp_hi_eq (in view: neorv32.neorv32_mtime(neorv32_mtime_rtl))
+Encoding state machine tx_engine\.state[0:5] (in view: neorv32.neorv32_uart(neorv32_uart_rtl))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   011 -> 000100
+   100 -> 001000
+   101 -> 010000
+   111 -> 100000
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Removing sequential instance tx_engine\.state[4] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine rx_engine\.state[0:3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|There are no possible illegal states for state machine rx_engine\.state[0:3] (in view: neorv32.neorv32_uart(neorv32_uart_rtl)); safe FSM implementation is not required.
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|Found counter in view:neorv32.neorv32_uart(neorv32_uart_rtl) instance rx_engine\.baudcnt[9:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Found counter in view:neorv32.neorv32_uart(neorv32_uart_rtl) instance tx_engine\.baudcnt[9:0] 
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[20] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[23] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 324MB peak: 324MB)
+
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_gen_en_ff because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.rx_engine.state[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 332MB peak: 332MB)
+
+NConnInternalConnection caching is on
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Removing sequential instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.fetch_engine\.pc[1] (in view: work.top_sd(rtl)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 378MB peak: 378MB)
+
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2048:4:2048:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex.neorv32_cpu_inst.neorv32_cpu_control_inst.csr.re because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex.neorv32_cpu_inst.neorv32_cpu_control_inst.execute_engine.state[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 378MB peak: 378MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 378MB peak: 378MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 378MB peak: 378MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 378MB peak: 378MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 389MB peak: 389MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:14s		    77.33ns		3637 /      1174
+@N: FP130 |Promoting Net neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys on CLKINT  I_1460 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 389MB peak: 389MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1175 clock pin(s) of sequential element(s)
+0 instances converted, 1175 sequential instances remain driven by gated/generated clocks
+
+=========================================================================================== Gated/Generated Clocks ===========================================================================================
+Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                                                   Explanation                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    1175       neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_div_ff[9]     No gated clock conversion method for cell cell:ACG4.SLE
+==============================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+
+Writing Analyst data base /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+@W: MT246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock FCCC_C0_0/FCCC_C0_0/GL0 with period 100.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Oct 21 16:01:32 2024
+#
+
+
+Top view:               top_sd
+Requested Frequency:    10.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/designer/top_sd/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 46.236
+
+                                              Requested     Estimated     Requested     Estimated                Clock                                                          Clock           
+Starting Clock                                Frequency     Frequency     Period        Period        Slack      Type                                                           Group           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_C0_0/FCCC_C0_0/GL0                       10.0 MHz      67.7 MHz      100.000       14.772        46.236     generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      NA            20.000        NA            NA         declared                                                       default_clkgroup
+System                                        100.0 MHz     NA            10.000        NA            97.588     system                                                         system_clkgroup 
+================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                            |    rise  to  rise    |    fall  to  fall    |    rise  to  fall    |    fall  to  rise  
+--------------------------------------------------------------------------------------------------------------------------------------------
+Starting                 Ending                   |  constraint  slack   |  constraint  slack   |  constraint  slack   |  constraint  slack 
+--------------------------------------------------------------------------------------------------------------------------------------------
+System                   FCCC_C0_0/FCCC_C0_0/GL0  |  No paths    -       |  No paths    -       |  100.000     97.588  |  No paths    -     
+FCCC_C0_0/FCCC_C0_0/GL0  FCCC_C0_0/FCCC_C0_0/GL0  |  100.000     85.228  |  100.000     98.709  |  No paths    -       |  50.000      46.236
+============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FCCC_C0_0/FCCC_C0_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                              Starting                                                    Arrival           
+Instance                                                                                                                                                      Reference                   Type     Pin     Net            Time        Slack 
+                                                                                                                                                              Clock                                                                         
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys                                                                                                      FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       rstn_sys_0     0.108       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       85.228
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       85.292
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       85.376
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       85.477
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       85.787
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       85.851
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       86.012
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       86.076
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.fetch_engine\.state[0]                                FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       state[0]       0.108       86.597
+============================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                          Starting                                                  Required           
+Instance                                                                                                                  Reference                   Type     Pin     Net          Time         Slack 
+                                                                                                                          Clock                                                                        
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.a_req                 FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.b_req                 FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.state[0]              FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.state[1]              FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_lsu_inst.arbiter_err           FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_lsu_inst.arbiter_req           FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system\.neorv32_sysinfo_inst_true\.neorv32_sysinfo_inst.buf_ack        FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system\.neorv32_sysinfo_inst_true\.neorv32_sysinfo_inst.buf_adr[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system\.neorv32_sysinfo_inst_true\.neorv32_sysinfo_inst.buf_adr[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_lsu_inst.bus_req_o\.ben[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      ALn     rstn_sys     50.000       46.236
+=======================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      50.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         50.000
+
+    - Propagation time:                      3.764
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     46.236
+
+    Number of logic level(s):                1
+    Starting point:                          neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys / Q
+    Ending point:                            neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.a_req / ALn
+    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [falling] (rise=0.000 fall=50.000 period=100.000) on pin CLK
+    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] (rise=0.000 fall=50.000 period=100.000) on pin CLK
+
+Instance / Net                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys                                                      SLE        Q        Out     0.108     0.108 f     -         
+rstn_sys_0                                                                                                    Net        -        -       1.830     -           1         
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_RNIN5R3                                              CLKINT     A        In      -         1.938 f     -         
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_RNIN5R3                                              CLKINT     Y        Out     0.375     2.314 f     -         
+rstn_sys                                                                                                      Net        -        -       1.450     -           1107      
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.a_req     SLE        ALn      In      -         3.764 f     -         
+==========================================================================================================================================================================
+Total path delay (propagation time + setup) of 3.764 is 0.484(12.8%) logic and 3.280(87.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                           Arrival           
+Instance                         Reference     Type     Pin      Net                Time        Slack 
+                                 Clock                                                                
+------------------------------------------------------------------------------------------------------
+FCCC_C0_0.FCCC_C0_0.CCC_INST     System        CCC      LOCK     FCCC_C0_0_LOCK     0.000       97.588
+======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                     Starting                                    Required           
+Instance                                                             Reference     Type     Pin     Net          Time         Slack 
+                                                                     Clock                                                          
+------------------------------------------------------------------------------------------------------------------------------------
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys             System        SLE      ALn     AND2_0_Y     100.000      97.588
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[0]     System        SLE      ALn     AND2_0_Y     100.000      97.588
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[1]     System        SLE      ALn     AND2_0_Y     100.000      97.588
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[2]     System        SLE      ALn     AND2_0_Y     100.000      97.588
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[3]     System        SLE      ALn     AND2_0_Y     100.000      97.588
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      100.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         100.000
+
+    - Propagation time:                      2.412
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 97.588
+
+    Number of logic level(s):                1
+    Starting point:                          FCCC_C0_0.FCCC_C0_0.CCC_INST / LOCK
+    Ending point:                            neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys / ALn
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [falling] (rise=0.000 fall=50.000 period=100.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+FCCC_C0_0.FCCC_C0_0.CCC_INST                                 CCC      LOCK     Out     0.000     0.000 f     -         
+FCCC_C0_0_LOCK                                               Net      -        -       1.117     -           1         
+AND2_0                                                       AND2     B        In      -         1.117 f     -         
+AND2_0                                                       AND2     Y        Out     0.164     1.281 f     -         
+AND2_0_Y                                                     Net      -        -       1.131     -           5         
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys     SLE      ALn      In      -         2.412 f     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 2.412 is 0.164(6.8%) logic and 2.248(93.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+---------------------------------------
+Resource Usage Report for top_sd 
+
+Mapping to part: m2gl010vf400std
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          2 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           2 uses
+CFG2           587 uses
+CFG3           655 uses
+CFG4           1618 uses
+
+Carry cells:
+ARI1            482 uses - used for arithmetic functions
+ARI1            66 uses - used for Wide-Mux implementation
+Total ARI1      548 uses
+
+
+Sequential Cells: 
+SLE            1158 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 11
+I/O primitives: 10
+INBUF          1 use
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 4 of 21 (19%)
+Total Block RAMs (RAM64x18) : 4 of 22 (18%)
+
+Total LUTs:    3410
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1158 + 144 + 144 + 0 = 1446;
+Total number of LUTs after P&R:  3410 + 144 + 144 + 0 = 3698;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+
+Process took 0h:00m:18s realtime, 0h:00m:18s cputime
+# Mon Oct 21 16:01:32 2024
+
+###########################################################]

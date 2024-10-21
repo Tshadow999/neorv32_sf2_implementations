@@ -1,0 +1,2 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+neorv32 , Entity: neorv32_cpu_control Architecture: neorv32_cpu_control_rtl,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   211 MB,    36 MB,     1 MB,    13 MB,    22 MB

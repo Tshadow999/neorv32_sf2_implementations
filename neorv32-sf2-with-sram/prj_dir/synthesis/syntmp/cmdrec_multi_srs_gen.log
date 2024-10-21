@@ -1,0 +1,8 @@
+/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter  -link  -top  work.top_sd  -multisrs  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_comp.srs  -osyn  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_mult.srs  -log  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synlog/top_sd_multi_srs_gen.srr 
+relcom:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter -link -top work.top_sd -multisrs ../synwork/top_sd_comp.srs -osyn ../synwork/top_sd_mult.srs -log ../synlog/top_sd_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/top_sd_comp.srs|io:i|time:1729518923|size:117741|exec:0|csum:76575A51D8606BEA3F37812248E25D60
+file:../synwork/top_sd_mult.srs|io:o|time:1729518924|size:5595|exec:0|csum:
+file:../synlog/top_sd_multi_srs_gen.srr|io:o|time:1729518924|size:1144|exec:0|csum:
+file:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1679050979|size:14188272|exec:1|csum:B9349194379E94BE6E7A79A377712EFA
+file:/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/syn_nfilter|io:i|time:1679050963|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

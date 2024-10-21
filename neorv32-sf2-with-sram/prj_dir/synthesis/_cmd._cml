@@ -1,0 +1,1 @@
+-link -encrypt -top work.top_sd -osyn /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_comp.srs /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/layer0.srs  -jobname linker  

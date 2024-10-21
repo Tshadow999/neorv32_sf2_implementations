@@ -1,0 +1,2 @@
+@W: MT688 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/designer/top_sd/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FCCC_C0_0/FCCC_C0_0/GL0 due to black box FCCC_C0_0.FCCC_C0_0.CCC_INST 
+@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd_cck.rpt" .

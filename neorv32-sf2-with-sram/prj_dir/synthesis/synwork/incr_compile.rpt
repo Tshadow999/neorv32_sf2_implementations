@@ -1,0 +1,230 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2
+Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
+OS: Ubuntu 24.04.1 LTS
+Hostname: ideapad
+max virtual memory: unlimited (bytes)
+max user processes: 30976
+max stack size: unlimited (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:23:09, @4639882
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 65
+FID:  path (timestamp)
+0        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd (2024-10-21 15:55:12)
+1        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd (2024-10-21 15:55:14)
+2        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd (2024-10-21 15:55:13)
+3        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd (2024-10-21 15:55:12)
+4        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd (2024-10-21 15:55:12)
+5        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd (2024-10-21 15:55:14)
+6        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd (2024-10-21 15:55:10)
+7        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd (2024-10-21 15:55:10)
+8        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd (2024-10-21 15:55:10)
+9        /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd (2024-10-21 15:55:10)
+10       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cfs.vhd (2024-10-21 15:55:10)
+11       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_clockgate.vhd (2024-10-21 15:55:10)
+12       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd (2024-10-21 15:55:10)
+13       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_alu.vhd (2024-10-21 15:55:10)
+14       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd (2024-10-21 15:55:10)
+15       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_bitmanip.vhd (2024-10-21 15:55:10)
+16       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd (2024-10-21 15:55:10)
+17       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cond.vhd (2024-10-21 15:55:10)
+18       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_fpu.vhd (2024-10-21 15:55:10)
+19       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_muldiv.vhd (2024-10-21 15:55:10)
+20       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_shifter.vhd (2024-10-21 15:55:10)
+21       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_decompressor.vhd (2024-10-21 15:55:10)
+22       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_lsu.vhd (2024-10-21 15:55:10)
+23       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_pmp.vhd (2024-10-21 15:55:10)
+24       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd (2024-10-21 15:55:10)
+25       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_crc.vhd (2024-10-21 15:55:10)
+26       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dm.vhd (2024-10-21 15:55:10)
+27       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd (2024-10-21 15:55:10)
+28       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd (2024-10-21 15:55:10)
+29       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd (2024-10-21 15:55:10)
+30       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd (2024-10-21 15:55:10)
+31       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_fifo.vhd (2024-10-21 15:55:10)
+32       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd (2024-10-21 15:55:10)
+33       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd (2024-10-21 15:55:10)
+34       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd (2024-10-21 15:55:10)
+35       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd (2024-10-21 15:55:10)
+36       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd (2024-10-21 15:55:10)
+37       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd (2024-10-21 15:55:10)
+38       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd (2024-10-21 15:55:10)
+39       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd (2024-10-21 15:55:10)
+40       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_package.vhd (2024-10-21 15:55:10)
+41       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_pwm.vhd (2024-10-21 15:55:10)
+42       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sdi.vhd (2024-10-21 15:55:10)
+43       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_slink.vhd (2024-10-21 15:55:10)
+44       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_spi.vhd (2024-10-21 15:55:10)
+45       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd (2024-10-21 15:55:10)
+46       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd (2024-10-21 15:55:10)
+47       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd (2024-10-21 15:55:10)
+48       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd (2024-10-21 15:55:10)
+49       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd (2024-10-21 15:55:10)
+50       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd (2024-10-21 15:55:10)
+51       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd (2024-10-21 15:55:10)
+52       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd (2024-10-21 15:55:10)
+53       /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd (2024-10-21 15:55:10)
+54       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd (2023-03-17 12:02:53)
+55       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/hyperents.vhd (2023-03-17 12:02:54)
+56       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/snps_haps_pkg.vhd (2023-03-17 12:02:54)
+57       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd/umr_capim.vhd (2023-03-17 12:02:54)
+58       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/arith.vhd (2023-03-17 12:02:54)
+59       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/location.map (2023-03-17 12:02:54)
+60       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/numeric.vhd (2023-03-17 12:02:54)
+61       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std.vhd (2023-03-17 12:02:54)
+62       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd (2023-03-17 12:02:54)
+63       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std_textio.vhd (2023-03-17 12:02:54)
+64       /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/unsigned.vhd (2023-03-17 12:02:54)
+
+*******************************************************************
+Unchanged modules: 132
+MID:  lib.cell.view
+0        neorv32.neorv32_boot_rom.neorv32_boot_rom_rtl
+1        neorv32.neorv32_boot_rom.vhdl
+2        neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl
+3        neorv32.neorv32_bus_gateway.vhdl
+4        neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl
+5        neorv32.neorv32_bus_io_switch.vhdl
+6        neorv32.neorv32_bus_reservation_set.neorv32_bus_reservation_set_rtl
+7        neorv32.neorv32_bus_reservation_set.vhdl
+8        neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl
+9        neorv32.neorv32_bus_switch.vhdl
+10       neorv32.neorv32_cache.neorv32_cache_rtl
+11       neorv32.neorv32_cache.vhdl
+12       neorv32.neorv32_cache_bus.neorv32_cache_bus_rtl
+13       neorv32.neorv32_cache_bus.vhdl
+14       neorv32.neorv32_cache_host.neorv32_cache_host_rtl
+15       neorv32.neorv32_cache_host.vhdl
+16       neorv32.neorv32_cache_memory.neorv32_cache_memory_rtl
+17       neorv32.neorv32_cache_memory.vhdl
+18       neorv32.neorv32_cfs.neorv32_cfs_rtl
+19       neorv32.neorv32_cfs.vhdl
+20       neorv32.neorv32_clockgate.neorv32_clockgate_rtl
+21       neorv32.neorv32_clockgate.vhdl
+22       neorv32.neorv32_cpu.neorv32_cpu_rtl
+23       neorv32.neorv32_cpu.vhdl
+24       neorv32.neorv32_cpu_alu.neorv32_cpu_cpu_rtl
+25       neorv32.neorv32_cpu_alu.vhdl
+26       neorv32.neorv32_cpu_control.neorv32_cpu_control_rtl
+27       neorv32.neorv32_cpu_control.vhdl
+28       neorv32.neorv32_cpu_cp_bitmanip.neorv32_cpu_cp_bitmanip_rtl
+29       neorv32.neorv32_cpu_cp_bitmanip.vhdl
+30       neorv32.neorv32_cpu_cp_cfu.neorv32_cpu_cp_cfu_rtl
+31       neorv32.neorv32_cpu_cp_cfu.vhdl
+32       neorv32.neorv32_cpu_cp_cond.neorv32_cpu_cp_cond_rtl
+33       neorv32.neorv32_cpu_cp_cond.vhdl
+34       neorv32.neorv32_cpu_cp_fpu.neorv32_cpu_cp_fpu_rtl
+35       neorv32.neorv32_cpu_cp_fpu.vhdl
+36       neorv32.neorv32_cpu_cp_fpu_f2i.neorv32_cpu_cp_fpu_f2i_rtl
+37       neorv32.neorv32_cpu_cp_fpu_f2i.vhdl
+38       neorv32.neorv32_cpu_cp_fpu_normalizer.neorv32_cpu_cp_fpu_normalizer_rtl
+39       neorv32.neorv32_cpu_cp_fpu_normalizer.vhdl
+40       neorv32.neorv32_cpu_cp_muldiv.neorv32_cpu_cp_muldiv_rtl
+41       neorv32.neorv32_cpu_cp_muldiv.vhdl
+42       neorv32.neorv32_cpu_cp_shifter.neorv32_cpu_cp_shifter_rtl
+43       neorv32.neorv32_cpu_cp_shifter.vhdl
+44       neorv32.neorv32_cpu_decompressor.neorv32_cpu_decompressor_rtl
+45       neorv32.neorv32_cpu_decompressor.vhdl
+46       neorv32.neorv32_cpu_lsu.neorv32_cpu_lsu_rtl
+47       neorv32.neorv32_cpu_lsu.vhdl
+48       neorv32.neorv32_cpu_pmp.neorv32_cpu_pmp_rtl
+49       neorv32.neorv32_cpu_pmp.vhdl
+50       neorv32.neorv32_cpu_regfile.neorv32_cpu_regfile_rtl
+51       neorv32.neorv32_cpu_regfile.vhdl
+52       neorv32.neorv32_crc.neorv32_crc_rtl
+53       neorv32.neorv32_crc.vhdl
+54       neorv32.neorv32_debug_dm.neorv32_debug_dm_rtl
+55       neorv32.neorv32_debug_dm.vhdl
+56       neorv32.neorv32_debug_dtm.neorv32_debug_dtm_rtl
+57       neorv32.neorv32_debug_dtm.vhdl
+58       neorv32.neorv32_dma.neorv32_dma_rtl
+59       neorv32.neorv32_dma.vhdl
+60       neorv32.neorv32_dmem.neorv32_dmem_rtl
+61       neorv32.neorv32_dmem.vhdl
+62       neorv32.neorv32_fifo.neorv32_fifo_rtl
+63       neorv32.neorv32_fifo.vhdl
+64       neorv32.neorv32_gpio.neorv32_gpio_rtl
+65       neorv32.neorv32_gpio.vhdl
+66       neorv32.neorv32_gptmr.neorv32_gptmr_rtl
+67       neorv32.neorv32_gptmr.vhdl
+68       neorv32.neorv32_imem.neorv32_imem_rtl
+69       neorv32.neorv32_imem.vhdl
+70       neorv32.neorv32_mtime.neorv32_mtime_rtl
+71       neorv32.neorv32_mtime.vhdl
+72       neorv32.neorv32_neoled.neorv32_neoled_rtl
+73       neorv32.neorv32_neoled.vhdl
+74       neorv32.neorv32_onewire.neorv32_onewire_rtl
+75       neorv32.neorv32_onewire.vhdl
+76       neorv32.neorv32_pwm.neorv32_pwm_rtl
+77       neorv32.neorv32_pwm.vhdl
+78       neorv32.neorv32_sdi.neorv32_sdi_rtl
+79       neorv32.neorv32_sdi.vhdl
+80       neorv32.neorv32_slink.neorv32_slink_rtl
+81       neorv32.neorv32_slink.vhdl
+82       neorv32.neorv32_spi.neorv32_spi_rtl
+83       neorv32.neorv32_spi.vhdl
+84       neorv32.neorv32_sysinfo.neorv32_sysinfo_rtl
+85       neorv32.neorv32_sysinfo.vhdl
+86       neorv32.neorv32_top.neorv32_top_rtl
+87       neorv32.neorv32_top.vhdl
+88       neorv32.neorv32_trng.neorv32_trng_rtl
+89       neorv32.neorv32_trng.vhdl
+90       neorv32.neorv32_twi.neorv32_twi_rtl
+91       neorv32.neorv32_twi.vhdl
+92       neorv32.neorv32_uart.neorv32_uart_rtl
+93       neorv32.neorv32_uart.vhdl
+94       neorv32.neorv32_wdt.neorv32_wdt_rtl
+95       neorv32.neorv32_wdt.vhdl
+96       neorv32.neorv32_xbus.neorv32_xbus_rtl
+97       neorv32.neorv32_xbus.vhdl
+98       neorv32.neorv32_xip.neorv32_xip_rtl
+99       neorv32.neorv32_xip.vhdl
+100      neorv32.neorv32_xip_phy.neorv32_xip_phy_rtl
+101      neorv32.neorv32_xip_phy.vhdl
+102      neorv32.neorv32_xirq.neorv32_xirq_rtl
+103      neorv32.neorv32_xirq.vhdl
+104      neorv32.neotrng.neotrng_rtl
+105      neorv32.neotrng.vhdl
+106      neorv32.neotrng_cell.neotrng_cell_rtl
+107      neorv32.neotrng_cell.vhdl
+108      work.fccc_c0.rtl
+109      work.fccc_c0.vhdl
+110      work.fccc_c0_fccc_c0_0_fccc.def_arch
+111      work.fccc_c0_fccc_c0_0_fccc.vhdl
+112      work.neorv32_processortop_minimalboot.neorv32_processortop_minimalboot_rtl
+113      work.neorv32_processortop_minimalboot.vhdl
+114      work.osc_c0.rtl
+115      work.osc_c0.vhdl
+116      work.osc_c0_osc_c0_0_osc.def_arch
+117      work.osc_c0_osc_c0_0_osc.vhdl
+118      work.rcosc_1mhz.def_arch
+119      work.rcosc_1mhz.vhdl
+120      work.rcosc_1mhz_fab.def_arch
+121      work.rcosc_1mhz_fab.vhdl
+122      work.rcosc_25_50mhz.def_arch
+123      work.rcosc_25_50mhz.vhdl
+124      work.rcosc_25_50mhz_fab.def_arch
+125      work.rcosc_25_50mhz_fab.vhdl
+126      work.top_sd.rtl
+127      work.top_sd.vhdl
+128      work.xtlosc.def_arch
+129      work.xtlosc.vhdl
+130      work.xtlosc_fab.def_arch
+131      work.xtlosc_fab.vhdl

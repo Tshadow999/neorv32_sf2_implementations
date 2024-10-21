@@ -1,0 +1,25 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
+
+Date      :  Mon Oct 21 16:34:40 2024
+Project   :  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir
+Component :  COREAPBLSRAM_C0
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/core/apblsram_pkg.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/CoreAPBLSRAM.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_1024to70656x16.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to141312x8.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_512to35328x32.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_64to2304x32.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_64to4608x16.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0.vhd
+
+Stimulus files for all Simulation tools:
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/coreparameters.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_misc.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd
+

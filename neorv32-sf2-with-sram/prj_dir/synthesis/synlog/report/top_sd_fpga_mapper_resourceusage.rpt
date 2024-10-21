@@ -1,0 +1,44 @@
+Resource Usage Report for top_sd 
+
+Mapping to part: m2gl010vf400std
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          2 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           2 uses
+CFG2           587 uses
+CFG3           655 uses
+CFG4           1618 uses
+
+Carry cells:
+ARI1            482 uses - used for arithmetic functions
+ARI1            66 uses - used for Wide-Mux implementation
+Total ARI1      548 uses
+
+
+Sequential Cells: 
+SLE            1158 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 11
+I/O primitives: 10
+INBUF          1 use
+OUTBUF         9 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    3410
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
+RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1158 + 144 + 144 + 0 = 1446;
+Total number of LUTs after P&R:  3410 + 144 + 144 + 0 = 3698;
+
