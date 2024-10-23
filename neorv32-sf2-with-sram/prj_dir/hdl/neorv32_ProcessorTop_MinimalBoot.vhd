@@ -46,7 +46,7 @@ entity neorv32_ProcessorTop_MinimalBoot is
     CPU_EXTENSION_RISCV_Zmmul  : boolean := false;  -- implement multiply-only M sub-extension?
     CPU_EXTENSION_RISCV_Zxcfu  : boolean := false;  -- implement custom (instr.) functions unit?
     -- External bus interface (XBUS) --
-    XBUS_EN                    : boolean := false;   -- implement external memory bus interface?
+    XBUS_EN                    : boolean := true;   -- implement external memory bus interface?
     XBUS_TIMEOUT               : natural := 255     -- cycles after a pending bus access auto-terminates (0 = disabled)
   );
   port (
@@ -54,16 +54,16 @@ entity neorv32_ProcessorTop_MinimalBoot is
     clk_i      : in  std_logic;
     rstn_i     : in  std_logic;
     -- External bus interface (available if XBUS_EN = true) --
-    --xbus_adr_o     : out std_ulogic_vector(31 downto 0); -- address
-    --xbus_dat_o     : out std_ulogic_vector(31 downto 0); -- write data
-    --xbus_tag_o     : out std_ulogic_vector(2 downto 0);  -- access tag
-    --xbus_we_o      : out std_ulogic;                     -- read/write
-    --xbus_sel_o     : out std_ulogic_vector(3 downto 0);  -- byte enable
-    --xbus_stb_o     : out std_ulogic;                     -- strobe
-    --xbus_cyc_o     : out std_ulogic;                     -- valid cycle
-    --xbus_dat_i     : in  std_ulogic_vector(31 downto 0); -- read data
-    --xbus_ack_i     : in  std_ulogic;                     -- transfer acknowledge
-    --xbus_err_i     : in  std_ulogic;                     -- transfer error
+    xbus_adr_o     : out std_ulogic_vector(31 downto 0); -- address
+    xbus_dat_o     : out std_ulogic_vector(31 downto 0); -- write data
+    xbus_tag_o     : out std_ulogic_vector(2 downto 0);  -- access tag
+    bus_we_o      : out std_ulogic;                     -- read/write
+    xbus_sel_o     : out std_ulogic_vector(3 downto 0);  -- byte enable
+    xbus_stb_o     : out std_ulogic;                     -- strobe
+    xbus_cyc_o     : out std_ulogic;                     -- valid cycle
+    xbus_dat_i     : in  std_ulogic_vector(31 downto 0); -- read data
+    xbus_ack_i     : in  std_ulogic;                     -- transfer acknowledge
+    xbus_err_i     : in  std_ulogic;                     -- transfer error
     -- GPIO (available if IO_GPIO_EN = true) --
     gpio_o     : out std_ulogic_vector(7 downto 0);
     -- primary UART0 (available if IO_UART0_EN = true) --
@@ -125,16 +125,16 @@ begin
     clk_i       => clk_i,                        -- global clock, rising edge
     rstn_i      => rstn_i,                       -- global reset, low-active, async
     -- External bus interface (available if XBUS_EN = true) --
-    --xbus_adr_o => xbus_adr_o,
-    --xbus_dat_o => xbus_dat_o,
-    --xbus_tag_o => xbus_tag_o,
-    --xbus_we_o  => xbus_we_o,
-    --xbus_sel_o => xbus_sel_o,
-    --xbus_stb_o => xbus_stb_o,
-    --xbus_cyc_o => xbus_cyc_o,
-    --xbus_dat_i => xbus_dat_i,
-    --xbus_ack_i => xbus_ack_i,
-    --xbus_err_i => xbus_err_i,
+    xbus_adr_o => xbus_adr_o,
+    xbus_dat_o => xbus_dat_o,
+    xbus_tag_o => xbus_tag_o,
+    xbus_we_o  => xbus_we_o,
+    xbus_sel_o => xbus_sel_o,
+    xbus_stb_o => xbus_stb_o,
+    xbus_cyc_o => xbus_cyc_o,
+    xbus_dat_i => xbus_dat_i,
+    xbus_ack_i => xbus_ack_i,
+    xbus_err_i => xbus_err_i,
     -- GPIO (available if IO_GPIO_NUM > 0) --
     gpio_o      => con_gpio_o,                   -- parallel output
     --gpio_i      => (others => '0'),              -- parallel input
