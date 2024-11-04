@@ -1,1 +1,0 @@
- -link  -top  work.top_sd  -multisrs  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_comp.srs  -osyn  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_mult.srs  -log  /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synlog/top_sd_multi_srs_gen.srr 

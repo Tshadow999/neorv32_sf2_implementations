@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<SynplifyOutput>
-	<result>Success</result>
-	<design>top_sd</design>
-	<target_verilog>/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd.vm</target_verilog>
-</SynplifyOutput>
