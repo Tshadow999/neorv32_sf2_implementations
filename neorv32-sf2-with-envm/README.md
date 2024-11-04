@@ -15,3 +15,5 @@ When having trouble with write permissions to the Libero Vault, change the vault
 
 ### More on the NEORV32 submodule
 The submodule clones the base repository by stnolting, and is fixed to v1.9.2. May you want to use a different repository or version, cd into the neorv32 folder and preform required git oprations. For example, add your own version of NEORV32 with `git remote add` (see [git-remote](https://git-scm.com/docs/git-remote)). Or change to a different version in the base repository with `git checkout`.
+
+Currently commit cfff523c is used.
