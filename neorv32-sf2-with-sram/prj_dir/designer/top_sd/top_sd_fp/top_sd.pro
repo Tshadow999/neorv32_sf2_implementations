@@ -17,6 +17,14 @@
     <ProgrammingInterface>
         JTAGMode
     </ProgrammingInterface>
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
+        <name>
+            E200A29066
+        </name>
+        <id>
+            E200A29066
+        </id>
+    </programmer>
     <Servers>
     </Servers>
     <configuration>

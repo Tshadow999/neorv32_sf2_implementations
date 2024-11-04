@@ -7,14 +7,14 @@
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 1175 clock pin(s) of sequential element(s)
-0 instances converted, 1175 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 1158 clock pin(s) of sequential element(s)
+0 instances converted, 1158 sequential instances remain driven by gated/generated clocks
 
-=========================================================================================== Gated/Generated Clocks ===========================================================================================
-Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                                                   Explanation                                            
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    1175       neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_div_ff[9]     No gated clock conversion method for cell cell:ACG4.SLE
-==============================================================================================================================================================================================================
+============================================================================ Gated/Generated Clocks ============================================================================
+Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                     Explanation                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    1158       xbus2ahblite_bridge_0.pending_q     No gated clock conversion method for cell cell:ACG4.SLE
+================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

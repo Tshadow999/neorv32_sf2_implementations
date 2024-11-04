@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)
-Date: Mon Oct 21 16:01:38 2024
+Date: Wed Oct 23 16:26:35 2024
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 3707 | 12084 | 30.68      |
-| DFF                       | 1446 | 12084 | 11.97      |
+| 4LUT                      | 2611 | 12084 | 21.61      |
+| DFF                       | 1429 | 12084 | 11.83      |
 | I/O Register              | 0    | 585   | 0.00       |
 | User I/O                  | 10   | 195   | 5.13       |
 | -- Single-ended I/O       | 10   | 195   | 5.13       |
@@ -58,18 +58,18 @@ Detailed Logic Resource Usage
 +--------------------------+------+------+
 | Type                     | 4LUT | DFF  |
 +--------------------------+------+------+
-| Fabric Logic             | 3419 | 1158 |
+| Fabric Logic             | 2323 | 1141 |
 | RAM64x18 Interface Logic | 144  | 144  |
 | RAM1K18 Interface Logic  | 144  | 144  |
 | MACC Interface Logic     | 0    | 0    |
-| Total Used               | 3707 | 1446 |
+| Total Used               | 2611 | 1429 |
 +--------------------------+------+------+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
 | 2      | 33   |
-| 10     | 1    |
+| 10     | 2    |
 | 11     | 2    |
 | 13     | 1    |
 | 17     | 3    |
@@ -77,7 +77,7 @@ Detailed Carry Chains Resource Usage
 | 31     | 1    |
 | 33     | 6    |
 | 34     | 4    |
-| Total  | 52   |
+| Total  | 53   |
 +--------+------+
 
 I/O Function
@@ -102,10 +102,10 @@ Nets assigned to chip global resources
 +--------+---------+----------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                             |
 +--------+---------+----------------------------------------------------------------------------------+
-| 1175   | INT_NET | Net   : FCCC_C0_0_GL0                                                            |
+| 1158   | INT_NET | Net   : FCCC_C0_0_GL0                                                            |
 |        |         | Driver: FCCC_C0_0/FCCC_C0_0/GL0_INST/U0_RGB1                                     |
 |        |         | Source: NETLIST                                                                  |
-| 1107   | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/rstn_sys_Z               |
+| 1119   | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/rstn_sys_Z               |
 |        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/rstn_sys_RNIN5R3/U0_RGB1 |
 |        |         | Source: NETLIST                                                                  |
 +--------+---------+----------------------------------------------------------------------------------+
@@ -117,54 +117,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                                                                 |
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 167    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[3]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]                    |
-| 153    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[2]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[2]                    |
-| 120    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/ir_funct3_i[1]                                                               |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13] |
-| 107    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[4]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[4]                    |
-| 103    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[5]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[5]                    |
-| 101    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_opb_mux                                                                  |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_opb_mux      |
-| 98     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[6]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[6]                    |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_op[2]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]        |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[8]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[8]                    |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]                                      |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]        |
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                              |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 115    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3_i[1]                                              |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13]              |
+| 104    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]                     |
+| 80     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3[2]                                                |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[14]              |
+| 76     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/xbus_adr_o[3]                                                                             |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]                                 |
+| 74     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/we                                 |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr.we                             |
+| 73     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/lsu_mo_we                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.state[1]            |
+| 71     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_cp_trig[0]                                              |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_cp_trig[0]                |
+| 71     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/cause[6]                           |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/trap_ctrl.cause[6]                 |
+| 67     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/mstatus_mie19                      |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr_write_access.csr.mstatus_mie19 |
+| 64     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[2]                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]                     |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Fanout | Type    | Name                                                                                                                                 |
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
-| 167    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[3]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]                    |
-| 153    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[2]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[2]                    |
-| 120    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/ir_funct3_i[1]                                                               |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13] |
-| 107    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[4]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[4]                    |
-| 103    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[5]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[5]                    |
-| 101    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_opb_mux                                                                  |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_opb_mux      |
-| 98     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[6]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[6]                    |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_op[2]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]        |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[8]                                                                    |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[8]                    |
-| 96     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]                                      |
-|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]        |
-+--------+---------+--------------------------------------------------------------------------------------------------------------------------------------+
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                              |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 115    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3_i[1]                                              |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13]              |
+| 104    | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]                     |
+| 80     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3[2]                                                |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[14]              |
+| 76     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/xbus_adr_o[3]                                                                             |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]                                 |
+| 74     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/we                                 |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr.we                             |
+| 73     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/lsu_mo_we                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.state[1]            |
+| 71     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_cp_trig[0]                                              |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_cp_trig[0]                |
+| 71     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/cause[6]                           |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/trap_ctrl.cause[6]                 |
+| 67     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/mstatus_mie19                      |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr_write_access.csr.mstatus_mie19 |
+| 64     | INT_NET | Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[2]                                                   |
+|        |         | Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]                     |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 

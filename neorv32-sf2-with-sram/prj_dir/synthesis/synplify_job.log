@@ -1,27 +1,27 @@
 Synplify Pro (R) Job Log
-Date: 16:01:32    21-Oct-2024
+Date: 16:26:31    23-Oct-2024
 Install Directory: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
 
 JobFlow: synthesis
-   Run Start Time: 16:01:11
-   Runtime: 21s
-   Executable Run Time: 21 - (Sum of all child executables)
+   Run Start Time: 16:26:13
+   Runtime: 18s
+   Executable Run Time: 17 - (Sum of all child executables)
    Current Working Directory: /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis
 
    JobFlow: synthesis
-      Run Start Time: 16:01:11
-      Runtime: 21s
-      Executable Run Time: 21 - (Sum of all child executables)
+      Run Start Time: 16:26:13
+      Runtime: 18s
+      Executable Run Time: 17 - (Sum of all child executables)
 
       JobFlow: compile
-         Run Start Time: 16:01:11
-         Runtime: 03s
-         Executable Run Time: 3 - (Sum of all child executables)
+         Run Start Time: 16:26:13
+         Runtime: 07s
+         Executable Run Time: 6 - (Sum of all child executables)
 
          JobFlow: compile_flow
-            Run Start Time: 16:01:11
-            Runtime: 01s
-            Executable Run Time: 1 - (Sum of all child executables)
+            Run Start Time: 16:26:13
+            Runtime: 05s
+            Executable Run Time: 4 - (Sum of all child executables)
 
             Job: compiler
                executable: bin/c_hdl
@@ -29,9 +29,9 @@ JobFlow: synthesis
                Run State: complete
                Return Code: 0
                Has Errors: no
-               Run Start Time: 16:01:11
-               Run Time: 01s
-               Executable Run Time: 1 - (Executable run time excluding UI processing)
+               Run Start Time: 16:26:13
+               Run Time: 05s
+               Executable Run Time: 4 - (Executable run time excluding UI processing)
                Memory Usage: 2.804 MB
                Up-to-date (run skipped): no
                CDPL: off
@@ -42,11 +42,11 @@ JobFlow: synthesis
                Run State: complete
                Return Code: 0
                Has Errors: no
-               Run Start Time: 16:01:12
+               Run Start Time: 16:26:18
                Run Time: 00s
                Executable Run Time: 0 - (Executable run time excluding UI processing)
-               Memory Usage: -
-               Up-to-date (run skipped): yes
+               Memory Usage: 2.804 MB
+               Up-to-date (run skipped): no
                CDPL: off
 
          Job: premap
@@ -55,7 +55,7 @@ JobFlow: synthesis
             Run State: complete
             Return Code: 1
             Has Errors: no
-            Run Start Time: 16:01:12
+            Run Start Time: 16:26:18
             Run Time: 02s
             Executable Run Time: 2 - (Executable run time excluding UI processing)
             Memory Usage: 2.808 MB
@@ -63,9 +63,9 @@ JobFlow: synthesis
             CDPL: off
 
       JobFlow: map
-         Run Start Time: 16:01:14
-         Runtime: 18s
-         Executable Run Time: 18 - (Sum of all child executables)
+         Run Start Time: 16:26:20
+         Runtime: 11s
+         Executable Run Time: 11 - (Sum of all child executables)
 
          Job: fpga_mapper
             executable: bin/m_generic
@@ -73,9 +73,9 @@ JobFlow: synthesis
             Run State: complete
             Return Code: 1
             Has Errors: no
-            Run Start Time: 16:01:14
-            Run Time: 18s
-            Executable Run Time: 18 - (Executable run time excluding UI processing)
+            Run Start Time: 16:26:20
+            Run Time: 11s
+            Executable Run Time: 11 - (Executable run time excluding UI processing)
             Memory Usage: 2.808 MB
             Up-to-date (run skipped): no
             CDPL: off

@@ -10,7 +10,7 @@ Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
 OS: Ubuntu 24.04.1 LTS
 Hostname: ideapad
 max virtual memory: unlimited (bytes)
-max user processes: 30976
+max user processes: 30975
 max stack size: 8388608 (bytes)
 
 
@@ -27,19 +27,19 @@ Part:			M2GL010VF400STD (Microchip)
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1158               100 %                
+SLE      1141               100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block top_sd:	1158 (24.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top_sd:	1141 (32.30 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           2862               100 %                
-ARI1          548                100 %                
-BLACK BOX     4                  100 %                
+CFG           1755               100 %                
+ARI1          558                100 %                
+BLACK BOX     5                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block top_sd:	3414 (73.55 % Utilization)
+Total COMBINATIONAL LOGIC in the block top_sd:	2318 (65.61 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -48,7 +48,7 @@ Name         Total elements     Utilization     Notes
 RAM1K18      4                  100 %                
 RAM64X18     4                  100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block top_sd:	8 (0.17 % Utilization)
+Total MEMORY ELEMENTS in the block top_sd:	8 (0.23 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -56,7 +56,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block top_sd:	2 (0.04 % Utilization)
+Total GLOBAL BUFFERS in the block top_sd:	2 (0.06 % Utilization)
 
 
 IO PADS
@@ -64,7 +64,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       10                 100 %                
 =================================================
-Total IO PADS in the block top_sd:	10 (0.22 % Utilization)
+Total IO PADS in the block top_sd:	10 (0.28 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   FCCC_C0   ########
@@ -74,10 +74,10 @@ Instance path:   top_sd.FCCC_C0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.03490 %            
-BLACK BOX     1                  25 %                 
+CFG           1                  0.0570 %             
+BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block top_sd.FCCC_C0:	2 (0.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block top_sd.FCCC_C0:	2 (0.06 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -85,7 +85,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block top_sd.FCCC_C0:	1 (0.02 % Utilization)
+Total GLOBAL BUFFERS in the block top_sd.FCCC_C0:	1 (0.03 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   FCCC_C0_FCCC_C0_0_FCCC   ########
@@ -95,10 +95,10 @@ Instance path:   FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.03490 %            
-BLACK BOX     1                  25 %                 
+CFG           1                  0.0570 %             
+BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	2 (0.04 % Utilization)
+Total COMBINATIONAL LOGIC in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	2 (0.06 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -106,7 +106,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	1 (0.02 % Utilization)
+Total GLOBAL BUFFERS in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	1 (0.03 % Utilization)
 
 ------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0   ########
@@ -116,9 +116,9 @@ Instance path:   top_sd.OSC_C0
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  25 %                 
+BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block top_sd.OSC_C0:	1 (0.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block top_sd.OSC_C0:	1 (0.03 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
@@ -128,9 +128,9 @@ Instance path:   OSC_C0.OSC_C0_OSC_C0_0_OSC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-BLACK BOX     1                  25 %                 
+BLACK BOX     1                  20 %                 
 ======================================================
-Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.02 % Utilization)
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.03 % Utilization)
 
 --------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_ProcessorTop_MinimalBoot   ########
@@ -140,18 +140,18 @@ Instance path:   top_sd.neorv32_ProcessorTop_MinimalBoot
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1158               100 %                
+SLE      1139               99.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	1158 (24.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	1139 (32.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2861               100 %                
-ARI1     548                100 %                
+CFG      1750               99.7 %               
+ARI1     558                100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	3409 (73.44 % Utilization)
+Total COMBINATIONAL LOGIC in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	2308 (65.33 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -160,7 +160,7 @@ Name         Total elements     Utilization     Notes
 RAM1K18      4                  100 %                
 RAM64X18     4                  100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	8 (0.17 % Utilization)
+Total MEMORY ELEMENTS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	8 (0.23 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -168,7 +168,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	1 (0.02 % Utilization)
+Total GLOBAL BUFFERS in the block top_sd.neorv32_ProcessorTop_MinimalBoot:	1 (0.03 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_top   ########
@@ -178,18 +178,18 @@ Instance path:   neorv32_ProcessorTop_MinimalBoot.neorv32_top
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      1158               100 %                
+SLE      1139               99.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	1158 (24.95 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	1139 (32.24 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      2861               100 %                
-ARI1     548                100 %                
+CFG      1750               99.7 %               
+ARI1     558                100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	3409 (73.44 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	2308 (65.33 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -198,7 +198,7 @@ Name         Total elements     Utilization     Notes
 RAM1K18      4                  100 %                
 RAM64X18     4                  100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	8 (0.17 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	8 (0.23 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -206,7 +206,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  50 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	1 (0.02 % Utilization)
+Total GLOBAL BUFFERS in the block neorv32_ProcessorTop_MinimalBoot.neorv32_top:	1 (0.03 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_bus_gateway   ########
@@ -216,17 +216,29 @@ Instance path:   neorv32_top.neorv32_bus_gateway
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      7                  0.6040 %             
+SLE      8                  0.7010 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_bus_gateway:	7 (0.15 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_bus_gateway:	8 (0.23 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      22                 0.7690 %             
+CFG      33                 1.88 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_bus_gateway:	22 (0.47 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_bus_gateway:	33 (0.93 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   neorv32_bus_io_switch   ########
+Instance path:   neorv32_top.neorv32_bus_io_switch                         
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  0.4560 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_bus_io_switch:	8 (0.23 % Utilization)
 
 ------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_bus_switch   ########
@@ -236,17 +248,17 @@ Instance path:   neorv32_top.neorv32_bus_switch
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      4                  0.3450 %             
+SLE      4                  0.3510 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_bus_switch:	4 (0.09 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_bus_switch:	4 (0.11 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      92                 3.21 %               
+CFG      44                 2.51 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_bus_switch:	92 (1.98 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_bus_switch:	44 (1.25 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu   ########
@@ -256,18 +268,18 @@ Instance path:   neorv32_top.neorv32_cpu
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      736                63.6 %               
+SLE      738                64.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_cpu:	736 (15.86 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_cpu:	738 (20.89 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      1418               49.5 %               
-ARI1     288                52.6 %               
+CFG      1454               82.8 %               
+ARI1     288                51.6 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_cpu:	1706 (36.75 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_cpu:	1742 (49.31 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -275,7 +287,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X18     4                  100 %                
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_top.neorv32_cpu:	4 (0.09 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_top.neorv32_cpu:	4 (0.11 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu_alu   ########
@@ -285,18 +297,18 @@ Instance path:   neorv32_cpu.neorv32_cpu_alu
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      39                 3.37 %               
+SLE      39                 3.42 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_alu:	39 (0.84 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_alu:	39 (1.10 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      502                17.5 %               
-ARI1     85                 15.5 %               
+CFG      540                30.8 %               
+ARI1     85                 15.2 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_alu:	587 (12.65 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_alu:	625 (17.69 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu_cp_shifter   ########
@@ -306,17 +318,17 @@ Instance path:   neorv32_cpu_alu.neorv32_cpu_cp_shifter
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      39                 3.37 %               
+SLE      39                 3.42 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_alu.neorv32_cpu_cp_shifter:	39 (0.84 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_alu.neorv32_cpu_cp_shifter:	39 (1.10 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      120                4.19 %               
+CFG      89                 5.07 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu_alu.neorv32_cpu_cp_shifter:	120 (2.59 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu_alu.neorv32_cpu_cp_shifter:	89 (2.52 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu_control   ########
@@ -326,18 +338,18 @@ Instance path:   neorv32_cpu.neorv32_cpu_control
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      592                51.1 %               
+SLE      594                52.1 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_control:	592 (12.75 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_control:	594 (16.81 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      841                29.4 %               
-ARI1     203                37 %                 
+CFG      843                48 %                 
+ARI1     203                36.4 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_control:	1044 (22.49 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_control:	1046 (29.61 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -345,7 +357,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X18     2                  50 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_cpu.neorv32_cpu_control:	2 (0.04 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_cpu.neorv32_cpu_control:	2 (0.06 % Utilization)
 
 -------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_fifo_2_17_false_false_false_0   ########
@@ -355,17 +367,17 @@ Instance path:   neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      4                  0.3450 %             
+SLE      4                  0.3510 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	4 (0.09 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	4 (0.11 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6                  0.210 %              
+CFG      6                  0.3420 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	6 (0.13 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	6 (0.17 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -373,7 +385,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X18     1                  25 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	1 (0.02 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_0:	1 (0.03 % Utilization)
 
 -------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_fifo_2_17_false_false_false_1   ########
@@ -383,17 +395,17 @@ Instance path:   neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      4                  0.3450 %             
+SLE      4                  0.3510 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	4 (0.09 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	4 (0.11 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      8                  0.280 %              
+CFG      8                  0.4560 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	8 (0.17 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	8 (0.23 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -401,7 +413,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X18     1                  25 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	1 (0.02 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_cpu_control.neorv32_fifo_2_17_false_false_false_1:	1 (0.03 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu_lsu   ########
@@ -411,17 +423,17 @@ Instance path:   neorv32_cpu.neorv32_cpu_lsu
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      105                9.07 %               
+SLE      105                9.2 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_lsu:	105 (2.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_cpu.neorv32_cpu_lsu:	105 (2.97 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.1750 %             
+CFG      1                  0.0570 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_lsu:	5 (0.11 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_lsu:	1 (0.03 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_cpu_regfile   ########
@@ -431,9 +443,9 @@ Instance path:   neorv32_cpu.neorv32_cpu_regfile
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  0.2450 %             
+CFG      7                  0.3990 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_regfile:	7 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_cpu.neorv32_cpu_regfile:	7 (0.20 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -441,7 +453,7 @@ Name         Total elements     Utilization     Notes
 -----------------------------------------------------
 RAM64X18     2                  50 %                 
 =====================================================
-Total MEMORY ELEMENTS in the block neorv32_cpu.neorv32_cpu_regfile:	2 (0.04 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_cpu.neorv32_cpu_regfile:	2 (0.06 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_dmem   ########
@@ -451,17 +463,17 @@ Instance path:   neorv32_top.neorv32_dmem
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      2                  0.1730 %             
+SLE      2                  0.1750 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_dmem:	2 (0.04 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_dmem:	2 (0.06 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.1750 %             
+CFG      5                  0.2850 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_dmem:	5 (0.11 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_dmem:	5 (0.14 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -469,7 +481,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     4                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block neorv32_top.neorv32_dmem:	4 (0.09 % Utilization)
+Total MEMORY ELEMENTS in the block neorv32_top.neorv32_dmem:	4 (0.11 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_gpio   ########
@@ -479,37 +491,17 @@ Instance path:   neorv32_top.neorv32_gpio
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      17                 1.47 %               
+SLE      17                 1.49 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_gpio:	17 (0.37 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_gpio:	17 (0.48 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 0.3490 %             
+CFG      10                 0.570 %              
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_gpio:	10 (0.22 % Utilization)
-
-------------------------------------------------------------------
-########   Utilization report for  cell:   neorv32_imem   ########
-Instance path:   neorv32_top.neorv32_imem                         
-==================================================================
-
-SEQUENTIAL ELEMENTS
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-SLE      32                 2.76 %               
-=================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_imem:	32 (0.69 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-CFG      1122               39.2 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_imem:	1122 (24.17 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_gpio:	10 (0.28 % Utilization)
 
 -------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_mtime   ########
@@ -519,18 +511,18 @@ Instance path:   neorv32_top.neorv32_mtime
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      166                14.3 %               
+SLE      166                14.5 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_mtime:	166 (3.58 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_mtime:	166 (4.70 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      73                 2.55 %               
-ARI1     225                41.1 %               
+CFG      73                 4.16 %               
+ARI1     225                40.3 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_mtime:	298 (6.42 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_mtime:	298 (8.43 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_sysinfo   ########
@@ -540,17 +532,17 @@ Instance path:   neorv32_top.neorv32_sysinfo
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      35                 3.02 %               
+SLE      35                 3.07 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_sysinfo:	35 (0.75 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_sysinfo:	35 (0.99 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      3                  0.1050 %             
+CFG      1                  0.0570 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_sysinfo:	3 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_sysinfo:	1 (0.03 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_uart   ########
@@ -560,18 +552,18 @@ Instance path:   neorv32_top.neorv32_uart
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      135                11.7 %               
+SLE      135                11.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_uart:	135 (2.91 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_uart:	135 (3.82 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      114                3.98 %               
-ARI1     22                 4.01 %               
+CFG      114                6.5 %                
+ARI1     22                 3.94 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_uart:	136 (2.93 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_uart:	136 (3.85 % Utilization)
 
 --------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_fifo_1_8_true_true_false   ########
@@ -581,17 +573,17 @@ Instance path:   neorv32_uart.neorv32_fifo_1_8_true_true_false
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      12                 1.04 %               
+SLE      12                 1.05 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_uart.neorv32_fifo_1_8_true_true_false:	12 (0.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_uart.neorv32_fifo_1_8_true_true_false:	12 (0.34 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      7                  0.2450 %             
+CFG      5                  0.2850 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_uart.neorv32_fifo_1_8_true_true_false:	7 (0.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_uart.neorv32_fifo_1_8_true_true_false:	5 (0.14 % Utilization)
 
 ----------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   neorv32_fifo_1_8_true_true_false_0   ########
@@ -601,17 +593,58 @@ Instance path:   neorv32_uart.neorv32_fifo_1_8_true_true_false_0
 SEQUENTIAL ELEMENTS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-SLE      12                 1.04 %               
+SLE      12                 1.05 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block neorv32_uart.neorv32_fifo_1_8_true_true_false_0:	12 (0.26 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block neorv32_uart.neorv32_fifo_1_8_true_true_false_0:	12 (0.34 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6                  0.210 %              
+CFG      6                  0.3420 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block neorv32_uart.neorv32_fifo_1_8_true_true_false_0:	6 (0.13 % Utilization)
+Total COMBINATIONAL LOGIC in the block neorv32_uart.neorv32_fifo_1_8_true_true_false_0:	6 (0.17 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   neorv32_xbus   ########
+Instance path:   neorv32_top.neorv32_xbus                         
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      10                 0.8760 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block neorv32_top.neorv32_xbus:	10 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.3420 %             
+ARI1     10                 1.79 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block neorv32_top.neorv32_xbus:	16 (0.45 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   xbus2ahblite_bridge   ########
+Instance path:   top_sd.xbus2ahblite_bridge                              
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.1750 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top_sd.xbus2ahblite_bridge:	2 (0.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      4                  0.2280 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block top_sd.xbus2ahblite_bridge:	4 (0.11 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

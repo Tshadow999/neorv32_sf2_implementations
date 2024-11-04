@@ -1,4 +1,11 @@
 set_device -family {IGLOO2} -die {M2GL010} -speed {STD}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/coreahblsram_pkg.vhd}
+read_vhdl -mode vhdl_2008 -lib COREAHBLSRAM_LIB {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd}
+read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd}
 read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd}
 read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd}
 read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd}
@@ -22,10 +29,9 @@ read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd}
-read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd}
-read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd}
+read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd}
@@ -36,6 +42,8 @@ read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd}
+read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd}
+read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd}
@@ -46,11 +54,11 @@ read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd}
-read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd}
 read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd}
 read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd}
+read_vhdl -mode vhdl_2008 -lib neorv32 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/xbus2ahblite_bridge.vhd}
 read_vhdl -mode vhdl_2008 {/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd}
 set_top_level {top_sd}
 map_netlist

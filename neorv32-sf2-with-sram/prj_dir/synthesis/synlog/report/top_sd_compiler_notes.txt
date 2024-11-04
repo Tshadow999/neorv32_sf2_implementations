@@ -1,12 +1,20 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N|stack limit increased to max
-@N:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":17:7:17:12|Top entity is set to top_sd.
+@N:"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":19:7:19:12|Top entity is set to top_sd.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/coreahblsram_pkg.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_package.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_cp_cfu.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_clockgate.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/xbus2ahblite_bridge.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd'.
@@ -27,10 +35,9 @@
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd'.
@@ -40,6 +47,8 @@
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd'.
@@ -50,18 +59,19 @@
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file '/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd'.
 @N: CD231 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/vhd2008/std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":17:7:17:12|Synthesizing work.top_sd.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd":19:7:19:12|Synthesizing work.top_sd.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/xbus2ahblite_bridge.vhd":15:7:15:25|Synthesizing neorv32.xbus2ahblite_bridge.xbus2ahblite_bridge_rtl.
 @N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":790:10:790:17|Synthesizing smartfusion2.sysreset.syn_black_box.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0.vhd":39:7:39:12|Synthesizing work.osc_c0.rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":207:10:207:12|Synthesizing smartfusion2.or2.syn_black_box.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd":17:7:17:38|Synthesizing work.neorv32_processortop_minimalboot.neorv32_processortop_minimalboot_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":23:7:23:17|Synthesizing neorv32.neorv32_top.neorv32_top_rtl.
 @N: CD231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":271:20:271:21|Using onehot encoding for type cg_en_enum_t. For example, enumeration cg_cfs is mapped to "10000000000".
@@ -73,12 +83,12 @@
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":18:7:18:19|Synthesizing neorv32.neorv32_mtime.neorv32_mtime_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd":18:7:18:18|Synthesizing neorv32.neorv32_gpio.neorv32_gpio_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":382:7:382:27|Synthesizing neorv32.neorv32_bus_io_switch.neorv32_bus_io_switch_rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd":20:7:20:18|Synthesizing neorv32.neorv32_xbus.neorv32_xbus_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd":18:7:18:18|Synthesizing neorv32.neorv32_dmem.neorv32_dmem_rtl.
 @N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|Found RAM mem_ram_b3, depth=2048, width=8
 @N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|Found RAM mem_ram_b2, depth=2048, width=8
 @N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|Found RAM mem_ram_b1, depth=2048, width=8
 @N: CL134 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|Found RAM mem_ram_b0, depth=2048, width=8
-@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd":18:7:18:18|Synthesizing neorv32.neorv32_imem.neorv32_imem_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":173:7:173:25|Synthesizing neorv32.neorv32_bus_gateway.neorv32_bus_gateway_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":20:7:20:24|Synthesizing neorv32.neorv32_bus_switch.neorv32_bus_switch_rtl.
 @N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":23:7:23:17|Synthesizing neorv32.neorv32_cpu.neorv32_cpu_rtl.
@@ -100,7 +110,20 @@
 @N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
 @N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
 @N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd":34:7:34:21|Synthesizing work.coreahblsram_c0.rtl.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd":24:7:24:52|Synthesizing coreahblsram_lib.coreahblsram_c0_coreahblsram_c0_0_coreahblsram.translated.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":23:7:23:50|Synthesizing coreahblsram_lib.coreahblsram_c0_coreahblsram_c0_0_sramctrlif.translated.
+@N: CD364 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":380:13:380:31|Removing redundant assignment.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd":24:7:24:60|Synthesizing coreahblsram_lib.coreahblsram_c0_coreahblsram_c0_0_lsram_2048to139264x8.translated.
+@N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N: CD630 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":23:7:23:50|Synthesizing coreahblsram_lib.coreahblsram_c0_coreahblsram_c0_0_ahblsramif.translated.
+@N: CD364 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":276:17:276:21|Removing redundant assignment.
 @N: CD630 :"/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/lib/generic/smartfusion2.vhd":191:10:191:13|Synthesizing smartfusion2.and2.syn_black_box.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":172:6:172:7|Trying to extract state machine for register ahbcurr_state.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":56:6:56:9|Input BUSY is unused.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd":35:6:35:13|Input readAddr is unused.
+@N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":179:6:179:7|Trying to extract state machine for register sramcurr_state.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":38:6:38:24|Input ahbsram_wdata_usram is unused.
 @N: CL189 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Register bit ctrl.alu_cp_trig(1) is always 0.
 @N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":1338:4:1338:5|Trying to extract state machine for register trap_ctrl.irq_buf.
 @N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":553:4:553:5|Trying to extract state machine for register execute_engine.state.
@@ -115,10 +138,9 @@
 @N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":125:2:125:7|"[NEORV32] CPU ISA: rv32ix_zicsr_zicntr_zifencei"
 @N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu.vhd":147:2:147:7|"[NEORV32] CPU tuning options: "
 @N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":59:4:59:5|Trying to extract state machine for register arbiter.state.
+@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":220:4:220:10|Input a_rsp_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":224:4:224:10|Input c_rsp_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":226:4:226:10|Input d_rsp_i is unused.
-@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":230:4:230:10|Input x_rsp_i is unused.
-@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":45:2:45:7|"[NEORV32] Implementing DEFAULT processor-internal IMEM as pre-initialized ROM."
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":424:34:424:45|Input dev_00_rsp_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":426:34:426:45|Input dev_02_rsp_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":428:34:428:45|Input dev_04_rsp_i is unused.
@@ -150,12 +172,9 @@
 @N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":393:4:393:5|Trying to extract state machine for register rx_engine.state.
 @N: CL201 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":321:4:321:5|Trying to extract state machine for register tx_engine.state.
 @N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":333:4:333:9|"[NEORV32] The NEORV32 RISC-V Processor (v1.10.2.0), github.com/stnolting/neorv32"
-@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":339:4:339:9|"[NEORV32] Processor Configuration: IMEM DMEM GPIO MTIME UART0 SYSINFO "
+@N: Z100 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":339:4:339:9|"[NEORV32] Processor Configuration: DMEM XBUS GPIO MTIME UART0 SYSINFO "
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":140:4:140:13|Input jtag_tck_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":143:4:143:13|Input jtag_tms_i is unused.
-@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":153:4:153:13|Input xbus_dat_i is unused.
-@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":154:4:154:13|Input xbus_ack_i is unused.
-@N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":155:4:155:13|Input xbus_err_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":158:4:158:17|Input slink_rx_dat_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":159:4:159:17|Input slink_rx_src_i is unused.
 @N: CL159 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":160:4:160:17|Input slink_rx_val_i is unused.

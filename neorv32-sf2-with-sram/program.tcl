@@ -1,4 +1,4 @@
-set prog_name "neorv32-sf2-with-sram"
+set prog_name "Neorv32-sf2-with-sram"
 set prj_dir_name "./prj_dir"
 
 # Open the project

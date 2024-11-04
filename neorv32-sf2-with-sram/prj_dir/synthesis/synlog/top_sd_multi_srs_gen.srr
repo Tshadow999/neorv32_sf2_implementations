@@ -11,7 +11,7 @@ Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
 OS: Ubuntu 24.04.1 LTS
 Hostname: ideapad
 max virtual memory: unlimited (bytes)
-max user processes: 30976
+max user processes: 30975
 max stack size: 8388608 (bytes)
 
 
@@ -19,12 +19,13 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 096R, Built Mar  8 2023 09:23:09, @4639882
 
 @N|Running in 64-bit mode
+File /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Oct 21 15:55:24 2024
+# Wed Oct 23 16:26:18 2024
 
 ###########################################################]

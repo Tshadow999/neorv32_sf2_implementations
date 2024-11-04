@@ -1,4 +1,4 @@
-# Mon Oct 21 16:01:14 2024
+# Wed Oct 23 16:26:20 2024
 
 
 Copyright (C) 1994-2022 Synopsys, Inc.
@@ -12,7 +12,7 @@ Install: /usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro
 OS: Ubuntu 24.04.1 LTS
 Hostname: ideapad
 max virtual memory: unlimited (bytes)
-max user processes: 30976
+max user processes: 30975
 max stack size: 8388608 (bytes)
 
 
@@ -41,28 +41,42 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 279MB peak: 279MB)
 
+@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":387:6:387:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sram_ren_d because it is equivalent to instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sram_done. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@N: BZ173 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":61:17:61:53|ROM imem_rom\.mem_access\.rdata_1[31:0] (in view: neorv32.neorv32_imem(neorv32_imem_rtl)) mapped in logic.
-@N: MO106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":61:17:61:53|Found ROM imem_rom\.mem_access\.rdata_1[31:0] (in view: neorv32.neorv32_imem(neorv32_imem_rtl)) with 2048 words by 32 bits.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":343:6:343:7|Removing sequential instance ahbsram_wdata_usram_d[31:0] (in view: coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 324MB peak: 324MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 281MB peak: 281MB)
 
+Encoding state machine ahbcurr_state[0:2] (in view: coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: MO197 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":172:6:172:7|Removing FSM register ahbcurr_state[1] (in view view:coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf(translated)) because its output is a constant.
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Found counter in view:coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf(translated) instance count[4:0] 
+Encoding state machine sramcurr_state[0:2] (in view: coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_SramCtrlIf(translated))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":179:6:179:7|Removing sequential instance sramcurr_state[0] (in view: coreahblsram_lib.COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_SramCtrlIf(translated)) because it does not drive other instances.
 @N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|Using block RAM for single-port RAM
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b3[31:24] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:45:31:54|RAM memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b3[31:24] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 @N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|Using block RAM for single-port RAM
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b2[23:16] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:33:31:42|RAM memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b2[23:16] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 @N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|Using block RAM for single-port RAM
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b1[15:8] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:21:31:30|RAM memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b1[15:8] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 @N: FX106 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|Using block RAM for single-port RAM
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b0[7:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@N: FX403 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|Property "block_ram" or "no_rw_check" found for RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] with specified coding style. Inferring block RAM.
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file[31:0] (in view: work.top_sd(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Found counter in view:work.top_sd(rtl) instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_div[11:0] 
-@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":332:4:332:5|Found counter in view:work.top_sd(rtl) instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.neorv32_bus_gateway_inst.keeper\.cnt[4:0] 
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd":31:9:31:18|RAM memory_system\.neorv32_int_dmem_inst_true\.neorv32_int_dmem_inst.mem_ram_b0[7:0] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX403 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|Property "block_ram" or "no_rw_check" found for RAM core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file_1[31:0] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_regfile.vhd":56:9:56:16|RAM core_complex\.neorv32_cpu_inst.neorv32_cpu_regfile_inst.reg_file[31:0] (in view: neorv32.neorv32_top(neorv32_top_rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Found counter in view:neorv32.neorv32_top(neorv32_top_rtl) instance clk_div[11:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd":96:4:96:5|Found counter in view:neorv32.neorv32_top(neorv32_top_rtl) instance memory_system\.neorv32_xbus_inst_true\.neorv32_xbus_inst.timeout_cnt[8:0] 
+@N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_intercon.vhd":332:4:332:5|Found counter in view:neorv32.neorv32_top(neorv32_top_rtl) instance neorv32_bus_gateway_inst.keeper\.cnt[4:0] 
 Encoding state machine execute_engine\.state[0:12] (in view: neorv32.neorv32_cpu_control(neorv32_cpu_control_rtl))
 original code -> new code
    0000000000001 -> 0000000000001
@@ -112,7 +126,6 @@ original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd":60:6:60:7|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst.rdata[1] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system.neorv32_int_imem_inst_true.neorv32_int_imem_inst.rdata[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":90:4:90:5|Found counter in view:neorv32.neorv32_mtime(neorv32_mtime_rtl) instance mtime_lo[31:0] 
 @N: MO231 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":90:4:90:5|Found counter in view:neorv32.neorv32_mtime(neorv32_mtime_rtl) instance mtime_hi[31:0] 
 @N: MF179 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd":146:25:146:53|Found 32 by 32 bit equality operator ('==') un2_cmp_lo_eq (in view: neorv32.neorv32_mtime(neorv32_mtime_rtl))
@@ -139,47 +152,89 @@ original code -> new code
 @W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[20] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd":155:4:155:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[23] because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.bus_rsp_o.data[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 324MB peak: 324MB)
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 284MB peak: 284MB)
 
 @W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd":438:6:438:7|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_gen_en_ff because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.io_system.neorv32_uart0_inst_true.neorv32_uart0_inst.rx_engine.state[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 332MB peak: 332MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 303MB peak: 303MB)
 
 NConnInternalConnection caching is on
 @N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":320:4:320:5|Removing sequential instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.fetch_engine\.pc[1] (in view: work.top_sd(rtl)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 378MB peak: 378MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 326MB peak: 326MB)
 
-@W: BN132 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cpu_control.vhd":2048:4:2048:5|Removing instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex.neorv32_cpu_inst.neorv32_cpu_control_inst.csr.re because it is equivalent to instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex.neorv32_cpu_inst.neorv32_cpu_control_inst.execute_engine.state[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd":26543:3:26543:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.S0\.byte_0.block0 (in view: work.top_sd(rtl)) of type view:ACG4.RAM1K18(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":172:6:172:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.ahbcurr_state[0] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":294:6:294:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.ahbsram_req_d1 (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[29] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[30] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[31] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[14] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[15] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[16] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[17] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[18] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[19] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[20] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[21] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[22] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[23] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[24] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[25] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[26] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[27] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[28] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[0] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[1] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[2] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[3] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[4] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[5] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[6] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[7] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[8] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[9] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[10] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[11] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[12] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":372:7:372:8|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramahb_rdata_xhdl2[13] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":401:6:401:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sram_done (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd":96:4:96:5|Removing sequential instance neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_xbus_inst_true\.neorv32_xbus_inst.bus_rw (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd":179:6:179:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_SramCtrlIf.sramcurr_state[1] (in view: work.top_sd(rtl)) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 378MB peak: 378MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 326MB peak: 326MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 378MB peak: 378MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 326MB peak: 326MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 378MB peak: 378MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 326MB peak: 326MB)
+
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.count[0] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.count[2] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.count[1] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.count[4] (in view: work.top_sd(rtl)) because it does not drive other instances.
+@N: BN362 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd":264:6:264:7|Removing sequential instance COREAHBLSRAM_C0_0.COREAHBLSRAM_C0_0.U_COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf.count[3] (in view: work.top_sd(rtl)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 326MB peak: 326MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 378MB peak: 378MB)
-
-
-Finished technology mapping (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 389MB peak: 389MB)
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 340MB peak: 340MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:14s		    77.33ns		3637 /      1174
-@N: FP130 |Promoting Net neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys on CLKINT  I_1460 
+   1		0h:00m:07s		    83.68ns		2495 /      1157
+@N: FP130 |Promoting Net neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys on CLKINT  I_455 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 389MB peak: 389MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 340MB peak: 340MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 340MB peak: 340MB)
 
 
 
@@ -190,42 +245,42 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 1175 clock pin(s) of sequential element(s)
-0 instances converted, 1175 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 1158 clock pin(s) of sequential element(s)
+0 instances converted, 1158 sequential instances remain driven by gated/generated clocks
 
-=========================================================================================== Gated/Generated Clocks ===========================================================================================
-Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                                                   Explanation                                            
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    1175       neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.clk_div_ff[9]     No gated clock conversion method for cell cell:ACG4.SLE
-==============================================================================================================================================================================================================
+============================================================================ Gated/Generated Clocks ============================================================================
+Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                     Explanation                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    1158       xbus2ahblite_bridge_0.pending_q     No gated clock conversion method for cell cell:ACG4.SLE
+================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 340MB peak: 340MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 340MB peak: 340MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 340MB peak: 340MB)
 
 Writing Analyst data base /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/synwork/top_sd_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 389MB peak: 389MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 340MB peak: 340MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
 @W: MT246 :"/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
@@ -233,7 +288,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Oct 21 16:01:32 2024
+# Timing report written on Wed Oct 23 16:26:31 2024
 #
 
 
@@ -258,9 +313,9 @@ Worst slack in design: 46.236
                                               Requested     Estimated     Requested     Estimated                Clock                                                          Clock           
 Starting Clock                                Frequency     Frequency     Period        Period        Slack      Type                                                           Group           
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FCCC_C0_0/FCCC_C0_0/GL0                       10.0 MHz      67.7 MHz      100.000       14.772        46.236     generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
+FCCC_C0_0/FCCC_C0_0/GL0                       10.0 MHz      82.8 MHz      100.000       12.075        46.236     generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
 OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      NA            20.000        NA            NA         declared                                                       default_clkgroup
-System                                        100.0 MHz     NA            10.000        NA            97.588     system                                                         system_clkgroup 
+System                                        100.0 MHz     NA            10.000        NA            97.585     system                                                         system_clkgroup 
 ================================================================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
@@ -275,8 +330,8 @@ Clocks                                            |    rise  to  rise    |    fa
 --------------------------------------------------------------------------------------------------------------------------------------------
 Starting                 Ending                   |  constraint  slack   |  constraint  slack   |  constraint  slack   |  constraint  slack 
 --------------------------------------------------------------------------------------------------------------------------------------------
-System                   FCCC_C0_0/FCCC_C0_0/GL0  |  No paths    -       |  No paths    -       |  100.000     97.588  |  No paths    -     
-FCCC_C0_0/FCCC_C0_0/GL0  FCCC_C0_0/FCCC_C0_0/GL0  |  100.000     85.228  |  100.000     98.709  |  No paths    -       |  50.000      46.236
+System                   FCCC_C0_0/FCCC_C0_0/GL0  |  100.000     97.585  |  No paths    -       |  100.000     97.585  |  No paths    -     
+FCCC_C0_0/FCCC_C0_0/GL0  FCCC_C0_0/FCCC_C0_0/GL0  |  100.000     87.925  |  100.000     98.709  |  No paths    -       |  50.000      46.236
 ============================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -304,15 +359,15 @@ Instance                                                                        
                                                                                                                                                               Clock                                                                         
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys                                                                                                      FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       rstn_sys_0     0.108       46.236
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       85.228
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       85.292
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       85.376
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       85.477
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       85.787
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       85.851
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       86.012
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       86.076
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.fetch_engine\.state[0]                                FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       state[0]       0.108       86.597
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       87.925
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       88.026
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       88.130
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       88.194
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.r_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[0]       0.108       88.248
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.r_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       r_pnt[1]       0.108       88.336
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.0\.prefetch_buffer_inst.w_pnt[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[0]       0.108       88.349
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.prefetch_buffer\.1\.prefetch_buffer_inst.w_pnt[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       w_pnt[1]       0.108       88.400
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_cpu_inst.neorv32_cpu_control_inst.fetch_engine\.state[0]                                FCCC_C0_0/FCCC_C0_0/GL0     SLE      Q       state[0]       0.108       89.063
 ============================================================================================================================================================================================================================================
 
 
@@ -364,7 +419,7 @@ neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys                        
 rstn_sys_0                                                                                                    Net        -        -       1.830     -           1         
 neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_RNIN5R3                                              CLKINT     A        In      -         1.938 f     -         
 neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_RNIN5R3                                              CLKINT     Y        Out     0.375     2.314 f     -         
-rstn_sys                                                                                                      Net        -        -       1.450     -           1107      
+rstn_sys                                                                                                      Net        -        -       1.450     -           1119      
 neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.neorv32_core_bus_switch_inst.arbiter\.a_req     SLE        ALn      In      -         3.764 f     -         
 ==========================================================================================================================================================================
 Total path delay (propagation time + setup) of 3.764 is 0.484(12.8%) logic and 3.280(87.2%) route.
@@ -386,7 +441,7 @@ Starting Points with Worst Slack
 Instance                         Reference     Type     Pin      Net                Time        Slack 
                                  Clock                                                                
 ------------------------------------------------------------------------------------------------------
-FCCC_C0_0.FCCC_C0_0.CCC_INST     System        CCC      LOCK     FCCC_C0_0_LOCK     0.000       97.588
+FCCC_C0_0.FCCC_C0_0.CCC_INST     System        CCC      LOCK     FCCC_C0_0_LOCK     0.000       97.585
 ======================================================================================================
 
 
@@ -397,11 +452,13 @@ Ending Points with Worst Slack
 Instance                                                             Reference     Type     Pin     Net          Time         Slack 
                                                                      Clock                                                          
 ------------------------------------------------------------------------------------------------------------------------------------
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys             System        SLE      ALn     AND2_0_Y     100.000      97.588
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[0]     System        SLE      ALn     AND2_0_Y     100.000      97.588
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[1]     System        SLE      ALn     AND2_0_Y     100.000      97.588
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[2]     System        SLE      ALn     AND2_0_Y     100.000      97.588
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[3]     System        SLE      ALn     AND2_0_Y     100.000      97.588
+xbus2ahblite_bridge_0.addr_ack_q                                     System        SLE      ALn     AND2_0_Y     100.000      97.585
+xbus2ahblite_bridge_0.pending_q                                      System        SLE      ALn     AND2_0_Y     100.000      97.585
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys             System        SLE      ALn     AND2_0_Y     100.000      97.585
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[0]     System        SLE      ALn     AND2_0_Y     100.000      97.585
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[1]     System        SLE      ALn     AND2_0_Y     100.000      97.585
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[2]     System        SLE      ALn     AND2_0_Y     100.000      97.585
+neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys_sreg[3]     System        SLE      ALn     AND2_0_Y     100.000      97.585
 ====================================================================================================================================
 
 
@@ -416,28 +473,28 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         100.000
 
-    - Propagation time:                      2.412
+    - Propagation time:                      2.415
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 97.588
+    = Slack (non-critical) :                 97.585
 
     Number of logic level(s):                1
     Starting point:                          FCCC_C0_0.FCCC_C0_0.CCC_INST / LOCK
-    Ending point:                            neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys / ALn
+    Ending point:                            xbus2ahblite_bridge_0.addr_ack_q / ALn
     The start point is clocked by            System [rising]
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [falling] (rise=0.000 fall=50.000 period=100.000) on pin CLK
+    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] (rise=0.000 fall=50.000 period=100.000) on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-FCCC_C0_0.FCCC_C0_0.CCC_INST                                 CCC      LOCK     Out     0.000     0.000 f     -         
-FCCC_C0_0_LOCK                                               Net      -        -       1.117     -           1         
-AND2_0                                                       AND2     B        In      -         1.117 f     -         
-AND2_0                                                       AND2     Y        Out     0.164     1.281 f     -         
-AND2_0_Y                                                     Net      -        -       1.131     -           5         
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.rstn_sys     SLE      ALn      In      -         2.412 f     -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 2.412 is 0.164(6.8%) logic and 2.248(93.2%) route.
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+FCCC_C0_0.FCCC_C0_0.CCC_INST         CCC      LOCK     Out     0.000     0.000 f     -         
+FCCC_C0_0_LOCK                       Net      -        -       1.117     -           1         
+AND2_0                               AND2     B        In      -         1.117 f     -         
+AND2_0                               AND2     Y        Out     0.164     1.281 f     -         
+AND2_0_Y                             Net      -        -       1.134     -           7         
+xbus2ahblite_bridge_0.addr_ack_q     SLE      ALn      In      -         2.415 f     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 2.415 is 0.164(6.8%) logic and 2.251(93.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -446,10 +503,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
 ---------------------------------------
 Resource Usage Report for top_sd 
@@ -459,21 +516,22 @@ Cell usage:
 AND2            1 use
 CCC             1 use
 CLKINT          2 uses
+OR2             1 use
 RCOSC_25_50MHZ  1 use
 SYSRESET        1 use
-CFG1           2 uses
-CFG2           587 uses
-CFG3           655 uses
-CFG4           1618 uses
+CFG1           3 uses
+CFG2           322 uses
+CFG3           510 uses
+CFG4           920 uses
 
 Carry cells:
-ARI1            482 uses - used for arithmetic functions
+ARI1            492 uses - used for arithmetic functions
 ARI1            66 uses - used for Wide-Mux implementation
-Total ARI1      548 uses
+Total ARI1      558 uses
 
 
 Sequential Cells: 
-SLE            1158 uses
+SLE            1141 uses
 
 DSP Blocks:    0 of 22 (0%)
 
@@ -489,7 +547,7 @@ RAM/ROM usage summary
 Total Block RAMs (RAM1K18) : 4 of 21 (19%)
 Total Block RAMs (RAM64x18) : 4 of 22 (18%)
 
-Total LUTs:    3410
+Total LUTs:    2313
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -497,14 +555,14 @@ RAM64x18 Interface Logic : SLEs = 144; LUTs = 144;
 RAM1K18  Interface Logic : SLEs = 144; LUTs = 144;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  1158 + 144 + 144 + 0 = 1446;
-Total number of LUTs after P&R:  3410 + 144 + 144 + 0 = 3698;
+Total number of SLEs after P&R:  1141 + 144 + 144 + 0 = 1429;
+Total number of LUTs after P&R:  2313 + 144 + 144 + 0 = 2601;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 389MB peak: 389MB)
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 340MB peak: 340MB)
 
-Process took 0h:00m:18s realtime, 0h:00m:18s cputime
-# Mon Oct 21 16:01:32 2024
+Process took 0h:00m:10s realtime, 0h:00m:10s cputime
+# Wed Oct 23 16:26:31 2024
 
 ###########################################################]

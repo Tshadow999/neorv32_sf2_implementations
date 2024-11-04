@@ -21,7 +21,7 @@ entity neorv32_ProcessorTop_MinimalBoot is
     INT_BOOTLOADER_EN : boolean := false;  -- boot configuration: true = boot explicit bootloader; false = boot from int/ext (I)MEM
     -- Internal Instruction memory --
     MEM_INT_IMEM_EN   : boolean := false;    -- implement processor-internal instruction memory
-    -- MEM_INT_IMEM_SIZE : natural := 8*1024; -- size of processor-internal instruction memory in bytes
+    MEM_INT_IMEM_SIZE : natural := 8*1024; -- size of processor-internal instruction memory in bytes
     -- Internal Data memory --
     MEM_INT_DMEM_EN   : boolean := true;    -- implement processor-internal data memory
     MEM_INT_DMEM_SIZE : natural := 8*1024; -- size of processor-internal data memory in bytes
@@ -57,7 +57,7 @@ entity neorv32_ProcessorTop_MinimalBoot is
     xbus_adr_o     : out std_ulogic_vector(31 downto 0); -- address
     xbus_dat_o     : out std_ulogic_vector(31 downto 0); -- write data
     xbus_tag_o     : out std_ulogic_vector(2 downto 0);  -- access tag
-    bus_we_o      : out std_ulogic;                     -- read/write
+    xbus_we_o      : out std_ulogic;                     -- read/write
     xbus_sel_o     : out std_ulogic_vector(3 downto 0);  -- byte enable
     xbus_stb_o     : out std_ulogic;                     -- strobe
     xbus_cyc_o     : out std_ulogic;                     -- valid cycle

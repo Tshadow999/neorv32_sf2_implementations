@@ -369,8 +369,15 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/top_sd/top_sd.cxf,actgen_cxf"
 STATE="utd"
-TIME="1729681544"
-SIZE="3269"
+TIME="1729693561"
+SIZE="3532"
+ENDFILE
+VALUE "<project>/component/work/top_sd/top_sd.vhd,hdl"
+STATE="utd"
+TIME="1729693561"
+SIZE="14275"
+PARENT="<project>/component/work/top_sd/top_sd.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/SF2_SFM20000_io.pdc,io_pdc"
 STATE="utd"
@@ -381,6 +388,16 @@ VALUE "<project>/constraint/top_sd_derived_constraints.sdc,sdc"
 STATE="utd"
 TIME="1729681544"
 SIZE="983"
+ENDFILE
+VALUE "<project>/designer/top_sd/top_sd_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1730192404"
+SIZE="3748075"
+ENDFILE
+VALUE "<project>/designer/top_sd/top_sd_ba.vhd,ba_hdl"
+STATE="utd"
+TIME="1730192401"
+SIZE="4041959"
 ENDFILE
 VALUE "<project>/hdl/neorv32_bootloader_image.vhd,hdl"
 STATE="utd"
@@ -588,8 +605,8 @@ LIBRARY="neorv32"
 ENDFILE
 VALUE "<project>/hdl/neorv32_ProcessorTop_MinimalBoot.vhd,hdl"
 STATE="utd"
-TIME="1729681544"
-SIZE="8720"
+TIME="1729693544"
+SIZE="8676"
 ENDFILE
 VALUE "<project>/hdl/neorv32_pwm.vhd,hdl"
 STATE="utd"
@@ -675,32 +692,79 @@ TIME="1729681544"
 SIZE="4855"
 LIBRARY="neorv32"
 ENDFILE
+VALUE "<project>/simulation/run.do,do"
+STATE="utd"
+TIME="1730192409"
+SIZE="1463"
+ENDFILE
+VALUE "<project>/simulation/testbench_postlayout_simulation.log,log"
+STATE="utd"
+TIME="1730192415"
+SIZE="2597"
+ENDFILE
 VALUE "<project>/synthesis/top_sd.so,so"
 STATE="utd"
-TIME="1729681544"
+TIME="1729693591"
 SIZE="239"
 ENDFILE
 VALUE "<project>/synthesis/top_sd.vm,syn_vm"
-STATE="ood"
-TIME="1729681544"
-SIZE="1010954"
+STATE="utd"
+TIME="1729693590"
+SIZE="779246"
 ENDFILE
 VALUE "<project>/synthesis/top_sd_syn.prj,prj"
 STATE="utd"
-TIME="1729681544"
-SIZE="8575"
+TIME="1729693591"
+SIZE="9909"
 ENDFILE
 VALUE "<project>/synthesis/top_sd_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1729681544"
+TIME="1729693590"
 SIZE="1184"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM::work"
+FILE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/CoreAPBLSRAM.vhd,hdl"
+LIST Other_Association
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
 LIST "top_sd::work"
-FILE "<project>/component/work/top_sd/top_sd.cxf,actgen_cxf"
+FILE "<project>/component/work/top_sd/top_sd.vhd,hdl"
 LIST SynthesisConstraints
 VALUE "<project>/constraint/top_sd_derived_constraints.sdc,sdc"
 ENDLIST
@@ -711,11 +775,94 @@ LIST PNRConstraints
 VALUE "<project>/constraint/io/SF2_SFM20000_io.pdc,io_pdc"
 VALUE "<project>/constraint/top_sd_derived_constraints.sdc,sdc"
 ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/top_sd.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>/synthesis/top_sd.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib"
+FILE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd,hdl"
+LIST Other_Association
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
 ENDLIST
 LIST Other_Association
+LIST COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
+LIST COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/coreparameters.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_misc.vhd,tb_hdl"
+VALUE "<project>/component/Actel/DirectCore/COREAPBLSRAM/3.0.101/rtl/vhdl/test/user/XHDL_std_logic.vhd,tb_hdl"
+VALUE "<project>/component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd,tb_hdl"
+ENDLIST
 ENDLIST
 LIST SimulationOptions
 UseAutomaticDoFile=true
@@ -785,8 +932,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/SynplifyPro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -794,7 +941,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="/usr/local/microchip/Libero_SoC_v2023.1/ModelSimPro/modeltech/linuxacoem/vsim"
-PARAM=""
+PARAM=" -l testbench_postlayout_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -810,6 +957,72 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "top_sd::work"
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/top_sd.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSYNTHESIS(<project>/synthesis/top_sd.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM::coreahblsram_lib"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -823,8 +1036,9 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl/neorv32_ProcessorTop_MinimalBoot.vhd;0
+SmartDesign;top_sd;0
+ACTIVEVIEW;top_sd
 ENDLIST
 LIST ModuleSubBlockList
 LIST "COREAHBLSRAM_C0::work","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd","TRUE","FALSE"
@@ -834,12 +1048,12 @@ LIST "COREAPBLSRAM_C0::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0.vhd
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/CoreAPBLSRAM.vhd","FALSE","FALSE"
 ENDLIST
 LIST "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_COREAPBLSRAM::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/CoreAPBLSRAM.vhd","FALSE","FALSE"
-SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_lsram_512to35328x32::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_512to35328x32.vhd","FALSE","FALSE"
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_lsram_1024to70656x16::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_1024to70656x16.vhd","FALSE","FALSE"
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_lsram_2048to141312x8::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to141312x8.vhd","FALSE","FALSE"
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_usram_128to9216x8::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd","FALSE","FALSE"
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_usram_64to2304x32::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_64to2304x32.vhd","FALSE","FALSE"
 SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_usram_64to4608x16::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/usram_64to4608x16.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_lsram_512to35328x32::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_512to35328x32.vhd","FALSE","FALSE"
 ENDLIST
 LIST "COREAPBLSRAM_C0_COREAPBLSRAM_C0_0_lsram_1024to70656x16::work","component/work/COREAPBLSRAM_C0/COREAPBLSRAM_C0_0/rtl/vhdl/core/lsram_1024to70656x16.vhd","FALSE","FALSE"
 ENDLIST
@@ -862,8 +1076,6 @@ SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component/work/FCCC_C0/FCCC_C0_0/FCCC_C
 ENDLIST
 LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
 ENDLIST
-LIST "neorv32_ProcessorTop_MinimalBoot::work","","FALSE","FALSE"
-ENDLIST
 LIST "neorv32_ProcessorTop_MinimalBoot::work","hdl/neorv32_ProcessorTop_MinimalBoot.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_top::neorv32","hdl/neorv32_top.vhd","FALSE","FALSE"
 ENDLIST
@@ -879,15 +1091,12 @@ LIST "RCOSC_1MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","
 ENDLIST
 LIST "RCOSC_25_50MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
 ENDLIST
-LIST "top_sd::work","component/work/top_sd/top_sd.cxf","TRUE","FALSE"
+LIST "top_sd::work","component/work/top_sd/top_sd.vhd","TRUE","FALSE"
 SUBBLOCK "COREAHBLSRAM_C0::work","component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd","TRUE","FALSE"
 SUBBLOCK "FCCC_C0::work","component/work/FCCC_C0/FCCC_C0.vhd","TRUE","FALSE"
-SUBBLOCK "neorv32_ProcessorTop_MinimalBoot::work","","FALSE","FALSE"
 SUBBLOCK "OSC_C0::work","component/work/OSC_C0/OSC_C0.vhd","TRUE","FALSE"
-SUBBLOCK "neorv32_xbus::neorv32","hdl/neorv32_xbus.vhd","FALSE","FALSE"
+SUBBLOCK "neorv32_ProcessorTop_MinimalBoot::work","hdl/neorv32_ProcessorTop_MinimalBoot.vhd","FALSE","FALSE"
 SUBBLOCK "xbus2ahblite_bridge::neorv32","hdl/xbus2ahblite_bridge.vhd","FALSE","FALSE"
-ENDLIST
-LIST "xbus2ahblite_bridge::work","","FALSE","FALSE"
 ENDLIST
 LIST "XTLOSC::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd","FALSE","FALSE"
 ENDLIST
@@ -959,6 +1168,7 @@ SUBBLOCK "neorv32_dmem::neorv32","hdl/neorv32_dmem.entity.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_gpio::neorv32","hdl/neorv32_gpio.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_sysinfo::neorv32","hdl/neorv32_sysinfo.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_uart::neorv32","hdl/neorv32_uart.vhd","FALSE","FALSE"
+SUBBLOCK "neorv32_xbus::neorv32","hdl/neorv32_xbus.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_boot_rom::neorv32","hdl/neorv32_boot_rom.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_bus_reservation_set::neorv32","hdl/neorv32_intercon.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_cache::neorv32","hdl/neorv32_cache.vhd","FALSE","FALSE"
@@ -980,12 +1190,13 @@ SUBBLOCK "neorv32_spi::neorv32","hdl/neorv32_spi.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_trng::neorv32","hdl/neorv32_trng.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_twi::neorv32","hdl/neorv32_twi.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_wdt::neorv32","hdl/neorv32_wdt.vhd","FALSE","FALSE"
-SUBBLOCK "neorv32_xbus::neorv32","hdl/neorv32_xbus.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_xip::neorv32","hdl/neorv32_xip.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_xirq::neorv32","hdl/neorv32_xirq.vhd","FALSE","FALSE"
 ENDLIST
 LIST "neorv32_uart::neorv32","hdl/neorv32_uart.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_fifo::neorv32","hdl/neorv32_fifo.vhd","FALSE","FALSE"
+ENDLIST
+LIST "neorv32_xbus::neorv32","hdl/neorv32_xbus.vhd","FALSE","FALSE"
 ENDLIST
 LIST "neorv32_fifo::neorv32","hdl/neorv32_fifo.vhd","FALSE","FALSE"
 ENDLIST
@@ -1077,8 +1288,6 @@ LIST "neorv32_twi::neorv32","hdl/neorv32_twi.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_fifo::neorv32","hdl/neorv32_fifo.vhd","FALSE","FALSE"
 ENDLIST
 LIST "neorv32_wdt::neorv32","hdl/neorv32_wdt.vhd","FALSE","FALSE"
-ENDLIST
-LIST "neorv32_xbus::neorv32","hdl/neorv32_xbus.vhd","FALSE","FALSE"
 ENDLIST
 LIST "neorv32_xip::neorv32","hdl/neorv32_xip.vhd","FALSE","FALSE"
 SUBBLOCK "neorv32_xip_phy::neorv32","hdl/neorv32_xip.vhd","FALSE","FALSE"

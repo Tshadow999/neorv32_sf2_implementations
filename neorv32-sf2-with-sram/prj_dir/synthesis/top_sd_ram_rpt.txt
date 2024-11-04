@@ -28,10 +28,9 @@ NO               neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.core_complex\.n
 
 #####  REG/LOGIC REPORT  #####
 
-RTL_INSTANCE                                                                                                                                             PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS                                                                    
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-neorv32_ProcessorTop_MinimalBoot_0.neorv32_inst.memory_system\.neorv32_int_imem_inst_true\.neorv32_int_imem_inst.imem_rom\.mem_access\.rdata_1[31:0]     ROM                NA                 Technology does not support initial value. Mapping ROM instance using logic.
-===========================================================================================================================================================================================================================================================================
+RTL_INSTANCE     PRIMITIVE_TYPE     USER_ATTRIBUTE     COMMENTS
+---------------------------------------------------------------
+===============================================================
 
 #####  END OF RAM REPORT  #####
 

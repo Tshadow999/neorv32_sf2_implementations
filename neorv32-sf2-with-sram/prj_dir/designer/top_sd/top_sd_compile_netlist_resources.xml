@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2023.1 (Version 2023.1.0.6)</text>
-<text>Date: Mon Oct 21 16:01:38 2024
+<text>Date: Wed Oct 23 16:26:35 2024
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>3707</cell>
+ <cell>2611</cell>
  <cell>12084</cell>
- <cell>30.68</cell>
+ <cell>21.61</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>1446</cell>
+ <cell>1429</cell>
  <cell>12084</cell>
- <cell>11.97</cell>
+ <cell>11.83</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>3419</cell>
- <cell>1158</cell>
+ <cell>2323</cell>
+ <cell>1141</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>3707</cell>
- <cell>1446</cell>
+ <cell>2611</cell>
+ <cell>1429</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -242,7 +242,7 @@
 </row>
 <row>
  <cell>10</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>11</cell>
@@ -274,7 +274,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>52</cell>
+ <cell>53</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -343,7 +343,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>1175</cell>
+ <cell>1158</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FCCC_C0_0_GL0</cell>
 </row>
@@ -358,7 +358,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>1107</cell>
+ <cell>1119</cell>
  <cell>INT_NET</cell>
  <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/rstn_sys_Z</cell>
 </row>
@@ -389,29 +389,9 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>167</cell>
+ <cell>115</cell>
  <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[3]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]</cell>
-</row>
-<row>
- <cell>153</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[2]</cell>
-</row>
-<row>
- <cell>120</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/ir_funct3_i[1]</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3_i[1]</cell>
 </row>
 <row>
  <cell></cell>
@@ -419,67 +399,7 @@
  <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13]</cell>
 </row>
 <row>
- <cell>107</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[4]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[4]</cell>
-</row>
-<row>
- <cell>103</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[5]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[5]</cell>
-</row>
-<row>
- <cell>101</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_opb_mux</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_opb_mux</cell>
-</row>
-<row>
- <cell>98</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[6]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[6]</cell>
-</row>
-<row>
- <cell>96</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_op[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]</cell>
-</row>
-<row>
- <cell>96</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[8]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[8]</cell>
-</row>
-<row>
- <cell>96</cell>
+ <cell>104</cell>
  <cell>INT_NET</cell>
  <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]</cell>
 </row>
@@ -487,6 +407,86 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[14]</cell>
+</row>
+<row>
+ <cell>76</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/xbus_adr_o[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/we</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr.we</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/lsu_mo_we</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.state[1]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_cp_trig[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_cp_trig[0]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/cause[6]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/trap_ctrl.cause[6]</cell>
+</row>
+<row>
+ <cell>67</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/mstatus_mie19</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr_write_access.csr.mstatus_mie19</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -497,29 +497,9 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>167</cell>
+ <cell>115</cell>
  <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[3]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]</cell>
-</row>
-<row>
- <cell>153</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[2]</cell>
-</row>
-<row>
- <cell>120</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/ir_funct3_i[1]</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3_i[1]</cell>
 </row>
 <row>
  <cell></cell>
@@ -527,67 +507,7 @@
  <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[13]</cell>
 </row>
 <row>
- <cell>107</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[4]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[4]</cell>
-</row>
-<row>
- <cell>103</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[5]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[5]</cell>
-</row>
-<row>
- <cell>101</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_opb_mux</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_opb_mux</cell>
-</row>
-<row>
- <cell>98</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[6]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[6]</cell>
-</row>
-<row>
- <cell>96</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/alu_op[2]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]</cell>
-</row>
-<row>
- <cell>96</cell>
- <cell>INT_NET</cell>
- <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/addr_1[8]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[8]</cell>
-</row>
-<row>
- <cell>96</cell>
+ <cell>104</cell>
  <cell>INT_NET</cell>
  <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[1]</cell>
 </row>
@@ -595,6 +515,86 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[1]</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/ir_funct3[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.ir[14]</cell>
+</row>
+<row>
+ <cell>76</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/xbus_adr_o[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_core_bus_switch_inst/x_req_o.addr[3]</cell>
+</row>
+<row>
+ <cell>74</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/we</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr.we</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/lsu_mo_we</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/execute_engine.state[1]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_cp_trig[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_cp_trig[0]</cell>
+</row>
+<row>
+ <cell>71</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/cause[6]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/trap_ctrl.cause[6]</cell>
+</row>
+<row>
+ <cell>67</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/mstatus_mie19</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/csr_write_access.csr.mstatus_mie19</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/alu_op[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: neorv32_ProcessorTop_MinimalBoot_0/neorv32_inst/core_complex.neorv32_cpu_inst/neorv32_cpu_control_inst/ctrl.alu_op[2]</cell>
 </row>
 </table>
 </doc>

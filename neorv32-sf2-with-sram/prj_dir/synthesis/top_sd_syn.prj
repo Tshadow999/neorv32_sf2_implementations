@@ -1,10 +1,17 @@
 #--  Synopsys, Inc.
 #--  Version T-2022.09M-SP2
 #--  Project file /home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/synthesis/top_sd_syn.prj
-#--  Written on Mon Oct 21 16:01:33 2024
+#--  Written on Wed Oct 23 16:26:31 2024
 
 
 #project files
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/coreahblsram_pkg.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd"
+add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd"
 add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd"
 add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/FCCC_C0/FCCC_C0.vhd"
 add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
@@ -29,10 +36,9 @@ add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.entity.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dmem.default.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gpio.vhd"
-add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd"
-add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_sysinfo.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_uart.vhd"
+add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_bootloader_image.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_boot_rom.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_cache.vhd"
@@ -43,6 +49,8 @@ add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_debug_dtm.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_dma.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_gptmr.vhd"
+add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.entity.vhd"
+add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_imem.default.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_mtime.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_neoled.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_onewire.vhd"
@@ -53,11 +61,11 @@ add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_trng.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_twi.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_wdt.vhd"
-add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xbus.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xip.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_xirq.vhd"
 add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_top.vhd"
 add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/neorv32_ProcessorTop_MinimalBoot.vhd"
+add_file -vhdl -lib neorv32 "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/hdl/xbus2ahblite_bridge.vhd"
 add_file -vhdl -lib work "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/component/work/top_sd/top_sd.vhd"
 add_file -fpga_constraint "/home/tycho/git/NEORV32-SRAM/neorv32-sf2-with-sram/prj_dir/designer/top_sd/synthesis.fdc"
 

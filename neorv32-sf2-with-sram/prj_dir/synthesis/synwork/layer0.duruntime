@@ -6,6 +6,16 @@ Runtime Summary:
 
 	The following design units have negligible CPU times:
 	=====================================================
+		*Library: coreahblsram_lib, Entity: COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_AHBLSramIf, Architecture: translated
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblsram_lib, Entity: COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_lsram_2048to139264x8, Architecture: translated
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblsram_lib, Entity: COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_SramCtrlIf, Architecture: translated
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreahblsram_lib, Entity: COREAHBLSRAM_C0_COREAHBLSRAM_C0_0_COREAHBLSRAM, Architecture: translated
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: COREAHBLSRAM_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		*Library: work, Entity: FCCC_C0_FCCC_C0_0_FCCC, Architecture: def_arch
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		*Library: work, Entity: FCCC_C0, Architecture: rtl
@@ -28,9 +38,9 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: neorv32, Entity: neorv32_bus_gateway, Architecture: neorv32_bus_gateway_rtl
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
-		*Library: neorv32, Entity: neorv32_imem, Architecture: neorv32_imem_rtl
-			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: neorv32, Entity: neorv32_dmem, Architecture: neorv32_dmem_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: neorv32_xbus, Architecture: neorv32_xbus_rtl
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: neorv32, Entity: neorv32_bus_io_switch, Architecture: neorv32_bus_io_switch_rtl
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
@@ -52,9 +62,13 @@ Runtime Summary:
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		*Library: work, Entity: OSC_C0, Architecture: rtl
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: neorv32, Entity: xbus2ahblite_bridge, Architecture: xbus2ahblite_bridge_rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: work, Entity: top_sd, Architecture: rtl
 			Hardware Generation Phase, Optimization Phase: Negligible CPU time
 		*Library: smartfusion2, Entity: AND2, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: RAM1K18, Architecture: syn_black_box
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: smartfusion2, Entity: VCC, Architecture: syn_black_box
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
@@ -63,6 +77,8 @@ Runtime Summary:
 		*Library: smartfusion2, Entity: CLKINT, Architecture: syn_black_box
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: smartfusion2, Entity: CCC, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: OR2, Architecture: syn_black_box
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		*Library: work, Entity: RCOSC_25_50MHZ, Architecture: def_arch
 			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
