@@ -1,11 +1,11 @@
 ### Cloning and inizialing repository
 1. Clone repository and initialize [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
-```git submodule init && git submoduel update```
+```git submodule init && git submodule update```
 
-2. Make the sh files exetubale by running this command: 
+2. Make the sh files executable by running this command: 
 ```chmod +x ./generate_bit_stream.sh; chmod +x ./program.sh```
 
-3. genertaing the bitstream:
+3. generating the bitstream:
 ```./generate_bit_stream.sh```
 
 4. program the device:
