@@ -1,0 +1,20 @@
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 8901004 k
+Total time (secs): 890
+Iterations/Sec   : 2
+Iterations       : 2000
+Compiler version : GCC12.1.0
+Compiler flags   : -march=rv32i_zicsr_zifencei -mabi=ilp32 -Os -Wall -ffunction-sections -fdata-sections -nostartfiles -mno-fdiv -mstrict-align -mbranch-cost=10 -g -Wl,--gc-sections -ffp-contract=off 
+Memory location  : STATIC
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x4983
+Correct operation validated. See README.md for run and reporting rules.
+
+NEORV32: Hardware Performance Monitors (low words only)
+ > Active clock cycles         : 311069626
+ > Retired instructions        : 1604475035
+no HPMs available

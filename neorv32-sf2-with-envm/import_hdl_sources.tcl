@@ -1,13 +1,11 @@
 # Import TOP
 import_files -library work -hdl_source ./custom_rtl/neorv32_ProcessorTop_Minimal.vhd
-
-import_files -library work -hdl_source ./custom_rtl/WB2AHBL.vhd
+import_files -library work -hdl_source ./custom_rtl/xbus2ahblite_bridge.vhd
+import_files -library work -hdl_source ./custom_rtl/top.vhd
 
 import_files -library neorv32 -hdl_source ./custom_rtl/neorv32_package.vhd
-
 #import_files -library neorv32 -hdl_source ./neorv32_application_image.vhd
 import_files -library neorv32 -hdl_source ${neorv_rtl_dir}/core/neorv32_bootloader_image.vhd
-
 import_files -library neorv32 -hdl_source ${neorv_rtl_dir}/core/neorv32_dmem.entity.vhd
 import_files -library neorv32 -hdl_source ${neorv_rtl_dir}/core/neorv32_imem.entity.vhd
 
@@ -22,3 +20,4 @@ foreach file [glob ${neorv_rtl_dir}/core/mem/*.default.vhd] {
     import_files -library neorv32 -hdl_source $file
 }
 build_design_hierarchy
+
