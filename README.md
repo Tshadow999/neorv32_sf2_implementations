@@ -27,3 +27,4 @@ In this thesis project I will use Libero to implement the NEORV32 CPU on to an F
 | Week 10  | Final Report Writing and Review            | - Review and finalize the thesis report.                                                        |
 |          |                                            | - Get feedback from your advisor and make necessary revisions.                                  |
 
+# This is the Flash implementation
