@@ -52,7 +52,7 @@ sb_configure_page -component_name ${sysbld_name} -page_name {CLOCK} \
 -params {APB1CLK_RATIO:1} \
 -params {FDDR_CLK_DIVISOR:1} \
 -params {FDDR_CLK_FREQUENCY:100} \
--params {FIC0CLK_RATIO:8} \
+-params {FIC0CLK_RATIO:1} \
 -params {FIC0_AHBL_BYPASS:0} \
 -params {FIC1CLK_RATIO:1} \
 -params {FIC1_AHBL_BYPASS:0} \
