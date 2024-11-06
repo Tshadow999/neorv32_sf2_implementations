@@ -65,7 +65,7 @@ sb_configure_page -component_name ${sysbld_name} -page_name {CLOCK} \
 -params {GL2_OUT_0_FREQ:} \
 -params {GL3_IS_USED:0} \
 -params {GL3_OUT_0_FREQ:} \
--params {M3CLK_FREQUENCY:80} \
+-params {M3CLK_FREQUENCY:100} \
 -params {MDDRCLK_RATIO:1} \
 -params {PLL_LOCK_USED:1} \
 -params {RCOSC_1MHZ_DRIVES_CCC:0} \
