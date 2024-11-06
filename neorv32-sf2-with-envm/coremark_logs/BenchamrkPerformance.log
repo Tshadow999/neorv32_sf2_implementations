@@ -1,12 +1,12 @@
-NEORV32: Processor running at 10000000 Hz
-NEORV32: Executing coremark (300 iterations). This may take some time...
+NEORV32: Processor running at 100000000 Hz
+NEORV32: Executing coremark (2000 iterations). This may take some time...
 
 2K performance run parameters for coremark.
 CoreMark Size    : 666
-Total ticks      : 1436282 k
-Total time (secs): 143
-Iterations/Sec   : 2
-Iterations       : 300
+Total ticks      : 18426656 k
+Total time (secs): 184
+Iterations/Sec   : 10
+Iterations       : 2000
 Compiler version : GCC13.2.0
 Compiler flags   : -march=rv32i_zicsr_zifencei -mabi=ilp32 -Os -Wall -ffunction-sections -fdata-sections -nostartfiles -mno-fdiv -mstrict-align -mbranch-cost=10 -g -Wl,--gc-sections -ffp-contract=off 
 Memory location  : STATIC
@@ -14,10 +14,10 @@ seedcrc          : 0xe9f5
 [0]crclist       : 0xe714
 [0]crcmatrix     : 0x1fd7
 [0]crcstate      : 0x8e3a
-[0]crcfinal      : 0x5275
+[0]crcfinal      : 0x4983
 Correct operation validated. See README.md for run and reporting rules.
 
 NEORV32: Hardware Performance Monitors (low words only)
- > Active clock cycles         : 1436282532
- > Retired instructions        : 254759860
+ > Active clock cycles         : 1246787026
+ > Retired instructions        : 1698378864
 no HPMs available
