@@ -47,6 +47,7 @@ sb_configure_core -component_name ${sysbld_name} -core_name {HPMS_FIC_0_USER_MAS
 -params {AMBA_INTERFACE_TYPE:AHBLITE} 
 
 # Configuring the Clocks page of System Builder component
+# To change the clock speed only change the params with FIC0CLK_RATIO and M3CLK_FREQUENCY
 sb_configure_page -component_name ${sysbld_name} -page_name {CLOCK} \
 -params {APB0CLK_RATIO:1} \
 -params {APB1CLK_RATIO:1} \
@@ -65,7 +66,7 @@ sb_configure_page -component_name ${sysbld_name} -page_name {CLOCK} \
 -params {GL2_OUT_0_FREQ:} \
 -params {GL3_IS_USED:0} \
 -params {GL3_OUT_0_FREQ:} \
--params {M3CLK_FREQUENCY:100} \
+-params {M3CLK_FREQUENCY:50} \
 -params {MDDRCLK_RATIO:1} \
 -params {PLL_LOCK_USED:1} \
 -params {RCOSC_1MHZ_DRIVES_CCC:0} \

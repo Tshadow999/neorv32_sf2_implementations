@@ -1,0 +1,76 @@
+----------  10 MHz  ----------
+
+NEORV32: Processor running at 10000000 Hz
+NEORV32: Executing coremark (2000 iterations). This may take some time...
+
+CoreMark Size    : 333
+Total ticks      : 2418283 k
+Total time (secs): 241
+Iterations/Sec   : 8
+Iterations       : 2000
+Compiler version : GCC13.2.0
+Compiler flags   : -march=rv32i_zicsr_zifencei -mabi=ilp32 -Os -Wall -ffunction-sections -fdata-sections -nostartfiles -mno-fdiv -mstrict-align -mbranch-cost=10 -g -Wl,--gc-sections -ffp-contract=off 
+Memory location  : STATIC
+seedcrc          : 0xe9ed
+[0]crclist       : 0xa6ab
+[0]crcmatrix     : 0xbadc
+[0]crcstate      : 0x0ab9
+[0]crcfinal      : 0x3784
+Cannot validate operation for these seed values, please compare with results on a known platform.
+
+NEORV32: Hardware Performance Monitors (low words only)
+ > Active clock cycles         : 2418283632
+ > Retired instructions        : 451794823
+no HPMs available
+
+----------  50 MHz  ----------
+
+NEORV32: Processor running at 50000000 Hz
+NEORV32: Executing coremark (2000 iterations). This may take some time...
+
+CoreMark Size    : 333
+Total ticks      : 4257345 k
+Total time (secs): 85
+Iterations/Sec   : 23
+Iterations       : 2000
+Compiler version : GCC13.2.0
+Compiler flags   : -march=rv32i_zicsr_zifencei -mabi=ilp32 -Os -Wall -ffunction-sections -fdata-sections -nostartfiles -mno-fdiv -mstrict-align -mbranch-cost=10 -g -Wl,--gc-sections -ffp-contract=off 
+Memory location  : STATIC
+seedcrc          : 0xe9ed
+[0]crclist       : 0xa6ab
+[0]crcmatrix     : 0xbadc
+[0]crcstate      : 0x0ab9
+[0]crcfinal      : 0x3784
+Cannot validate operation for these seed values, please compare with results on a known platform.
+
+NEORV32: Hardware Performance Monitors (low words only)
+ > Active clock cycles         : 4257345489
+ > Retired instructions        : 451794853
+no HPMs available
+
+----------  100 MHz ----------
+
+NEORV32: Processor running at 100000000 Hz
+NEORV32: Executing coremark (2000 iterations). This may take some time...
+
+CoreMark Size    : 333
+Total ticks      : 4901710 k
+Total time (secs): 49
+Iterations/Sec   : 40
+Iterations       : 2000
+Compiler version : GCC13.2.0
+Compiler flags   : -march=rv32i_zicsr_zifencei -mabi=ilp32 -Os -Wall -ffunction-sections -fdata-sections -nostartfiles -mno-fdiv -mstrict-align -mbranch-cost=10 -g -Wl,--gc-sections -ffp-contract=off 
+Memory location  : STATIC
+seedcrc          : 0xe9ed
+[0]crclist       : 0xa6ab
+[0]crcmatrix     : 0xbadc
+[0]crcstate      : 0x0ab9
+[0]crcfinal      : 0x3784
+Cannot validate operation for these seed values, please compare with results on a known platform.
+
+NEORV32: Hardware Performance Monitors (low words only)
+ > Active clock cycles         : 606742935
+ > Retired instructions        : 451794869
+no HPMs available
+
+----------          ----------
