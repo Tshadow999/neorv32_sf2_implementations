@@ -1,0 +1,3 @@
+[submodule "neorv32-sf2-with-BRAM-as-iMEM/neorv32"]
+	path = neorv32-sf2-with-BRAM-as-iMEM/neorv32
+	url = https://github.com/stnolting/neorv32
