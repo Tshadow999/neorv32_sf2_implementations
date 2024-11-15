@@ -10,16 +10,16 @@
 > Benchmark Complete.
 
 HPM results (low-words only):
- cycle (active clock cycles)         : 987169135
- instret (retired instructions)      : 193124291
+ cycle (active clock cycles)         : 1154569167
+ instret (retired instructions)      : 193097885
  HPM03 (compressed instructions)     : 0
- HPM04 (instr. dispatch wait cycles) : 415909985
- HPM05 (ALU wait cycles)             : 70452328
- HPM06 (branch instructions)         : 61274882
- HPM07 (control flow transfers)      : 41784483
- HPM08 (load instructions)           : 1849173
+ HPM04 (instr. dispatch wait cycles) : 326627875
+ HPM05 (ALU wait cycles)             : 327240114
+ HPM06 (branch instructions)         : 61266080
+ HPM07 (control flow transfers)      : 41775681
+ HPM08 (load instructions)           : 1840371
  HPM09 (store instructions)          : 1025486
- HPM10 (load/store wait cycles)      : 5749556
+ HPM10 (load/store wait cycles)      : 5731932
  HPM11 (entered traps)               : 0
 
 Program completed.
@@ -28,13 +28,14 @@ Benchmarking scoring:
 
 
 Benchmark Timing:
-Total time: 98.120 seconds
+Total time: 115.310 seconds
 Instructions per cycle (IPC): 0.500
 
 Memory Statistics:
-Total memory operations: 2874659
-Memory wait cycles: 5749556 (0.11% of total time)
+Total memory operations: 2865857
+Memory wait cycles: 5731932 (0.90% of total time)
 Average cycles per memory operation: 2.000
+
 
 <<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
 
@@ -48,16 +49,16 @@ Average cycles per memory operation: 2.000
 > Benchmark Complete.
 
 HPM results (low-words only):
- cycle (active clock cycles)         : 1394111948
- instret (retired instructions)      : 193314959
+ cycle (active clock cycles)         : 1542911940
+ instret (retired instructions)      : 193261505
  HPM03 (compressed instructions)     : 0
- HPM04 (instr. dispatch wait cycles) : 817489136
- HPM05 (ALU wait cycles)             : 70515884
- HPM06 (branch instructions)         : 61338438
- HPM07 (control flow transfers)      : 41848039
- HPM08 (load instructions)           : 1912729
+ HPM04 (instr. dispatch wait cycles) : 709231778
+ HPM05 (ALU wait cycles)             : 327840054
+ HPM06 (branch instructions)         : 61320620
+ HPM07 (control flow transfers)      : 41830221
+ HPM08 (load instructions)           : 1894911
  HPM09 (store instructions)          : 1025486
- HPM10 (load/store wait cycles)      : 10414102
+ HPM10 (load/store wait cycles)      : 10325462
  HPM11 (entered traps)               : 0
 
 Program completed.
@@ -66,14 +67,13 @@ Benchmarking scoring:
 
 
 Benchmark Timing:
-Total time: 27.620 seconds
-Instructions per cycle (IPC): 0.400
+Total time: 30.520 seconds
+Instructions per cycle (IPC): 0.300
 
 Memory Statistics:
-Total memory operations: 2938215
-Memory wait cycles: 10414102 (0.41% of total time)
+Total memory operations: 2920397
+Memory wait cycles: 10325462 (0.31% of total time)
 Average cycles per memory operation: 3.610
-
 
 
 <<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
@@ -88,11 +88,11 @@ Average cycles per memory operation: 3.610
 > Benchmark Complete.
 
 HPM results (low-words only):
- cycle (active clock cycles)         : 2036361018
+ cycle (active clock cycles)         : 2154161018
  instret (retired instructions)      : 193413791
  HPM03 (compressed instructions)     : 0
- HPM04 (instr. dispatch wait cycles) : 1451603558
- HPM05 (ALU wait cycles)             : 70548828
+ HPM04 (instr. dispatch wait cycles) : 1311553950
+ HPM05 (ALU wait cycles)             : 328398436
  HPM06 (branch instructions)         : 61371382
  HPM07 (control flow transfers)      : 41880983
  HPM08 (load instructions)           : 1945673
@@ -106,10 +106,10 @@ Benchmarking scoring:
 
 
 Benchmark Timing:
-Total time: 20.010 seconds
+Total time: 21.610 seconds
 Instructions per cycle (IPC): 0.200
 
 Memory Statistics:
 Total memory operations: 2971159
-Memory wait cycles: 18186366 (0.71% of total time)
+Memory wait cycles: 18186366 (0.61% of total time)
 Average cycles per memory operation: 6.300

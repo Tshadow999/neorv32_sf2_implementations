@@ -1,10 +1,3 @@
-// ================================================================================ //
-// The NEORV32 RISC-V Processor - https://github.com/stnolting/neorv32              //
-// Copyright (c) NEORV32 contributors.                                              //
-// Copyright (c) 2020 - 2024 Stephan Nolting. All rights reserved.                  //
-// Licensed under the BSD-3-Clause license, see LICENSE for details.                //
-// SPDX-License-Identifier: BSD-3-Clause                                            //
-// ================================================================================ //
 
 
 /**********************************************************************//**
@@ -25,8 +18,15 @@
 #define BAUD_RATE 19200
 /**@}*/
 
-#define ITERS 10
+#define ITERS 20
 
+#define DATA_SIZE (40) 
+//((uint32_t)500)
+#define INSTR_SIZE (DATA_SIZE)
+
+#define COPY_SIZE (DATA_SIZE)
+
+// (uint32_t)(DATA_SIZE / (uint32_t)2)
 void float_to_string(float number, char* buffer, int decimal_places) {
     // Split into integer and decimal parts
     int integer_part = (int)number;
@@ -44,7 +44,7 @@ void float_to_string(float number, char* buffer, int decimal_places) {
     }
     
     // Handle integer part
-    char int_buffer[16];
+    char int_buffer[32];
     int int_len = 0;
     do {
         int_buffer[int_len++] = '0' + (integer_part % 10);
@@ -71,7 +71,7 @@ void float_to_string(float number, char* buffer, int decimal_places) {
 void calculate_benchmark_time(uint32_t cycles, uint32_t clock_freq) {
     float time_seconds = (float)cycles / clock_freq;
 
-    char buff[32];
+    char buff[64];
     float_to_string(time_seconds, buff, 3);
     
     neorv32_uart0_printf("\nBenchmark Timing:\n");
@@ -81,7 +81,7 @@ void calculate_benchmark_time(uint32_t cycles, uint32_t clock_freq) {
 void calculate_ipc(uint32_t instructions, uint32_t cycles) {
     float ipc = (float)instructions / cycles;
 
-    char buff[32];
+    char buff[64];
     float_to_string(ipc, buff, 3);
     neorv32_uart0_printf("Instructions per cycle (IPC): %s\n", buff);
 }
@@ -90,13 +90,15 @@ void calculate_memory_metrics(uint32_t loads, uint32_t stores, uint32_t wait_cyc
     uint32_t total_memory_ops = loads + stores;
     float memory_wait_percentage = ((float)wait_cycles / total_cycles) * 100;
     
-    char buff[32];
-    float_to_string(memory_wait_percentage, buff, 3);
+    char buff[64];
+    float_to_string(memory_wait_percentage, buff, 2);
     
     neorv32_uart0_printf("\nMemory Statistics:\n");
     neorv32_uart0_printf("Total memory operations: %u\n", total_memory_ops);
     neorv32_uart0_printf("Memory wait cycles: %u (%s%% of total time)\n", wait_cycles, buff);
-    neorv32_uart0_printf("Average cycles per memory operation: %f\n", (float)wait_cycles / total_memory_ops);
+
+    float_to_string((float)wait_cycles / total_memory_ops, buff, 3);
+    neorv32_uart0_printf("Average cycles per memory operation: %s\n", buff);
 }
 
 /**********************************************************************//**
@@ -192,18 +194,19 @@ int main() {
   neorv32_cpu_csr_write(CSR_MCOUNTINHIBIT, 0);
 
   // Benchmark here
-  neorv32_uart0_printf("\n > Starting benchmark. \n");
+  neorv32_uart0_printf("\n> Starting benchmark. \n");
+  neorv32_uart0_printf("\t> Sizes: DATA %d | INSTR %d | COPY %d \n", DATA_SIZE, INSTR_SIZE, COPY_SIZE);
+
   for (int i = 0; i < ITERS; i++)   {    
     // Instruction stressing
-    int intstr_size = 100; 
-    volatile int a[intstr_size], b[intstr_size], c[intstr_size];
+    volatile int a[INSTR_SIZE], b[INSTR_SIZE], c[INSTR_SIZE];
 
-    for (int i = 0; i < intstr_size; i++) {
+    for (int i = 0; i < INSTR_SIZE; i++) {
       b[i] = i;
       c[i] = i + 1;
     }
 
-    for (int i = 0; i < intstr_size; i += 4) {
+    for (int i = 0; i < INSTR_SIZE; i += 4) {
       int tmp1 = b[i] + c[i];
       int tmp2 = b[i + 1] ^ c[i + 1];
       a[i] = tmp1 * tmp2;
@@ -211,12 +214,10 @@ int main() {
       a[i + 2] = (tmp1 | c[i + 2]) & 0xFF;
       a[i + 3] = b[i + 3] + (c[i + 3] << 1);
     }
-    neorv32_uart0_printf(" \t> Output: %d\n", a[c[40] & b[intstr_size - 82]]);
 
     // Data stressing
-    int data_size = 1024;
-    volatile int data[data_size];
-    for (int i = 0; i < data_size; i++) {
+    volatile int data[DATA_SIZE];
+    for (int i = 0; i < DATA_SIZE; i++) {
       data[i] = i;
     }
 
@@ -224,18 +225,18 @@ int main() {
     int sum = 0;
     srand(12345);
     for (int i = 0; i < 10000; i++) {
-      sum += data[(rand() ^ i) % data_size];
+      sum += data[(rand() ^ i) % DATA_SIZE];
     }
-
-    neorv32_uart0_printf(" \t> Output: %d\n", sum);
 
     // Memcpy stress
-    int cpy_size = 812;
-    volatile char src[cpy_size], dest[cpy_size];
+    volatile char src[COPY_SIZE], dest[COPY_SIZE];
     for (int i = 0; i < 100; i++) {
-      memcpy((void*)dest, (void*)src, cpy_size);
+      memcpy((void*)dest, (void*)src, COPY_SIZE);
     }
   }
+  // neorv32_uart0_printf(" \t> Output: %d\n", sum);
+
+  // neorv32_uart0_printf(" \t> Output: %d\n", a[c[40] & b[INSTR_SIZE - 82]]);
 
   neorv32_uart0_printf("> Benchmark Complete.\n");
   

@@ -17,7 +17,7 @@ library neorv32;
 entity neorv32_ProcessorTop_Minimal is
   generic (
     -- General --
-    CLOCK_FREQUENCY            : natural := 100e6;   -- clock frequency of clk_i in Hz
+    CLOCK_FREQUENCY            : natural := 50e6;   -- clock frequency of clk_i in Hz
     INT_BOOTLOADER_EN          : boolean := false;  -- boot configuration: true = boot explicit bootloader; false = boot from int/ext (I)MEM
     -- Internal Instruction memory --
     MEM_INT_IMEM_EN            : boolean := false;  -- implement processor-internal instruction memory
