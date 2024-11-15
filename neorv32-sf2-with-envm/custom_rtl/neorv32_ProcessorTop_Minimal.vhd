@@ -17,7 +17,7 @@ library neorv32;
 entity neorv32_ProcessorTop_Minimal is
   generic (
     -- General --
-    CLOCK_FREQUENCY            : natural := 50e6;   -- clock frequency of clk_i in Hz
+    CLOCK_FREQUENCY            : natural := 100e6;   -- clock frequency of clk_i in Hz
     INT_BOOTLOADER_EN          : boolean := false;  -- boot configuration: true = boot explicit bootloader; false = boot from int/ext (I)MEM
     -- Internal Instruction memory --
     MEM_INT_IMEM_EN            : boolean := false;  -- implement processor-internal instruction memory
@@ -31,14 +31,14 @@ entity neorv32_ProcessorTop_Minimal is
     -- RISC-V CPU Extensions --
     CPU_EXTENSION_RISCV_A      : boolean := false;  -- implement atomic memory operations extension?
     CPU_EXTENSION_RISCV_B      : boolean := false;  -- implement bit-manipulation extension?
-    CPU_EXTENSION_RISCV_C      : boolean := false;  -- implement compressed extension?
+    CPU_EXTENSION_RISCV_C      : boolean := true;  -- implement compressed extension?
     CPU_EXTENSION_RISCV_E      : boolean := false;  -- implement embedded RF extension?
     CPU_EXTENSION_RISCV_M      : boolean := true;  -- implement mul/div extension?
-    CPU_EXTENSION_RISCV_U      : boolean := true;  -- implement user mode extension?
+    CPU_EXTENSION_RISCV_U      : boolean := false;  -- implement user mode extension?
     CPU_EXTENSION_RISCV_Zfinx  : boolean := true;  -- implement 32-bit floating-point extension (using INT regs!)
     CPU_EXTENSION_RISCV_Zicntr : boolean := true;   -- implement base counters?
     CPU_EXTENSION_RISCV_Zicond : boolean := false;  -- implement integer conditional operations?
-    CPU_EXTENSION_RISCV_Zihpm  : boolean := false;  -- implement hardware performance monitors?
+    CPU_EXTENSION_RISCV_Zihpm  : boolean := true;  -- implement hardware performance monitors?
     CPU_EXTENSION_RISCV_Zmmul  : boolean := false;  -- implement multiply-only M sub-extension?
     CPU_EXTENSION_RISCV_Zxcfu  : boolean := false;  -- implement custom (instr.) functions unit?
     -- Tuning Options --
@@ -46,7 +46,9 @@ entity neorv32_ProcessorTop_Minimal is
     FAST_SHIFT_EN              : boolean := true;  -- use barrel shifter for shift operations
     -- External bus interface (XBUS) --
     XBUS_EN                    : boolean := true;   -- implement external memory bus interface?
-    XBUS_TIMEOUT               : natural := 255     -- cycles after a pending bus access auto-terminates (0 = disabled)
+    XBUS_TIMEOUT               : natural := 255;    -- cycles after a pending bus access auto-terminates (0 = disabled)
+    -- HPM --
+    HPM_NUM_CNTS               : natural range 0 to 13 := 13
   );
   port (
     -- Global control --
@@ -112,7 +114,9 @@ begin
     FAST_SHIFT_EN => FAST_SHIFT_EN,
     -- External bus interface (XBUS) --
     XBUS_EN                    => XBUS_EN,
-    XBUS_TIMEOUT               => XBUS_TIMEOUT
+    XBUS_TIMEOUT               => XBUS_TIMEOUT,
+    -- HPM --
+    HPM_NUM_CNTS                => HPM_NUM_CNTS
   )
   port map (
     -- Global control --

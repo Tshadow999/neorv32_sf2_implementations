@@ -1,4 +1,4 @@
-input = "../neorv32-sf2-with-envm/neorv32/sw/example/coremark/neorv32_raw_exe.hex";
+input = "../neorv32-sf2-with-envm/neorv32/sw/example/demo_hpm/neorv32_raw_exe.hex";
 output = open("../neorv32-sf2-with-envm/mem_files/coremark.mem", "w");
 
 lookup = {

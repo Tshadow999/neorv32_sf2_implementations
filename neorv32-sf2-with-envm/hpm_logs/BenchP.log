@@ -1,0 +1,30 @@
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+ > Starting benchmark. 
+
+	> Instruction Stressing
+ 	> Output: 3
+
+> Data Stressing
+ 	> Output: 5100866
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 85433914
+ instret (retired instructions)      : 8048634
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 58331469
+ HPM05 (ALU wait cycles)             : 2759582
+ HPM06 (branch instructions)         : 2235048
+ HPM07 (control flow transfers)      : 1692983
+ HPM08 (load instructions)           : 365872
+ HPM09 (store instructions)          : 82204
+ HPM10 (load/store wait cycles)      : 3421410
+ HPM11 (entered traps)               : 0
+
+Program completed.
