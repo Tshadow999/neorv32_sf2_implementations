@@ -21,10 +21,10 @@ entity neorv32_ProcessorTop_MinimalBoot is
     INT_BOOTLOADER_EN : boolean := true;  -- boot configuration: true = boot explicit bootloader; false = boot from int/ext (I)MEM
     -- Internal Instruction memory --
     MEM_INT_IMEM_EN   : boolean := true;    -- implement processor-internal instruction memory
-    MEM_INT_IMEM_SIZE : natural := 8*1024; -- size of processor-internal instruction memory in bytes
+    MEM_INT_IMEM_SIZE : natural := 16*1024; -- size of processor-internal instruction memory in bytes
     -- Internal Data memory --
     MEM_INT_DMEM_EN   : boolean := true;    -- implement processor-internal data memory
-    MEM_INT_DMEM_SIZE : natural := 8*1024; -- size of processor-internal data memory in bytes
+    MEM_INT_DMEM_SIZE : natural := 16*1024; -- size of processor-internal data memory in bytes
     -- Processor peripherals --
     --IO_GPIO_NUM       : natural := 0;       -- number of GPIO input/output pairs (0..64)
     --IO_PWM_NUM_CH     : natural := 0;        -- number of PWM channels to implement (0..12); 0 = disabled
@@ -42,9 +42,17 @@ entity neorv32_ProcessorTop_MinimalBoot is
     CPU_EXTENSION_RISCV_Zfinx  : boolean := false;  -- implement 32-bit floating-point extension (using INT regs!)
     CPU_EXTENSION_RISCV_Zicntr : boolean := true;   -- implement base counters?
     CPU_EXTENSION_RISCV_Zicond : boolean := false;  -- implement integer conditional operations?
-    CPU_EXTENSION_RISCV_Zihpm  : boolean := false;  -- implement hardware performance monitors?
+    CPU_EXTENSION_RISCV_Zihpm  : boolean := true;   -- implement hardware performance monitors?
     CPU_EXTENSION_RISCV_Zmmul  : boolean := false;  -- implement multiply-only M sub-extension?
     CPU_EXTENSION_RISCV_Zxcfu  : boolean := false;  -- implement custom (instr.) functions unit?
+    -- Tuning Options --
+    FAST_MUL_EN                : boolean := false;  -- use DSPs for M extension's multiplier
+    FAST_SHIFT_EN              : boolean := false;  -- use barrel shifter for shift operations
+
+    -- Hardware Performance Monitors (HPM) --
+    HPM_NUM_CNTS               : natural range 0 to 13          := 13;           -- number of implemented HPM counters (0..13)
+    HPM_CNT_WIDTH              : natural range 0 to 64          := 40;          -- total size of HPM counters (0..64)
+
     -- External bus interface (XBUS) --
     XBUS_EN                    : boolean := false;   -- implement external memory bus interface?
     XBUS_TIMEOUT               : natural := 255     -- cycles after a pending bus access auto-terminates (0 = disabled)
@@ -116,6 +124,9 @@ begin
     CPU_EXTENSION_RISCV_Zihpm  => CPU_EXTENSION_RISCV_Zihpm,
     CPU_EXTENSION_RISCV_Zmmul  => CPU_EXTENSION_RISCV_Zmmul,
     CPU_EXTENSION_RISCV_Zxcfu  => CPU_EXTENSION_RISCV_Zxcfu,
+
+    HPM_NUM_CNTS              => HPM_NUM_CNTS,
+    HPM_CNT_WIDTH             => HPM_CNT_WIDTH,
     -- External bus interface (XBUS) --
     XBUS_EN                    => XBUS_EN,
     XBUS_TIMEOUT               => XBUS_TIMEOUT
