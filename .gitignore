@@ -1,3 +1,5 @@
 neorv32-sf2-with-BRAM-as-iMEM/prj_dir/
 neorv32-sf2-with-BRAM-as-iMEM/neorv32/
 neorv32-sf2-with-envm
+
+.vscode
