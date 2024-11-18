@@ -1,13 +1,9 @@
-
-
 /**********************************************************************//**
  * @file demo_hpm/main.c
  * @author Stephan Nolting
  * @brief Hardware performance monitor (HPM) example program.
  **************************************************************************/
 #include <neorv32.h>
-
-
 #include <string.h>
 
 /**********************************************************************//**
@@ -20,7 +16,7 @@
 
 #define ITERS 1000
 
-#define DATA_SIZE (100) 
+#define DATA_SIZE (400) 
 #define INSTR_SIZE (DATA_SIZE)
 #define COPY_SIZE (DATA_SIZE)
 
@@ -188,7 +184,7 @@ int main() {
 
   // Benchmark here
   neorv32_uart0_printf("\n> Starting benchmark. \n");
-  neorv32_uart0_printf("\t> Sizes: DATA %d | INSTR %d | COPY %d \n", DATA_SIZE, INSTR_SIZE, COPY_SIZE);
+  neorv32_uart0_printf("\t> Sizes: DATA %d | INSTR %d | REPEATS %d | COPY %d \n", DATA_SIZE, INSTR_SIZE, INSTR_REPEATS, COPY_SIZE);
   neorv32_uart0_printf("\t> Iterations: %d\n", ITERS);
 
   for (int i = 0; i < ITERS; i++)   {    

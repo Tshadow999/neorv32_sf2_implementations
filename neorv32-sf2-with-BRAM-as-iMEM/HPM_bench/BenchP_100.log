@@ -1,0 +1,111 @@
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+> Starting benchmark. 
+	> Sizes: DATA 100 | INSTR 100 | COPY 100 
+	> Iterations: 1000
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 514106293
+ instret (retired instructions)      : 110131316
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 49072480
+ HPM05 (ALU wait cycles)             : 166385204
+ HPM06 (branch instructions)         : 32455751
+ HPM07 (control flow transfers)      : 22163303
+ HPM08 (load instructions)           : 3933261
+ HPM09 (store instructions)          : 3503322
+ HPM10 (load/store wait cycles)      : 8893756
+ HPM11 (entered traps)               : 0
+
+Program completed.
+
+Benchmark Timing:
+	Total time: 5.400 seconds
+	Iterations per second: 194.510
+
+Memory Statistics:
+	Total memory operations: 7436583
+	Memory wait cycles: 8893756 (1.41% of total time)
+	Average cycles per memory operation: 1.500
+
+
+
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+> Starting benchmark. 
+	> Sizes: DATA 200 | INSTR 200 | COPY 200 
+	> Iterations: 1000
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 1074903309
+ instret (retired instructions)      : 231592370
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 97068506
+ HPM05 (ALU wait cycles)             : 328626113
+ HPM06 (branch instructions)         : 64188782
+ HPM07 (control flow transfers)      : 43838310
+ HPM08 (load instructions)           : 12960244
+ HPM09 (store instructions)          : 12003323
+ HPM10 (load/store wait cycles)      : 28069723
+ HPM11 (entered traps)               : 0
+
+Program completed.
+
+Benchmark Timing:
+	Total time: 10.220 seconds
+	Iterations per second: 93.000
+
+Memory Statistics:
+	Total memory operations: 24963567
+	Memory wait cycles: 28069723 (2.21% of total time)
+	Average cycles per memory operation: 1.300
+
+
+
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+> Starting benchmark. 
+	> Sizes: DATA 400 | INSTR 400 | COPY 400 
+	> Iterations: 1000
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 2331150324
+ instret (retired instructions)      : 499493416
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 192823554
+ HPM05 (ALU wait cycles)             : 650912011
+ HPM06 (branch instructions)         : 127156812
+ HPM07 (control flow transfers)      : 87126328
+ HPM08 (load instructions)           : 45259226
+ HPM09 (store instructions)          : 44003323
+ HPM10 (load/store wait cycles)      : 95619688
+ HPM11 (entered traps)               : 0
+
+Program completed.
+
+Benchmark Timing:
+	Total time: 23.900 seconds
+	Iterations per second: 42.620
+
+Memory Statistics:
+	Total memory operations: 89262549
+	Memory wait cycles: 95619688 (4.20% of total time)
+	Average cycles per memory operation: 1.200
