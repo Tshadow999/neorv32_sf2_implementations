@@ -1,0 +1,74 @@
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+> Starting benchmark. 
+	> Sizes: DATA 100 | INSTR 100 | COPY 100 
+	> Iterations: 1000
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 1207284395
+ instret (retired instructions)      : 109908771
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 708093900
+ HPM05 (ALU wait cycles)             : 165569202
+ HPM06 (branch instructions)         : 32381569
+ HPM07 (control flow transfers)      : 22089121
+ HPM08 (load instructions)           : 3859079
+ HPM09 (store instructions)          : 3503322
+ HPM10 (load/store wait cycles)      : 44608257
+ HPM11 (entered traps)               : 0
+
+Program completed.
+End: 1207284395	 Start: 5213292
+
+Benchmark Timing:
+	Total time: 12.200 seconds
+	Iterations per second: 82.420
+
+Memory Statistics:
+	Total memory operations: 7362401
+	Memory wait cycles: 44608257 (3.31% of total time)
+	Average cycles per memory operation: 6.100
+
+
+<<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
+
+[NOTE] Clockspeed: 100000000 Hz
+[NOTE] This program will use up to 9 HPM counters (if available).
+
+13 HPM counters detected, each 40 bits wide
+
+> Starting benchmark. 
+	> Sizes: DATA 200 | INSTR 200 | COPY 200 
+	> Iterations: 1000
+> Benchmark Complete.
+
+HPM results (low-words only):
+ cycle (active clock cycles)         : 2524621472
+ instret (retired instructions)      : 231419786
+ HPM03 (compressed instructions)     : 0
+ HPM04 (instr. dispatch wait cycles) : 1427813314
+ HPM05 (ALU wait cycles)             : 327809968
+ HPM06 (branch instructions)         : 64114587
+ HPM07 (control flow transfers)      : 43764115
+ HPM08 (load instructions)           : 12886049
+ HPM09 (store instructions)          : 12003323
+ HPM10 (load/store wait cycles)      : 148501170
+ HPM11 (entered traps)               : 0
+
+Program completed.
+End: -1770345824	 Start: 5213298
+
+Benchmark Timing:
+	Total time: 25.700 seconds
+	Iterations per second: 39.810
+
+Memory Statistics:
+	Total memory operations: 24889372
+	Memory wait cycles: 148501170 (5.71% of total time)
+	Average cycles per memory operation: 5.820

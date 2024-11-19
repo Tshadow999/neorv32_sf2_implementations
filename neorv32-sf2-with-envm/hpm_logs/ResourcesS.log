@@ -1,5 +1,4 @@
-10 MHz
-Resource Usage
+Resource Usage 10 MHz
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
@@ -9,8 +8,7 @@ Resource Usage
 | Logic Element | 4625 | 12084 | 38.27      |
 +---------------+------+-------+------------+
 
-50 MHz
-Resource Usage
+Resource Usage 50 MHz
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
@@ -20,8 +18,7 @@ Resource Usage
 | Logic Element | 4632 | 12084 | 38.33      |
 +---------------+------+-------+------------+
 
-100 MHz
-Resource Usage
+Resource Usage 100 MHz
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
