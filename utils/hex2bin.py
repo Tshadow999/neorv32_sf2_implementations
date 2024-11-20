@@ -1,5 +1,5 @@
 input = "../neorv32-sf2-with-envm/neorv32/sw/example/demo_hpm/neorv32_raw_exe.hex";
-output = open("../neorv32-sf2-with-envm/mem_files/coremark.mem", "w");
+output = open("../neorv32-sf2-with-envm/mem_files/hpm_bench.mem", "w");
 
 lookup = {
     "0" : "0000",

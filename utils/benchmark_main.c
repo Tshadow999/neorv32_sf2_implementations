@@ -1,13 +1,9 @@
-
-
 /**********************************************************************//**
  * @file demo_hpm/main.c
  * @author Stephan Nolting
  * @brief Hardware performance monitor (HPM) example program.
  **************************************************************************/
 #include <neorv32.h>
-
-
 #include <string.h>
 
 /**********************************************************************//**
@@ -18,13 +14,11 @@
 #define BAUD_RATE 19200
 /**@}*/
 
-#define ITERS 20
+#define ITERS 1000
 
-#define DATA_SIZE (40) 
-//((uint32_t)500)
-#define INSTR_SIZE (DATA_SIZE)
-
-#define COPY_SIZE (DATA_SIZE)
+#define DATA_SIZE  (400) 
+#define INSTR_SIZE DATA_SIZE
+#define COPY_SIZE  DATA_SIZE
 
 // (uint32_t)(DATA_SIZE / (uint32_t)2)
 void float_to_string(float number, char* buffer, int decimal_places) {
@@ -75,15 +69,10 @@ void calculate_benchmark_time(uint32_t cycles, uint32_t clock_freq) {
     float_to_string(time_seconds, buff, 3);
     
     neorv32_uart0_printf("\nBenchmark Timing:\n");
-    neorv32_uart0_printf("Total time: %s seconds\n", buff);
-}
+    neorv32_uart0_printf("\tTotal time: %s seconds\n", buff);
+    float_to_string((float)ITERS / time_seconds, buff, 3);
+    neorv32_uart0_printf("\tIterations per second: %s\n", buff);
 
-void calculate_ipc(uint32_t instructions, uint32_t cycles) {
-    float ipc = (float)instructions / cycles;
-
-    char buff[64];
-    float_to_string(ipc, buff, 3);
-    neorv32_uart0_printf("Instructions per cycle (IPC): %s\n", buff);
 }
 
 void calculate_memory_metrics(uint32_t loads, uint32_t stores, uint32_t wait_cycles, uint32_t total_cycles) {
@@ -94,11 +83,11 @@ void calculate_memory_metrics(uint32_t loads, uint32_t stores, uint32_t wait_cyc
     float_to_string(memory_wait_percentage, buff, 2);
     
     neorv32_uart0_printf("\nMemory Statistics:\n");
-    neorv32_uart0_printf("Total memory operations: %u\n", total_memory_ops);
-    neorv32_uart0_printf("Memory wait cycles: %u (%s%% of total time)\n", wait_cycles, buff);
+    neorv32_uart0_printf("\tTotal memory operations: %u\n", total_memory_ops);
+    neorv32_uart0_printf("\tMemory wait cycles: %u (%s%% of total time)\n", wait_cycles, buff);
 
     float_to_string((float)wait_cycles / total_memory_ops, buff, 3);
-    neorv32_uart0_printf("Average cycles per memory operation: %s\n", buff);
+    neorv32_uart0_printf("\tAverage cycles per memory operation: %s\n", buff);
 }
 
 /**********************************************************************//**
@@ -195,7 +184,8 @@ int main() {
 
   // Benchmark here
   neorv32_uart0_printf("\n> Starting benchmark. \n");
-  neorv32_uart0_printf("\t> Sizes: DATA %d | INSTR %d | COPY %d \n", DATA_SIZE, INSTR_SIZE, COPY_SIZE);
+  neorv32_uart0_printf("\t> Sizes: DATA %d | INSTR %d | REPEATS %d | COPY %d \n", DATA_SIZE, INSTR_SIZE, COPY_SIZE);
+  neorv32_uart0_printf("\t> Iterations: %d\n", ITERS);
 
   for (int i = 0; i < ITERS; i++)   {    
     // Instruction stressing
@@ -224,25 +214,21 @@ int main() {
     // Random access
     int sum = 0;
     srand(12345);
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < DATA_SIZE; i++) {
       sum += data[(rand() ^ i) % DATA_SIZE];
     }
 
     // Memcpy stress
     volatile char src[COPY_SIZE], dest[COPY_SIZE];
-    for (int i = 0; i < 100; i++) {
+    src[0] = a[DATA_SIZE - 3];
+    for (int i = 0; i < COPY_SIZE; i++) {
       memcpy((void*)dest, (void*)src, COPY_SIZE);
     }
   }
-  // neorv32_uart0_printf(" \t> Output: %d\n", sum);
-
-  // neorv32_uart0_printf(" \t> Output: %d\n", a[c[40] & b[INSTR_SIZE - 82]]);
-
   neorv32_uart0_printf("> Benchmark Complete.\n");
   
   // stop all CPU counters including HPMs
   neorv32_cpu_csr_write(CSR_MCOUNTINHIBIT, -1);
-
 
   // print HPM counter values (low word only)
   neorv32_uart0_printf("\nHPM results (low-words only):\n");
@@ -263,18 +249,13 @@ int main() {
   neorv32_uart0_printf("\nProgram completed.\n");
 
   uint32_t cycles = neorv32_cpu_csr_read(CSR_MCYCLE);
-  uint32_t instructions = neorv32_cpu_csr_read(CSR_MINSTRET);
   uint32_t loads = neorv32_cpu_csr_read(CSR_MHPMCOUNTER8);
   uint32_t stores = neorv32_cpu_csr_read(CSR_MHPMCOUNTER9);
   uint32_t memory_wait = neorv32_cpu_csr_read(CSR_MHPMCOUNTER10);
   uint32_t clock_freq = neorv32_sysinfo_get_clk();
 
-
-  neorv32_uart0_printf("\nBenchmarking scoring:\n\n");
-
   // Calculate all metrics
   calculate_benchmark_time(cycles, clock_freq);
-  calculate_ipc(instructions, cycles);
   calculate_memory_metrics(loads, stores, memory_wait, cycles);
 
   return 0;

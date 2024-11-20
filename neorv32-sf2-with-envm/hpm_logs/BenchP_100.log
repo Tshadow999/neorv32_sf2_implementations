@@ -63,7 +63,6 @@ HPM results (low-words only):
  HPM11 (entered traps)               : 0
 
 Program completed.
-End: -1888145824	 Start: 5213298
 
 Benchmark Timing:
 	Total time: 24.200 seconds
@@ -75,7 +74,6 @@ Memory Statistics:
 	Average cycles per memory operation: 5.820
 
 
-
 <<< NEORV32 Hardware Performance Monitors (HPMs) Example Program >>>
 
 [NOTE] Clockspeed: 100000000 Hz
@@ -84,32 +82,32 @@ Memory Statistics:
 13 HPM counters detected, each 40 bits wide
 
 > Starting benchmark. 
-	> Sizes: DATA 400 | INSTR 400 | COPY 400 
-	> Iterations: 1000
+	> Sizes: DATA 400 | INSTR 400 | REPEATS 400 | COPY 400 
+	> Iterations: 100
 > Benchmark Complete.
 
 HPM results (low-words only):
- cycle (active clock cycles)         : 885325219
- instret (retired instructions)      : 499291085
+ cycle (active clock cycles)         : 524498791
+ instret (retired instructions)      : 50430736
  HPM03 (compressed instructions)     : 0
- HPM04 (instr. dispatch wait cycles) : 3116414075
- HPM05 (ALU wait cycles)             : 137353583
- HPM06 (branch instructions)         : 127056034
- HPM07 (control flow transfers)      : 87025550
- HPM08 (load instructions)           : 45658449
- HPM09 (store instructions)          : 44003324
- HPM10 (load/store wait cycles)      : 534537555
+ HPM04 (instr. dispatch wait cycles) : 314570710
+ HPM05 (ALU wait cycles)             : 13904918
+ HPM06 (branch instructions)         : 12876751
+ HPM07 (control flow transfers)      : 8872774
+ HPM08 (load instructions)           : 4684275
+ HPM09 (store instructions)          : 4400677
+ HPM10 (load/store wait cycles)      : 55242261
  HPM11 (entered traps)               : 0
 
 Program completed.
-End: 885325219	 Start: 5213273
-Overflow occured
 
 Benchmark Timing:
-	Total time: 51.220 seconds
-	Iterations per second: 19.900
+	Total time: 5.700 seconds
+	Iterations per second: 19.100
 
 Memory Statistics:
-	Total memory operations: 89661773
-	Memory wait cycles: 534537555 ( % of total time)
-	Average cycles per memory operation: 0.610
+	Total memory operations: 9084952
+	Memory wait cycles: 55242261 (10.01% of total time)
+	Average cycles per memory operation: 6.200
+
+
